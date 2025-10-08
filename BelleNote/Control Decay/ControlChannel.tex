@@ -1,0 +1,42 @@
+\chapter{Control channel}
+
+The procedure used to discriminate correctly reconstructed signal events from mis-reconstructed ones and described in \ref{sec:wronglyBtag} 
+was validated on flavor correlated $B \rightarrow D^0 $ channels.\\
+More precisely ...\\
+\begin{center}
+    $B^+ \rightarrow D^0 X$, $D^0 \rightarrow K^+ \pi^-$ 
+   \end{center}
+   %\vspace{0.1 cm}
+   about 30 times more frequent than the corresponding decay into the $\Lambda_c$ baryon. 
+   Due to the much larger statistics and its current relatively precise measured value (see PDG), it is a suitable decay channel to make sure that the method applied doesn't create any bias.
+
+
+\subsection{Dataset used}
+
+   For this analysis the amount of data and Monte Carlo simulated data used was restricted to the SVD2 period: 
+   experiments ranging from 31 to 65. This choice was made to save processing time, anyway most of the $B\bar{B}$ meson pairs were produced in this range of experiments (620 $\times 10^6$ out of almost 800 $\times 10^6$ ).
+   
+   \subsection{Event selection and reconstruction}
+   
+   The approach used for the inclusive decays reconstruction is the same as for the $B \rightarrow \Lambda_c$ analysis. The same FEI training was used, though excluding the signal decay $D^0 \rightarrow K^+ \pi^-$ from the decay chains used by the FEI to reconstruct the $B_{tag}$.
+   Same preliminary selection criteria were applied to the tag-side $B$ meson candidates as well. \\
+   \noindent In the \textit{rest of event} (ROE) of the reconstructed $B_{tag}$ meson, to select $D^0 \rightarrow K^+ \pi^-$ signal candidates, the following event selection criteria are applied:
+   \begin{itemize}
+   \item $dr <$ 2 cm and $|dz| <$ 4 cm
+   \item $\frac{\mathcal{L}_{K}}{\mathcal{L_{K}}+\mathcal{L_{\pi}}} > 0.6$
+   \end{itemize}
+   For the $D^0 $ candidates a vertex fit is performed with \texttt{TreeFitter}, requiring it to converge.  If there are more than one $D^0$ combination, then the best candidate based on the $\chi^2$ probability is chosen. The $D^0$ signal region is defined to be $|M_{D^0}  - m_{D^0}| < $   30  MeV/$c^2$ 
+   \newline \noindent ($\sim$ 3$\sigma$), where $m_{D^0 }$ is the nominal mass of $D^0$.\\
+
+   \subsection{Signal selection optimization}\label{Sec:SigSelectionOpt}
+
+   Following the same procedure as for the $B \rightarrow \Lambda_c$ analysis, the optimized selection cuts obtained for the event based ratio
+   of the 2-nd to the 0-th order Fox-Wolfram moments, the $B_{tag}$ signal probability and the momentum of the $D^0$ candidates in the center of mass system are\footnote{illustrative plots can be found in Appendix}
+   \begin{itemize}
+    \item $foxWolframR2 <$ 0.3
+    \item SignalProbability $>$ 0.004
+    \item $p^{D^0 }_{CMS} > 1$ GeV/c$^2$
+    \end{itemize}
+    
+     \noindent Figure \ref{fig:chargedControlD0_Mbc_InvM_opt_SignalRegion} shows the distributions of $M_{bc}$ and invariant mass in the signal region\footnote{signal region: $M_{bc}  > $ 5.27 GeV/c$^2$ and $|M_{D^0}  - m_{D^0}| < $   30  MeV/$c^2$}  for the $B^- \rightarrow D^0 X$ reconstructed events after the selection cuts were applied.
+    

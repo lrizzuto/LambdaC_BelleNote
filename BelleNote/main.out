@@ -1,0 +1,55 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Analysis Setup}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Datasets}{chapter.1}% 3
+\BOOKMARK [0][-]{chapter.2}{Event selection and reconstruction}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Btag reconstruction}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{c reconstruction}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Wrongly reconstructed Btag candidates}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Signal selection optimization}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.4.1}{B- c+ decays}{section.2.4}% 9
+\BOOKMARK [2][-]{subsection.2.4.2}{B+ c+ decays}{section.2.4}% 10
+\BOOKMARK [2][-]{subsection.2.4.3}{barB0 c+ decays}{section.2.4}% 11
+\BOOKMARK [2][-]{subsection.2.4.4}{B0 c+ decays}{section.2.4}% 12
+\BOOKMARK [0][-]{chapter.3}{2D simultaneous fit}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Probability Density Functions \(PDFs\) for the two dimensional fit}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{Total Signal fits}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Mbc peaking and flat background}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{Crossfeed background}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.4}{Continuum background}{section.3.1}% 18
+\BOOKMARK [1][-]{section.3.2}{Two dimensional fit on Monte Carlo}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{Fit results for B- c+ decays}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{Fit results for B- barc- decays}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{Fit results for barB0 c+ decays}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.4}{Fit results for barB0 barc- decays}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.5}{Fit residuals}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.6}{toy Monte Carlo study}{section.3.2}% 25
+\BOOKMARK [0][-]{chapter.4}{Btag fit}{}% 26
+\BOOKMARK [1][-]{section.4.1}{Probability Density Functions \(PDFs\) for the Btag}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.1.1}{Total Signal fits}{section.4.1}% 28
+\BOOKMARK [2][-]{subsection.4.1.2}{Crossfeed PDF}{section.4.1}% 29
+\BOOKMARK [2][-]{subsection.4.1.3}{Continuum PDF}{section.4.1}% 30
+\BOOKMARK [1][-]{section.4.2}{ Btag fit}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{Fit results for B- c+ decays}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.2}{Fit results for B- barc- decays}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.3}{Fit results for barB0 c+ decays}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.4}{Fit results for B0 barc+ decays}{section.4.2}% 35
+\BOOKMARK [0][-]{chapter.5}{Efficiencies}{}% 36
+\BOOKMARK [1][-]{section.5.1}{FEI Efficiencies}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.1.1}{Generic FEI efficiency}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.2}{Signalside-dependent FEI efficiency}{section.5.1}% 39
+\BOOKMARK [1][-]{section.5.2}{c efficiency}{chapter.5}% 40
+\BOOKMARK [2][-]{subsection.5.2.1}{B- c+ decays}{section.5.2}% 41
+\BOOKMARK [2][-]{subsection.5.2.2}{B- barc- decays}{section.5.2}% 42
+\BOOKMARK [2][-]{subsection.5.2.3}{barB0 c+ decays}{section.5.2}% 43
+\BOOKMARK [2][-]{subsection.5.2.4}{barB0 c- decays}{section.5.2}% 44
+\BOOKMARK [0][-]{chapter.6}{Branching ratio}{}% 45
+\BOOKMARK [1][-]{section.6.1}{Systematics}{chapter.6}% 46
+\BOOKMARK [2][-]{subsection.6.1.1}{Continuum background}{section.6.1}% 47
+\BOOKMARK [2][-]{subsection.6.1.2}{Crossfeed ratio}{section.6.1}% 48
+\BOOKMARK [2][-]{subsection.6.1.3}{Crossfeed Btag PDF}{section.6.1}% 49
+\BOOKMARK [2][-]{subsection.6.1.4}{2DFit crossfeed normalization}{section.6.1}% 50
+\BOOKMARK [2][-]{subsection.6.1.5}{2DFit Mbc peaking/flat PDFs}{section.6.1}% 51
+\BOOKMARK [2][-]{subsection.6.1.6}{PID efficiency correction}{section.6.1}% 52
+\BOOKMARK [2][-]{subsection.6.1.7}{B- c+ decays}{section.6.1}% 53
+\BOOKMARK [2][-]{subsection.6.1.8}{B+ c+ decays}{section.6.1}% 54
+\BOOKMARK [1][-]{subsection.6.1.8}{References}{chapter.6}% 55

@@ -1,0 +1,3581 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.7.25)  22 SEP 2025 13:21
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count87
+)
+(/usr/share/texlive/texmf-dist/tex/latex/forarray/forarray.sty
+Package: forarray 2008/06/20 Version 1.01 -- Using array structures in LaTeX
+\fe@toks=\toks14
+\fe@level=\count88
+\fe@cnt@i=\count89
+\fe@cnt@ii=\count90
+\thislevelcount=\count91
+\thislevelnr=\count92
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks15
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box26
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count93
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen109
+\pgf@y=\dimen110
+\pgf@xa=\dimen111
+\pgf@ya=\dimen112
+\pgf@xb=\dimen113
+\pgf@yb=\dimen114
+\pgf@xc=\dimen115
+\pgf@yc=\dimen116
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count94
+\c@pgf@countb=\count95
+\c@pgf@countc=\count96
+\c@pgf@countd=\count97
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count98
+\pgfsyssoftpath@bigbuffer@items=\count99
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen117
+\pgfmath@count=\count100
+\pgfmath@box=\box27
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count101
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen118
+\pgf@picmaxx=\dimen119
+\pgf@picminy=\dimen120
+\pgf@picmaxy=\dimen121
+\pgf@pathminx=\dimen122
+\pgf@pathmaxx=\dimen123
+\pgf@pathminy=\dimen124
+\pgf@pathmaxy=\dimen125
+\pgf@xx=\dimen126
+\pgf@xy=\dimen127
+\pgf@yx=\dimen128
+\pgf@yy=\dimen129
+\pgf@zx=\dimen130
+\pgf@zy=\dimen131
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen132
+\pgf@path@lasty=\dimen133
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen134
+\pgf@shorten@start@additional=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count102
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen137
+\pgf@pt@y=\dimen138
+\pgf@pt@temp=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen140
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen141
+\pgf@sys@shading@range@num=\count103
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen142
+\pgf@nodesepend=\dimen143
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen144
+\pgffor@skip=\dimen145
+\pgffor@stack=\toks27
+\pgffor@toks=\toks28
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count104
+\pgfplotmarksize=\dimen146
+)
+\tikz@lastx=\dimen147
+\tikz@lasty=\dimen148
+\tikz@lastxsaved=\dimen149
+\tikz@lastysaved=\dimen150
+\tikzleveldistance=\dimen151
+\tikzsiblingdistance=\dimen152
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count105
+\tikznumberofchildren=\count106
+\tikznumberofcurrentchild=\count107
+\tikz@fig@count=\count108
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count109
+\pgfmatrixcurrentcolumn=\count110
+\pgf@matrix@numberofcolumns=\count111
+)
+\tikz@expandcount=\count112
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen153
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.6)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/cir
+cuits/tikzlibrarycircuits.logic.IEC.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/cir
+cuits/tikzlibrarycircuits.logic.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/cir
+cuits/tikzlibrarycircuits.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen154
+\pgfdecoratedremainingdistance=\dimen155
+\pgfdecoratedinputsegmentcompleteddistance=\dimen156
+\pgfdecoratedinputsegmentremainingdistance=\dimen157
+\pgf@decorate@distancetomove=\dimen158
+\pgf@decorate@repeatstate=\count113
+\pgfdecorationsegmentamplitude=\dimen159
+\pgfdecorationsegmentlength=\dimen160
+)
+\tikz@lib@dec@box=\box37
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+\tikz@lib@circ@count=\count114
+\tikzcircuitssizeunit=\dimen161
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflib
+raryshapes.gates.logic.IEC.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflib
+raryshapes.gates.logic.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/cir
+cuits/tikzlibrarycircuits.ee.IEC.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/cir
+cuits/tikzlibrarycircuits.ee.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflib
+raryshapes.gates.ee.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/circuits/pgflib
+raryshapes.gates.ee.IEC.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box38
+\pgfnodeparttwobox=\box39
+\pgfnodepartthreebox=\box40
+\pgfnodepartfourbox=\box41
+\pgfnodeparttwentybox=\box42
+\pgfnodepartnineteenbox=\box43
+\pgfnodeparteighteenbox=\box44
+\pgfnodepartseventeenbox=\box45
+\pgfnodepartsixteenbox=\box46
+\pgfnodepartfifteenbox=\box47
+\pgfnodepartfourteenbox=\box48
+\pgfnodepartthirteenbox=\box49
+\pgfnodeparttwelvebox=\box50
+\pgfnodepartelevenbox=\box51
+\pgfnodeparttenbox=\box52
+\pgfnodepartninebox=\box53
+\pgfnodeparteightbox=\box54
+\pgfnodepartsevenbox=\box55
+\pgfnodepartsixbox=\box56
+\pgfnodepartfivebox=\box57
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2008/02/03 v3.0.1a (rcs-revision 1.1)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2008/02/24 v3.0.1a (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarymindmap.code.tex
+File: tikzlibrarymindmap.code.tex 2013/07/16 v3.0.1a (rcs-revision 1.10)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.1a (rcs-revision 1.2)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.cod
+e.tex
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.1a (rcs-revision 1.13)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryintersections.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+\pgf@intersect@solutions=\count115
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks29
+\t@pgfplots@tokb=\toks30
+\t@pgfplots@tokc=\toks31
+\pgfplots@tmpa=\dimen162
+\c@pgfplots@coordindex=\count116
+\c@pgfplots@scanlineindex=\count117
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count118
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count119
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count120
+\t@pgfplotstable@a=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count121
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count122
+\pgfplots@xmin@reg=\dimen163
+\pgfplots@xmax@reg=\dimen164
+\pgfplots@ymin@reg=\dimen165
+\pgfplots@ymax@reg=\dimen166
+\pgfplots@zmin@reg=\dimen167
+\pgfplots@zmax@reg=\dimen168
+))
+\pgf@layerbox@background=\box58
+\pgf@layerboxsaved@background=\box59
+\pgf@layerbox@foreground=\box60
+\pgf@layerboxsaved@foreground=\box61
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks33
+\XKV@tempa@toks=\toks34
+)
+\XKV@depth=\count123
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box62
+)
+\tc@llx=\dimen169
+\tc@lly=\dimen170
+\tc@urx=\dimen171
+\tc@ury=\dimen172
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen173
+\adjbox@Height=\dimen174
+\adjbox@Depth=\dimen175
+\adjbox@Totalheight=\dimen176
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count124
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box63
+\sift@deathcycles=\count125
+\@vwid@loff=\dimen177
+\@vwid@roff=\dimen178
+))
+(/usr/share/texlive/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2010/09/13 v0.53  Overwriting graphics
+
+Package: overpic v0.53 <2010/09/13> (RN)
+(/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count126
+\d@lta=\count127
+\@delta=\dimen179
+\@@delta=\dimen180
+\@gridcnt=\count128
+\@joinkind=\count129
+\@dotgap=\dimen181
+\@ddotgap=\dimen182
+\@x@diff=\count130
+\@y@diff=\count131
+\x@diff=\dimen183
+\y@diff=\dimen184
+\@dotbox=\box64
+\num@segments=\count132
+\num@segmentsi=\count133
+\@datafile=\read2
+)
+overpic: absolute positioning in \unitlength 
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count134
+\float@exts=\toks35
+\float@box=\box65
+\@float@everytoks=\toks36
+\@floatcapt=\box66
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks37
+\MT@count=\count135
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen185
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count136
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip45
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count137
+\output=\toks38
+\linenoprevgraf=\count138
+\linenumbersep=\dimen186
+\linenumberwidth=\dimen187
+\c@linenumber=\count139
+\c@pagewiselinenumber=\count140
+\c@LN@truepage=\count141
+\c@internallinenumber=\count142
+\c@internallinenumbers=\count143
+\quotelinenumbersep=\dimen188
+\bframerule=\dimen189
+\bframesep=\dimen190
+\bframebox=\box67
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
+\csq@reset=\count144
+\csq@gtype=\count145
+\csq@glevel=\count146
+\csq@qlevel=\count147
+\csq@maxlvl=\count148
+\csq@tshold=\count149
+\csq@ltx@everypar=\toks39
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2016/01/31 v5.1g csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks40
+\minrowclearance=\skip46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2016/01/19 v6377 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
+L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
+L3 Module: l3str 2016/01/03 v6357 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/01/05 v6366 L3 Integers
+\c_max_int=\count150
+\l_tmpa_int=\count151
+\l_tmpb_int=\count152
+\g_tmpa_int=\count153
+\g_tmpb_int=\count154
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count155
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2015/09/28 v6113 L3 Messages
+L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
+\l_iow_line_count_int=\count156
+\l__iow_target_count_int=\count157
+\l__iow_current_line_int=\count158
+\l__iow_current_word_int=\count159
+\l__iow_current_indentation_int=\count160
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen191
+\c_max_dim=\dimen192
+\l_tmpa_dim=\dimen193
+\l_tmpb_dim=\dimen194
+\g_tmpa_dim=\dimen195
+\g_tmpb_dim=\dimen196
+\c_zero_skip=\skip47
+\c_max_skip=\skip48
+\l_tmpa_skip=\skip49
+\l_tmpb_skip=\skip50
+\g_tmpa_skip=\skip51
+\g_tmpb_skip=\skip52
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count161
+\l_keys_choice_int=\count162
+L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+\c__fp_leading_shift_int=\count163
+\c__fp_middle_shift_int=\count164
+\c__fp_trailing_shift_int=\count165
+\c__fp_big_leading_shift_int=\count166
+\c__fp_big_middle_shift_int=\count167
+\c__fp_big_trailing_shift_int=\count168
+\c__fp_Bigg_leading_shift_int=\count169
+\c__fp_Bigg_middle_shift_int=\count170
+\c__fp_Bigg_trailing_shift_int=\count171
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box68
+\l_tmpa_box=\box69
+\l_tmpb_box=\box70
+\g_tmpa_box=\box71
+\g_tmpb_box=\box72
+L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+\l__coffin_internal_box=\box73
+\l__coffin_internal_dim=\dimen197
+\l__coffin_offset_x_dim=\dimen198
+\l__coffin_offset_y_dim=\dimen199
+\l__coffin_x_dim=\dimen256
+\l__coffin_y_dim=\dimen257
+\l__coffin_x_prime_dim=\dimen258
+\l__coffin_y_prime_dim=\dimen259
+\c_empty_coffin=\box74
+\l__coffin_aligned_coffin=\box75
+\l__coffin_aligned_internal_coffin=\box76
+\l_tmpa_coffin=\box77
+\l_tmpb_coffin=\box78
+\l__coffin_display_coffin=\box79
+\l__coffin_display_coord_coffin=\box80
+\l__coffin_display_pole_coffin=\box81
+\l__coffin_display_offset_dim=\dimen260
+\l__coffin_display_x_dim=\dimen261
+\l__coffin_display_y_dim=\dimen262
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen263
+\l__box_bottom_dim=\dimen264
+\l__box_left_dim=\dimen265
+\l__box_right_dim=\dimen266
+\l__box_top_new_dim=\dimen267
+\l__box_bottom_new_dim=\dimen268
+\l__box_left_new_dim=\dimen269
+\l__box_right_new_dim=\dimen270
+\l__box_internal_box=\box82
+\l__coffin_bounding_shift_dim=\dimen271
+\l__coffin_left_corner_dim=\dimen272
+\l__coffin_right_corner_dim=\dimen273
+\l__coffin_bottom_corner_dim=\dimen274
+\l__coffin_top_corner_dim=\dimen275
+\l__coffin_scaled_total_height_dim=\dimen276
+\l__coffin_scaled_width_dim=\dimen277
+L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count172
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count173
+\l__xparse_m_args_int=\count174
+\l__xparse_mandatory_args_int=\count175
+\l__xparse_processor_int=\count176
+\l__xparse_v_nesting_int=\count177
+)
+Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks41
+\ex@=\dimen278
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box83
+\l__siunitx_tmp_dim=\dimen279
+\l__siunitx_tmp_int=\count178
+\l__siunitx_number_mantissa_length_int=\count179
+\l__siunitx_number_uncert_length_int=\count180
+\l__siunitx_round_int=\count181
+\l__siunitx_process_decimal_int=\count182
+\l__siunitx_process_uncertainty_int=\count183
+\l__siunitx_process_fixed_int=\count184
+\l__siunitx_process_integer_min_int=\count185
+\l__siunitx_process_precision_int=\count186
+\l__siunitx_group_min_int=\count187
+\l__siunitx_angle_marker_box=\box84
+\l__siunitx_angle_unit_box=\box85
+\l__siunitx_angle_marker_dim=\dimen280
+\l__siunitx_angle_unit_dim=\dimen281
+\l__siunitx_unit_int=\count188
+\l__siunitx_unit_denominator_int=\count189
+\l__siunitx_unit_numerator_int=\count190
+\l__siunitx_unit_prefix_int=\count191
+\l__siunitx_unit_prefix_base_int=\count192
+\l__siunitx_unit_prefix_gram_int=\count193
+\l__siunitx_number_product_int=\count194
+\c__siunitx_one_fill_skip=\skip53
+\l__siunitx_table_unit_align_skip=\skip54
+\l__siunitx_table_exponent_dim=\dimen282
+\l__siunitx_table_integer_dim=\dimen283
+\l__siunitx_table_mantissa_dim=\dimen284
+\l__siunitx_table_marker_dim=\dimen285
+\l__siunitx_table_result_dim=\dimen286
+\l__siunitx_table_uncert_dim=\dimen287
+\l__siunitx_table_fill_pre_dim=\dimen288
+\l__siunitx_table_fill_post_dim=\dimen289
+\l__siunitx_table_fill_mid_dim=\dimen290
+\l__siunitx_table_pre_box=\box86
+\l__siunitx_table_post_box=\box87
+\l__siunitx_table_mantissa_box=\box88
+\l__siunitx_table_result_box=\box89
+\l__siunitx_table_number_align_skip=\skip55
+\l__siunitx_table_text_align_skip=\skip56
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7221.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7224.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7227.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7230.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7236.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7251.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7260.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7269.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7278.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7290.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7314.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7317.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7332.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7344.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7391.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
+. 7393.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7395.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7397.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
+. 7399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7400.
+.................................................
+\g__file_internal_ior=\read3
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
+mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen291
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count195
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count196
+\leftroot@=\count197
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count198
+\DOTSCASE@=\count199
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box90
+\strutbox@=\box91
+\big@size=\dimen292
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count266
+\c@MaxMatrixCols=\count267
+\dotsspace@=\muskip16
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
+\tag@help=\toks42
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
+\andhelp@=\toks43
+\eqnshift@=\dimen293
+\alignsep@=\dimen294
+\tagshift@=\dimen295
+\tagwidth@=\dimen296
+\totwidth@=\dimen297
+\lineht@=\dimen298
+\@envbody=\toks44
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks45
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count273
+\FV@InFile=\read4
+\FV@TabBox=\box92
+\c@FancyVerbLine=\count274
+\FV@StepNumber=\count275
+\FV@OutFile=\write4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2016/01/19 v6377 L3 Experimental prototype document function
+s
+\l__xtemplate_tmp_dim=\dimen299
+\l__xtemplate_tmp_int=\count276
+\l__xtemplate_tmp_muskip=\muskip17
+\l__xtemplate_tmp_skip=\skip60
+)
+Package: xfrac 2016/01/19 v6377 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box93
+\l__xfrac_tmp_box=\box94
+\l__xfrac_denominator_bot_sep_dim=\dimen300
+\l__xfrac_numerator_bot_sep_dim=\dimen301
+\l__xfrac_numerator_top_sep_dim=\dimen302
+\l__xfrac_slash_left_sep_dim=\dimen303
+\l__xfrac_slash_right_sep_dim=\dimen304
+\l__xfrac_slash_left_muskip=\muskip18
+\l__xfrac_slash_right_muskip=\muskip19
+.................................................
+. xtemplate info: "declare-object-type"
+. 
+. Declaring object type 'xfrac' taking 3 argument(s) on line 111.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sfrac with sig. 'omom' on line 451.
+.................................................
+)
+(/usr/share/texlive/texmf-dist/tex/latex/todonotes/todonotes.sty
+Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count277
+\calc@Bcount=\count278
+\calc@Adimen=\dimen305
+\calc@Bdimen=\dimen306
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count279
+\calc@Cskip=\skip63
+)
+\c@@todonotes@numberoftodonotes=\count280
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen307
+\lightrulewidth=\dimen308
+\cmidrulewidth=\dimen309
+\belowrulesep=\dimen310
+\belowbottomsep=\dimen311
+\aboverulesep=\dimen312
+\abovetopsep=\dimen313
+\cmidrulesep=\dimen314
+\cmidrulekern=\dimen315
+\defaultaddspace=\dimen316
+\@cmidla=\count281
+\@cmidlb=\count282
+\@aboverulesep=\dimen317
+\@belowrulesep=\dimen318
+\@thisruleclass=\count283
+\@lastruleclass=\count284
+\@thisrulewidth=\dimen319
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count285
+\LTcapwidth=\dimen320
+\LT@head=\box95
+\LT@firsthead=\box96
+\LT@foot=\box97
+\LT@lastfoot=\box98
+\LT@cols=\count286
+\LT@rows=\count287
+\c@LT@tables=\count288
+\c@LT@chunks=\count289
+\LT@p@ftn=\toks46
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen321
+)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+\c@blindtext=\count290
+\c@Blindtext=\count291
+\c@blind@countparstart=\count292
+\blind@countxx=\count293
+\blindtext@numBlindtext=\count294
+\blind@countyy=\count295
+\c@blindlist=\count296
+\c@blindlistlevel=\count297
+\c@blindlist@level=\count298
+\blind@listitem=\count299
+\c@blind@listcount=\count300
+\c@blind@levelcount=\count301
+\blind@mathformula=\count302
+\blind@Mathformula=\count303
+\c@blind@randomcount=\count304
+\c@blind@randommax=\count305
+\c@blind@pangramcount=\count306
+\c@blind@pangrammax=\count307
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen322
+\captionmargin@=\dimen323
+\captionwidth=\dimen324
+\caption@tempdima=\dimen325
+\caption@indent=\dimen326
+\caption@parindent=\dimen327
+\caption@hangindent=\dimen328
+)
+\c@ContinuedFloat=\count308
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+))
+\c@subfigure=\count309
+\c@subtable=\count310
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen329
+\Hy@linkcounter=\count311
+\Hy@pagecounter=\count312
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count313
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count314
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip20
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen330
+\Fld@menulength=\count315
+\Field@Width=\dimen331
+\Fld@charsize=\dimen332
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count316
+\c@Item=\count317
+\c@Hfootnote=\count318
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip68
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/hypcap.sty
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2230.
+LaTeX Info: Redefining \cref on input line 2230.
+LaTeX Info: Redefining \Cref on input line 2230.
+LaTeX Info: Redefining \crefrange on input line 2230.
+LaTeX Info: Redefining \Crefrange on input line 2230.
+LaTeX Info: Redefining \cpageref on input line 2230.
+LaTeX Info: Redefining \Cpageref on input line 2230.
+LaTeX Info: Redefining \cpagerefrange on input line 2230.
+LaTeX Info: Redefining \Cpagerefrange on input line 2230.
+LaTeX Info: Redefining \labelcref on input line 2230.
+LaTeX Info: Redefining \labelcpageref on input line 2230.
+)
+(./97-Symbols/personal-definitions.tex) (./cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+) (./mciteplus.sty
+Package: mciteplus 2008/09/30 v1.1 enhanced mcite
+\@mcitetmptoksA=\toks47
+\@mcitetmpdima=\dimen333
+\@mcitetmpdimb=\dimen334
+\@mcitetmpcnta=\count321
+\@mcitetmpcntb=\count322
+\c@mcitebibitemcount=\count323
+\c@mcitesubitemcount=\count324
+
+** mciteplus: Detected cite.sty. Invoking hooks.
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+ (./main.aux (./changelog.aux) (./02-Introduction/introduction.aux)
+(./03-Selection/selection.aux)
+(./04-chargedCorrBtoLambda/chargedCorrBtoLambda.aux)
+(./05-chargedControlSample/chargedControlSample.aux)
+(./06-chargedAnticorrBtoLambda/chargedAnticorrBtoLambda.aux
+
+LaTeX Warning: Label `fig:Mbc_Sideband_stream1_Crossfeed_charged_anticorrLambda
+C_2Dfit' multiply defined.
+
+
+LaTeX Warning: Label `fig:Mbc_Sideband_stream1_Crossfeed_charged_anticorrLambda
+C_2Dfit@cref' multiply defined.
+
+) (./A-Appendix/appendix.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 215.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 215.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) ABD: EveryShipout initializing macros
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count325
+\scratchdimen=\dimen335
+\scratchbox=\box99
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen336
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks49
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
+
+LaTeX Info: Redefining \microtypecontext on input line 215.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
+ic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box100
+Package hyperref Info: Link coloring OFF on input line 215.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count331
+)
+LaTeX Info: Redefining \ref on input line 215.
+LaTeX Info: Redefining \pageref on input line 215.
+LaTeX Info: Redefining \nameref on input line 215.
+
+(./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+\c__siunitx_mathsf_int=\count332
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 215.
+
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 215.
+
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 215
+.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 215
+.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 215.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 215.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 215.
+LaTeX Font Info:    Try loading font information for U+msa on input line 215.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 215.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 215
+.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+\c__siunitx_mathtt_int=\count333
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 215
+.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (./01-Titlepage/titlepage.tex
+<01-Titlepage/figs/B-logo.pdf, id=203, 321.2pt x 260.975pt>
+File: 01-Titlepage/figs/B-logo.pdf Graphic file (type pdf)
+
+<use 01-Titlepage/figs/B-logo.pdf>
+Package pdftex.def Info: 01-Titlepage/figs/B-logo.pdf used on input line 12.
+(pdftex.def)             Requested size: 63.73389pt x 51.77992pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 25.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 25.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 25.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 36.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 36.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 36.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 44.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./01-Titlepage/figs/B-logo
+.pdf>] [2])
+\openout2 = `changelog.aux'.
+
+ (./changelog.tex
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 10.
+
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Warning: Reference `2DtotalFit' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Reference `fig:stream0_Total2Dfit_charged_corrLambdaC' on page 1
+ undefined on input line 11.
+
+
+LaTeX Warning: Reference `2DtotalFit' on page 3 undefined on input line 11.
+
+
+LaTeX Warning: Reference `tab:SixStreams_chargedCorrLam2Dfits' on page 3 undefi
+ned on input line 11.
+
+
+LaTeX Warning: Reference `fig:RecoSignal_fit-expectedPlot' on page 1 undefined 
+on input line 11.
+
+
+LaTeX Warning: Reference `fig:charged_corrLambdaRecoSignal_deviations' on page 
+1 undefined on input line 11.
+
+
+LaTeX Warning: Reference `fig:LinearityTest_chargedCorrLambdaC' on page 1 undef
+ined on input line 12.
+
+
+LaTeX Warning: Reference `fig:LinearityTest_BR_chargedCorrLambdaC' on page 1 un
+defined on input line 12.
+
+
+LaTeX Warning: Reference `tab:systematics:ChargedCorr' on page 3 undefined on i
+nput line 13.
+
+
+LaTeX Warning: Reference `sec:chargedCorrCrossfeedPDF' on page 1 undefined on i
+nput line 13.
+
+
+LaTeX Warning: Reference `sec:chargedCorrCrossfeedSys' on page 1 undefined on i
+nput line 14.
+
+
+LaTeX Warning: Reference `sec:CrossBkgNormalization' on page 1 undefined on inp
+ut line 15.
+
+
+LaTeX Warning: Reference `sec:PeakingCrossBkg' on page 1 undefined on input lin
+e 16.
+
+
+LaTeX Warning: Reference `fig:chargedBcorr_CrossfeedNoLambdaCpeak' on page 1 un
+defined on input line 25.
+
+) [3
+
+
+] (./main.toc [4
+
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [5]
+\openout2 = `02-Introduction/introduction.aux'.
+
+ (./02-Introduction/introduction.tex
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 3.
+
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 17.
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
+
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.239 \include{02-Introduction/introduction}
+                                             [1
+
+
+]
+\openout2 = `03-Selection/selection.aux'.
+
+ (./03-Selection/selection.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Lambda' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 14.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--23
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 
+      [2
+
+
+]
+<03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.png, id=339, 3331.44624pt
+ x 1475.5125pt>
+File: 03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.png Graphic file (ty
+pe png)
+ <use 03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.png>
+Package pdftex.def Info: 03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.p
+ng used on input line 28.
+(pdftex.def)             Requested size: 455.24408pt x 201.61716pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+<03-Selection/figs/wrongly_recoB.png, id=343, 1077.02374pt x 480.79625pt>
+File: 03-Selection/figs/wrongly_recoB.png Graphic file (type png)
+
+<use 03-Selection/figs/wrongly_recoB.png>
+Package pdftex.def Info: 03-Selection/figs/wrongly_recoB.png used on input line
+ 46.
+(pdftex.def)             Requested size: 455.24408pt x 203.22423pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 \section{Signal selection optimization}
+                                             [3 <./03-Selection/figs/chargedBco
+rr_Mbc_MpKpi_TotalSignal.png>]
+<03-Selection/figs/wrongB_Mbc.png, id=354, 571.13374pt x 338.26375pt>
+File: 03-Selection/figs/wrongB_Mbc.png Graphic file (type png)
+
+<use 03-Selection/figs/wrongB_Mbc.png>
+Package pdftex.def Info: 03-Selection/figs/wrongB_Mbc.png used on input line 71
+.
+(pdftex.def)             Requested size: 341.43306pt x 202.22171pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.240 \include{03-Selection/selection}
+                                       [4 <./03-Selection/figs/wrongly_recoB.pn
+g>]pdfTeX warning (ext4): destination with the same identifier (name{page.5}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.240 \include{03-Selection/selection}
+                                       [5 <./03-Selection/figs/wrongB_Mbc.png>]
+\openout2 = `04-chargedCorrBtoLambda/chargedCorrBtoLambda.aux'.
+
+No file 04-chargedCorrBtoLambda/chargedCorrBtoLambda.tex.
+\openout2 = `05-chargedControlSample/chargedControlSample.aux'.
+
+(./05-chargedControlSample/chargedControlSample.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+[6
+
+
+
+
+]
+<05-chargedControlSample/figs/rel5_chargedBtoD0bar_Mbc_InvM_opt_SigRegion.png, 
+id=375, 722.7pt x 289.08pt>
+File: 05-chargedControlSample/figs/rel5_chargedBtoD0bar_Mbc_InvM_opt_SigRegion.
+png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/rel5_chargedBtoD0bar_Mbc_InvM_opt_SigRegion.p
+ng>
+Package pdftex.def Info: 05-chargedControlSample/figs/rel5_chargedBtoD0bar_Mbc_
+InvM_opt_SigRegion.png used on input line 43.
+(pdftex.def)             Requested size: 546.2915pt x 218.51651pt.
+
+Overfull \hbox (91.04742pt too wide) in paragraph at lines 43--44
+ [][] 
+ []
+
+
+<05-chargedControlSample/figs/TotalSignal2Dfit_Mbc_free_Novosibirsk_and_CB_w_si
+g_frac.png, id=377, 1188.44pt x 532.99126pt>
+File: 05-chargedControlSample/figs/TotalSignal2Dfit_Mbc_free_Novosibirsk_and_CB
+_w_sig_frac.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/TotalSignal2Dfit_Mbc_free_Novosibirsk_and_CB_
+w_sig_frac.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/TotalSignal2Dfit_Mbc_free
+_Novosibirsk_and_CB_w_sig_frac.png used on input line 59.
+(pdftex.def)             Requested size: 409.71689pt x 183.75206pt.
+ [7 <./05-chargedControlSample/figs/rel5_chargedBtoD0bar_Mbc_InvM_opt_SigRegion
+.png>]
+<05-chargedControlSample/figs/chargedControlD0_Generic_2DFit.png, id=389, 1175.
+39125pt x 528.97626pt>
+File: 05-chargedControlSample/figs/chargedControlD0_Generic_2DFit.png Graphic f
+ile (type png)
+
+<use 05-chargedControlSample/figs/chargedControlD0_Generic_2DFit.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/chargedControlD0_Generic_
+2DFit.png used on input line 85.
+(pdftex.def)             Requested size: 409.71689pt x 184.38573pt.
+ [8 <./05-chargedControlSample/figs/TotalSignal2Dfit_Mbc_free_Novosibirsk_and_C
+B_w_sig_frac.png>]
+<05-chargedControlSample/figs/NEW_chargedControlD0_NeutralCrossfeed_2DFit_.png,
+ id=398, 1202.4925pt x 573.14125pt>
+File: 05-chargedControlSample/figs/NEW_chargedControlD0_NeutralCrossfeed_2DFit_
+.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/NEW_chargedControlD0_NeutralCrossfeed_2DFit_.
+png>
+Package pdftex.def Info: 05-chargedControlSample/figs/NEW_chargedControlD0_Neut
+ralCrossfeed_2DFit_.png used on input line 96.
+(pdftex.def)             Requested size: 409.71689pt x 195.28522pt.
+
+<05-chargedControlSample/figs/on_off_res_chargedControlD0_Mbc.png, id=399, 800.
+9925pt x 702.625pt>
+File: 05-chargedControlSample/figs/on_off_res_chargedControlD0_Mbc.png Graphic 
+file (type png)
+
+<use 05-chargedControlSample/figs/on_off_res_chargedControlD0_Mbc.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/on_off_res_chargedControl
+D0_Mbc.png used on input line 110.
+(pdftex.def)             Requested size: 204.85844pt x 179.6977pt.
+
+<05-chargedControlSample/figs/chargedControlD0_corrected_2DcontinuumMbc.png, id
+=400, 800.9925pt x 700.6175pt>
+File: 05-chargedControlSample/figs/chargedControlD0_corrected_2DcontinuumMbc.pn
+g Graphic file (type png)
+
+<use 05-chargedControlSample/figs/chargedControlD0_corrected_2DcontinuumMbc.png
+>
+Package pdftex.def Info: 05-chargedControlSample/figs/chargedControlD0_correcte
+d_2DcontinuumMbc.png used on input line 112.
+(pdftex.def)             Requested size: 204.85844pt x 179.18428pt.
+ [9 <./05-chargedControlSample/figs/chargedControlD0_Generic_2DFit.png> <./05-c
+hargedControlSample/figs/NEW_chargedControlD0_NeutralCrossfeed_2DFit_.png>]
+<05-chargedControlSample/figs/InvMchargedControlD0_off-resonanceMC_rescaled_2Df
+it_w_peak_frac.png, id=412, 593.21625pt x 533.995pt>
+File: 05-chargedControlSample/figs/InvMchargedControlD0_off-resonanceMC_rescale
+d_2Dfit_w_peak_frac.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/InvMchargedControlD0_off-resonanceMC_rescaled
+_2Dfit_w_peak_frac.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/InvMchargedControlD0_off-
+resonanceMC_rescaled_2Dfit_w_peak_frac.png used on input line 121.
+(pdftex.def)             Requested size: 182.09485pt x 163.91527pt.
+ [10 <./05-chargedControlSample/figs/on_off_res_chargedControlD0_Mbc.png> <./05
+-chargedControlSample/figs/chargedControlD0_corrected_2DcontinuumMbc.png> <./05
+-chargedControlSample/figs/InvMchargedControlD0_off-resonanceMC_rescaled_2Dfit_
+w_peak_frac.png>]
+Overfull \hbox (52.61076pt too wide) in paragraph at lines 155--165
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+
+ []
+
+[11]
+<05-chargedControlSample/figs/stream0_chargedControlD0_Total_2DFit.png, id=430,
+ 1202.4925pt x 530.98375pt>
+File: 05-chargedControlSample/figs/stream0_chargedControlD0_Total_2DFit.png Gra
+phic file (type png)
+
+<use 05-chargedControlSample/figs/stream0_chargedControlD0_Total_2DFit.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/stream0_chargedControlD0_
+Total_2DFit.png used on input line 196.
+(pdftex.def)             Requested size: 386.96024pt x 170.86621pt.
+
+<05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_free_sigmaCB1
+_InvMsigma.png, id=433, 1202.4925pt x 529.98pt>
+File: 05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_free_sig
+maCB1_InvMsigma.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_free_sigm
+aCB1_InvMsigma.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/chargedControlD0_Total_2D
+Fit_onData_free_sigmaCB1_InvMsigma.png used on input line 205.
+(pdftex.def)             Requested size: 364.19664pt x 160.51553pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./05-chargedControlSample/figs/stream0_chargedControlD0_Total_2DFit.png>]
+
+LaTeX Warning: Reference `eq:paramCrossfeedNorm' on page 1 undefined on input l
+ine 243.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--246
+
+ []
+
+[13 <./05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_free_si
+gmaCB1_InvMsigma.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+<05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_paramCrossfee
+dRatio.png, id=453, 1202.4925pt x 573.14125pt>
+File: 05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_paramCro
+ssfeedRatio.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_paramCros
+sfeedRatio.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/chargedControlD0_Total_2D
+Fit_onData_paramCrossfeedRatio.png used on input line 265.
+(pdftex.def)             Requested size: 364.19664pt x 173.58783pt.
+ [14 <./05-chargedControlSample/figs/chargedControlD0_Total_2DFit_onData_paramC
+rossfeedRatio.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 292.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 292.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 292.
+
+
+<05-chargedControlSample/figs/stream0_chargedBtagFit_400bins_fixed_old_paramete
+rs_freeSigmaCB_and_misRecoPdf.png, id=463, 598.235pt x 533.995pt>
+File: 05-chargedControlSample/figs/stream0_chargedBtagFit_400bins_fixed_old_par
+ameters_freeSigmaCB_and_misRecoPdf.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/stream0_chargedBtagFit_400bins_fixed_old_para
+meters_freeSigmaCB_and_misRecoPdf.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/stream0_chargedBtagFit_40
+0bins_fixed_old_parameters_freeSigmaCB_and_misRecoPdf.png used on input line 29
+9.
+(pdftex.def)             Requested size: 182.09831pt x 162.54639pt.
+
+<05-chargedControlSample/figs/NeutralCrossfeed_stream0_ControlD0_chargedBtag_Mb
+cFit.png, id=464, 596.2275pt x 533.995pt>
+File: 05-chargedControlSample/figs/NeutralCrossfeed_stream0_ControlD0_chargedBt
+ag_MbcFit.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/NeutralCrossfeed_stream0_ControlD0_chargedBta
+g_MbcFit.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/NeutralCrossfeed_stream0_
+ControlD0_chargedBtag_MbcFit.png used on input line 303.
+(pdftex.def)             Requested size: 182.09831pt x 163.0923pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 296--305
+[]$[]$ $[]$ 
+ []
+
+
+Package caption Warning: \label without proper reference on input line 325.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:bin_corrected_stream1_off-resonance_on_stream3_on
+-resonance' on page 15 undefined on input line 312.
+
+
+<05-chargedControlSample/figs/NEWstream0_chargedBtag_rescaled_off-on_resonance.
+png, id=467, 800.9925pt x 773.89125pt>
+File: 05-chargedControlSample/figs/NEWstream0_chargedBtag_rescaled_off-on_reson
+ance.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/NEWstream0_chargedBtag_rescaled_off-on_resona
+nce.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/NEWstream0_chargedBtag_re
+scaled_off-on_resonance.png used on input line 317.
+(pdftex.def)             Requested size: 182.09831pt x 175.93654pt.
+
+<05-chargedControlSample/figs/bin_corrected_stream1_off-resonance_on_stream3_on
+-resonance.png, id=468, 800.9925pt x 773.89125pt>
+File: 05-chargedControlSample/figs/bin_corrected_stream1_off-resonance_on_strea
+m3_on-resonance.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/bin_corrected_stream1_off-resonance_on_stream
+3_on-resonance.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/bin_corrected_stream1_off
+-resonance_on_stream3_on-resonance.png used on input line 323.
+(pdftex.def)             Requested size: 182.09831pt x 175.93654pt.
+ [15 <./05-chargedControlSample/figs/stream0_chargedBtagFit_400bins_fixed_old_p
+arameters_freeSigmaCB_and_misRecoPdf.png> <./05-chargedControlSample/figs/Neutr
+alCrossfeed_stream0_ControlD0_chargedBtag_MbcFit.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 331.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 331.
+
+
+LaTeX Warning: Reference `BtagFit' on page 16 undefined on input line 336.
+
+
+<05-chargedControlSample/figs/stream3_chargedBtag_Total_fit_sigmaCB_misRecSigma
+_free_370bins.png, id=475, 600.2425pt x 573.14125pt>
+File: 05-chargedControlSample/figs/stream3_chargedBtag_Total_fit_sigmaCB_misRec
+Sigma_free_370bins.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/stream3_chargedBtag_Total_fit_sigmaCB_misRecS
+igma_free_370bins.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/stream3_chargedBtag_Total
+_fit_sigmaCB_misRecSigma_free_370bins.png used on input line 345.
+(pdftex.def)             Requested size: 216.24023pt x 206.47061pt.
+
+<05-chargedControlSample/figs/legend.png, id=476, 222.8325pt x 66.2475pt>
+File: 05-chargedControlSample/figs/legend.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/legend.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/legend.png used on input 
+line 351.
+(pdftex.def)             Requested size: 125.19281pt x 37.21964pt.
+ [16 <./05-chargedControlSample/figs/NEWstream0_chargedBtag_rescaled_off-on_res
+onance.png> <./05-chargedControlSample/figs/bin_corrected_stream1_off-resonance
+_on_stream3_on-resonance.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 373--375
+
+ []
+
+
+LaTeX Warning: Reference `BtagFit' on page 17 undefined on input line 388.
+
+[17 <./05-chargedControlSample/figs/stream3_chargedBtag_Total_fit_sigmaCB_misRe
+cSigma_free_370bins.png> <./05-chargedControlSample/figs/legend.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 392.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 392.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 392.
+
+
+<05-chargedControlSample/figs/chargedBtag_Total_fit_onData_sigmaCB_free_370bins
+.png, id=488, 600.2425pt x 573.14125pt>
+File: 05-chargedControlSample/figs/chargedBtag_Total_fit_onData_sigmaCB_free_37
+0bins.png Graphic file (type png)
+
+<use 05-chargedControlSample/figs/chargedBtag_Total_fit_onData_sigmaCB_free_370
+bins.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/chargedBtag_Total_fit_onD
+ata_sigmaCB_free_370bins.png used on input line 397.
+(pdftex.def)             Requested size: 182.09485pt x 173.86769pt.
+ [18 <./05-chargedControlSample/figs/chargedBtag_Total_fit_onData_sigmaCB_free_
+370bins.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 451.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 451.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 451.
+
+
+<05-chargedControlSample/figs/stream0_chargedBtagSignal_fit.png, id=497, 599.23
+875pt x 533.995pt>
+File: 05-chargedControlSample/figs/stream0_chargedBtagSignal_fit.png Graphic fi
+le (type png)
+
+<use 05-chargedControlSample/figs/stream0_chargedBtagSignal_fit.png>
+Package pdftex.def Info: 05-chargedControlSample/figs/stream0_chargedBtagSignal
+_fit.png used on input line 458.
+(pdftex.def)             Requested size: 182.09485pt x 162.26935pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--477
+
+ []
+
+[19 <./05-chargedControlSample/figs/stream0_chargedBtagSignal_fit.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 495.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 495.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 495.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 495.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 495.
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 531--533
+
+ []
+
+) [21]
+\openout2 = `06-chargedAnticorrBtoLambda/chargedAnticorrBtoLambda.aux'.
+
+ (./06-chargedAnticorrBtoLambda/chargedAnticorrBtoLambda.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Lambda' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+LaTeX Warning: Reference `sec:chargedCorrBtoLambdaC' on page 1 undefined on inp
+ut line 3.
+
+
+LaTeX Warning: Reference `sec:2DpdfChargedCorrBtoLambdaC' on page 1 undefined o
+n input line 13.
+
+
+LaTeX Warning: Reference `sec:2DpdfChargedCorrBtoLambdaC' on page 1 undefined o
+n input line 13.
+
+
+<06-chargedAnticorrBtoLambda/figs/stream12345_TotalSignal_charged_anticorrLambd
+aC_2Dfit.png, id=520, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream12345_TotalSignal_charged_anticorr
+LambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream12345_TotalSignal_charged_anticorrL
+ambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream12345_TotalSign
+al_charged_anticorrLambdaC_2Dfit.png used on input line 17.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<06-chargedAnticorrBtoLambda/figs/streams12345_charged_anticorrLambdaC_Generic_
+2DFit.png, id=521, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/streams12345_charged_anticorrLambdaC_Gen
+eric_2DFit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/streams12345_charged_anticorrLambdaC_Gene
+ric_2DFit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/streams12345_charged_
+anticorrLambdaC_Generic_2DFit.png used on input line 24.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+ [22
+
+
+ <./06-chargedAnticorrBtoLambda/figs/stream12345_TotalSignal_charged_anticorrLa
+mbdaC_2Dfit.png>]
+<06-chargedAnticorrBtoLambda/figs/stream12345_Crossfeed_charged_anticorrLambdaC
+_2Dfit.png, id=530, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream12345_Crossfeed_charged_anticorrLa
+mbdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream12345_Crossfeed_charged_anticorrLam
+bdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream12345_Crossfeed
+_charged_anticorrLambdaC_2Dfit.png used on input line 33.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+
+LaTeX Warning: Reference `fig:5streams_Signal_window_Crossfeed_charged_corrLamb
+daC_2Dfit' on page 23 undefined on input line 39.
+
+
+LaTeX Warning: Reference `fig:5streams_Mbc_Sideband_Crossfeed_charged_corrLambd
+aC_2Dfit' on page 23 undefined on input line 39.
+
+
+<06-chargedAnticorrBtoLambda/figs/stream02345_Crossfeed_charged_anticorrLambdaC
+_2Dfit.png, id=535, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream02345_Crossfeed_charged_anticorrLa
+mbdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream02345_Crossfeed_charged_anticorrLam
+bdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream02345_Crossfeed
+_charged_anticorrLambdaC_2Dfit.png used on input line 46.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+ [23 <./06-chargedAnticorrBtoLambda/figs/streams12345_charged_anticorrLambdaC_G
+eneric_2DFit.png> <./06-chargedAnticorrBtoLambda/figs/stream12345_Crossfeed_cha
+rged_anticorrLambdaC_2Dfit.png>]
+<06-chargedAnticorrBtoLambda/figs/Signal_window_stream02345_Crossfeed_charged_a
+nticorrLambdaC_2Dfit.png, id=545, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/Signal_window_stream02345_Crossfeed_char
+ged_anticorrLambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Signal_window_stream02345_Crossfeed_charg
+ed_anticorrLambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Signal_window_stream0
+2345_Crossfeed_charged_anticorrLambdaC_2Dfit.png used on input line 54.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream02345_Crossfeed_charged_an
+ticorrLambdaC_2Dfit.png, id=546, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream02345_Crossfeed_charg
+ed_anticorrLambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream02345_Crossfeed_charge
+d_anticorrLambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream02
+345_Crossfeed_charged_anticorrLambdaC_2Dfit.png used on input line 61.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream02345_Crossfeed_charged_a
+nticorrLambdaC_2Dfit.png, id=547, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream02345_Crossfeed_char
+ged_anticorrLambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream02345_Crossfeed_charg
+ed_anticorrLambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream0
+2345_Crossfeed_charged_anticorrLambdaC_2Dfit.png used on input line 70.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+ [24 <./06-chargedAnticorrBtoLambda/figs/stream02345_Crossfeed_charged_anticorr
+LambdaC_2Dfit.png> <./06-chargedAnticorrBtoLambda/figs/Signal_window_stream0234
+5_Crossfeed_charged_anticorrLambdaC_2Dfit.png> <./06-chargedAnticorrBtoLambda/f
+igs/Mbc_Sideband_stream02345_Crossfeed_charged_anticorrLambdaC_2Dfit.png>]
+<06-chargedAnticorrBtoLambda/figs/Signal_window_stream1_Crossfeed_charged_antic
+orrLambdaC_2Dfit.png, id=554, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/Signal_window_stream1_Crossfeed_charged_
+anticorrLambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Signal_window_stream1_Crossfeed_charged_a
+nticorrLambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Signal_window_stream1
+_Crossfeed_charged_anticorrLambdaC_2Dfit.png used on input line 80.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream1_Crossfeed_charged_antico
+rrLambdaC_2Dfit.png, id=555, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream1_Crossfeed_charged_a
+nticorrLambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream1_Crossfeed_charged_an
+ticorrLambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream1_
+Crossfeed_charged_anticorrLambdaC_2Dfit.png used on input line 88.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+File: 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream1_Crossfeed_charged_a
+nticorrLambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream1_Crossfeed_charged_an
+ticorrLambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Mbc_Sideband_stream1_
+Crossfeed_charged_anticorrLambdaC_2Dfit.png used on input line 95.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+ [25 <./06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream02345_Crossfeed_ch
+arged_anticorrLambdaC_2Dfit.png> <./06-chargedAnticorrBtoLambda/figs/Signal_win
+dow_stream1_Crossfeed_charged_anticorrLambdaC_2Dfit.png> <./06-chargedAnticorrB
+toLambda/figs/Mbc_Sideband_stream1_Crossfeed_charged_anticorrLambdaC_2Dfit.png>
+]
+<06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream1_Crossfeed_charged_antic
+orrLambdaC_2Dfit.png, id=561, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream1_Crossfeed_charged_
+anticorrLambdaC_2Dfit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream1_Crossfeed_charged_a
+nticorrLambdaC_2Dfit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream1
+_Crossfeed_charged_anticorrLambdaC_2Dfit.png used on input line 103.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+ [26 <./06-chargedAnticorrBtoLambda/figs/InvM_Sideband_stream1_Crossfeed_charge
+d_anticorrLambdaC_2Dfit.png>]
+<06-chargedAnticorrBtoLambda/figs/stream02345_charged_anticorrLambdaC_woCScuts_
+Mbc_scaling.png, id=574, 800.9925pt x 773.89125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream02345_charged_anticorrLambdaC_woCS
+cuts_Mbc_scaling.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream02345_charged_anticorrLambdaC_woCSc
+uts_Mbc_scaling.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream02345_charged_a
+nticorrLambdaC_woCScuts_Mbc_scaling.png used on input line 121.
+(pdftex.def)             Requested size: 204.85844pt x 197.92418pt.
+
+<06-chargedAnticorrBtoLambda/figs/MC_on_off_resonance_stream2_anticorrLambda_co
+ntinuum_2D_Mbc_corrected.png, id=575, 800.9925pt x 773.89125pt>
+File: 06-chargedAnticorrBtoLambda/figs/MC_on_off_resonance_stream2_anticorrLamb
+da_continuum_2D_Mbc_corrected.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/MC_on_off_resonance_stream2_anticorrLambd
+a_continuum_2D_Mbc_corrected.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/MC_on_off_resonance_s
+tream2_anticorrLambda_continuum_2D_Mbc_corrected.png used on input line 123.
+(pdftex.def)             Requested size: 204.85844pt x 197.92418pt.
+
+<06-chargedAnticorrBtoLambda/figs/stream2_rescaledMbc_40binsHist_Novosibirsk.pn
+g, id=576, 600.2425pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream2_rescaledMbc_40binsHist_Novosibir
+sk.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream2_rescaledMbc_40binsHist_Novosibirs
+k.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream2_rescaledMbc_4
+0binsHist_Novosibirsk.png used on input line 131.
+(pdftex.def)             Requested size: 204.85844pt x 195.6088pt.
+
+<06-chargedAnticorrBtoLambda/figs/stream02345_anticorrLambdaC_total_continuum_I
+nvM_Fit_off-resonance.png, id=577, 600.2425pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream02345_anticorrLambdaC_total_contin
+uum_InvM_Fit_off-resonance.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream02345_anticorrLambdaC_total_continu
+um_InvM_Fit_off-resonance.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream02345_anticorrL
+ambdaC_total_continuum_InvM_Fit_off-resonance.png used on input line 133.
+(pdftex.def)             Requested size: 204.85844pt x 195.6088pt.
+ [27 <./06-chargedAnticorrBtoLambda/figs/stream02345_charged_anticorrLambdaC_wo
+CScuts_Mbc_scaling.png> <./06-chargedAnticorrBtoLambda/figs/MC_on_off_resonance
+_stream2_anticorrLambda_continuum_2D_Mbc_corrected.png>]
+<06-chargedAnticorrBtoLambda/figs/stream1_anticorrLambddaC_total_continuum_2DFi
+t_Novosibirsk.png, id=584, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream1_anticorrLambddaC_total_continuum
+_2DFit_Novosibirsk.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream1_anticorrLambddaC_total_continuum_
+2DFit_Novosibirsk.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream1_anticorrLambd
+daC_total_continuum_2DFit_Novosibirsk.png used on input line 141.
+(pdftex.def)             Requested size: 386.96024pt x 184.43216pt.
+
+
+LaTeX Warning: Reference `2DtotalFit' on page 28 undefined on input line 147.
+
+
+LaTeX Warning: Reference `tab:SixStreams_chargedCorrLam2Dfits' on page 28 undef
+ined on input line 150.
+
+[28 <./06-chargedAnticorrBtoLambda/figs/stream2_rescaledMbc_40binsHist_Novosibi
+rsk.png> <./06-chargedAnticorrBtoLambda/figs/stream02345_anticorrLambdaC_total_
+continuum_InvM_Fit_off-resonance.png> <./06-chargedAnticorrBtoLambda/figs/strea
+m1_anticorrLambddaC_total_continuum_2DFit_Novosibirsk.png>]
+<06-chargedAnticorrBtoLambda/figs/Total_2DFit_stream0_chargedAnticorrLambdaC_Cr
+ossfeed_fraction_parametrization.png, id=595, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/Total_2DFit_stream0_chargedAnticorrLambd
+aC_Crossfeed_fraction_parametrization.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Total_2DFit_stream0_chargedAnticorrLambda
+C_Crossfeed_fraction_parametrization.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Total_2DFit_stream0_c
+hargedAnticorrLambdaC_Crossfeed_fraction_parametrization.png used on input line
+ 154.
+(pdftex.def)             Requested size: 386.96024pt x 184.43216pt.
+
+
+LaTeX Warning: Reference `2DtotalFit' on page 29 undefined on input line 189.
+
+
+<06-chargedAnticorrBtoLambda/figs/Fitted_RecoSignal_chargedAntiCorrLambdaC.png,
+ id=597, 878.28125pt x 637.38126pt>
+File: 06-chargedAnticorrBtoLambda/figs/Fitted_RecoSignal_chargedAntiCorrLambdaC
+.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Fitted_RecoSignal_chargedAntiCorrLambdaC.
+png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Fitted_RecoSignal_cha
+rgedAntiCorrLambdaC.png used on input line 194.
+(pdftex.def)             Requested size: 341.43306pt x 247.7899pt.
+ [29 <./06-chargedAnticorrBtoLambda/figs/Total_2DFit_stream0_chargedAnticorrLam
+bdaC_Crossfeed_fraction_parametrization.png>]
+<06-chargedAnticorrBtoLambda/figs/RecoSignal_streams_fittedPoints_chargedAntico
+rrLambdaC_w_CrossfeedRatio_param.png, id=606, 907.39pt x 612.2875pt>
+File: 06-chargedAnticorrBtoLambda/figs/RecoSignal_streams_fittedPoints_chargedA
+nticorrLambdaC_w_CrossfeedRatio_param.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/RecoSignal_streams_fittedPoints_chargedAn
+ticorrLambdaC_w_CrossfeedRatio_param.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/RecoSignal_streams_fi
+ttedPoints_chargedAnticorrLambdaC_w_CrossfeedRatio_param.png used on input line
+ 201.
+(pdftex.def)             Requested size: 386.96024pt x 261.11098pt.
+ [30 <./06-chargedAnticorrBtoLambda/figs/Fitted_RecoSignal_chargedAntiCorrLambd
+aC.png> <./06-chargedAnticorrBtoLambda/figs/RecoSignal_streams_fittedPoints_cha
+rgedAnticorrLambdaC_w_CrossfeedRatio_param.png>]
+<06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_LinearityTest.png, id=
+613, 788.9475pt x 607.26875pt>
+File: 06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_LinearityTest.png
+ Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_LinearityTest.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambd
+a_LinearityTest.png used on input line 214.
+(pdftex.def)             Requested size: 341.43306pt x 262.80692pt.
+
+LaTeX Warning: Reference `fig:stream0_Total2Dfit_charged_corrLambdaC' on page 3
+1 undefined on input line 216.
+
+
+LaTeX Warning: Reference `fig:stream0_Total2Dfit_charged_corrLambdaC' on page 3
+1 undefined on input line 216.
+
+
+<06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_BR_LinearityTest.png, 
+id=614, 788.9475pt x 627.34375pt>
+File: 06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_BR_LinearityTest.
+png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_BR_LinearityTest.p
+ng>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambd
+a_BR_LinearityTest.png used on input line 224.
+(pdftex.def)             Requested size: 341.43306pt x 271.49474pt.
+ [31 <./06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_LinearityTest.p
+ng>] [32 <./06-chargedAnticorrBtoLambda/figs/Charged_anticorrLambda_BR_Linearit
+yTest.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 234.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 234.
+
+
+<06-chargedAnticorrBtoLambda/figs/stream0_anticorr_chargedBtag_Total_Signal_fit
+.png, id=633, 600.2425pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream0_anticorr_chargedBtag_Total_Signa
+l_fit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream0_anticorr_chargedBtag_Total_Signal
+_fit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream0_anticorr_char
+gedBtag_Total_Signal_fit.png used on input line 243.
+(pdftex.def)             Requested size: 182.09831pt x 173.87643pt.
+
+<06-chargedAnticorrBtoLambda/figs/NeutralCrossfeed_stream0_anticorrLambdaC_char
+gedBtag_MbcFit.png, id=634, 600.2425pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/NeutralCrossfeed_stream0_anticorrLambdaC
+_chargedBtag_MbcFit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/NeutralCrossfeed_stream0_anticorrLambdaC_
+chargedBtag_MbcFit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/NeutralCrossfeed_stre
+am0_anticorrLambdaC_chargedBtag_MbcFit.png used on input line 247.
+(pdftex.def)             Requested size: 182.09831pt x 173.87643pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 240--249
+[]$[]$ $[]$ 
+ []
+
+
+<06-chargedAnticorrBtoLambda/figs/on_scaled_offRes_stream0_continuum.png, id=63
+7, 800.9925pt x 773.89125pt>
+File: 06-chargedAnticorrBtoLambda/figs/on_scaled_offRes_stream0_continuum.png G
+raphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/on_scaled_offRes_stream0_continuum.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/on_scaled_offRes_stre
+am0_continuum.png used on input line 266.
+(pdftex.def)             Requested size: 204.85844pt x 197.92418pt.
+
+<06-chargedAnticorrBtoLambda/figs/stream1_chargedB_anticorrLambdaCoffresonance_
+scaled_check.png, id=638, 800.9925pt x 773.89125pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream1_chargedB_anticorrLambdaCoffreson
+ance_scaled_check.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream1_chargedB_anticorrLambdaCoffresona
+nce_scaled_check.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream1_chargedB_anti
+corrLambdaCoffresonance_scaled_check.png used on input line 268.
+(pdftex.def)             Requested size: 200.3085pt x 193.53137pt.
+ [33 <./06-chargedAnticorrBtoLambda/figs/stream0_anticorr_chargedBtag_Total_Sig
+nal_fit.png> <./06-chargedAnticorrBtoLambda/figs/NeutralCrossfeed_stream0_antic
+orrLambdaC_chargedBtag_MbcFit.png>] [34 <./06-chargedAnticorrBtoLambda/figs/on_
+scaled_offRes_stream0_continuum.png> <./06-chargedAnticorrBtoLambda/figs/stream
+1_chargedB_anticorrLambdaCoffresonance_scaled_check.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 274.
+
+
+<06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_Total_fit_sigmaCB_misReco
+Slope_free_370bins.png, id=650, 586.19pt x 534.99875pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_Total_fit_sigmaCB_mi
+sRecoSlope_free_370bins.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_Total_fit_sigmaCB_mis
+RecoSlope_free_370bins.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_T
+otal_fit_sigmaCB_misRecoSlope_free_370bins.png used on input line 279.
+(pdftex.def)             Requested size: 227.62204pt x 207.74252pt.
+
+<06-chargedAnticorrBtoLambda/figs/Total_Signal_chargedBtagToyMCstudy.png, id=65
+3, 1804.7425pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/Total_Signal_chargedBtagToyMCstudy.png G
+raphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Total_Signal_chargedBtagToyMCstudy.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Total_Signal_chargedB
+tagToyMCstudy.png used on input line 308.
+(pdftex.def)             Requested size: 455.24408pt x 144.57053pt.
+
+[35 <./06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_Total_fit_sigmaCB_m
+isRecoSlope_free_370bins.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Lambda' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 314.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 314.
+
+
+LaTeX Warning: Reference `fig:sixstreams_chargedBtagSignal_fit' on page 36 unde
+fined on input line 324.
+
+
+<06-chargedAnticorrBtoLambda/figs/chargedBtag_anticorrLambdaC_TotalSignalBtag_f
+it.png, id=662, 600.2425pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/chargedBtag_anticorrLambdaC_TotalSignalB
+tag_fit.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/chargedBtag_anticorrLambdaC_TotalSignalBt
+ag_fit.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/chargedBtag_anticorrL
+ambdaC_TotalSignalBtag_fit.png used on input line 328.
+(pdftex.def)             Requested size: 182.09485pt x 173.86769pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
+
+ []
+
+[36 <./06-chargedAnticorrBtoLambda/figs/Total_Signal_chargedBtagToyMCstudy.png>
+ <./06-chargedAnticorrBtoLambda/figs/chargedBtag_anticorrLambdaC_TotalSignalBta
+g_fit.png>]
+
+LaTeX Warning: Reference `sec:chargedCorr_continuumBkgSys' on page 1 undefined 
+on input line 349.
+
+
+LaTeX Warning: Reference `sec:chargedCorrPIDcorrSys' on page 1 undefined on inp
+ut line 351.
+
+[37]
+<06-chargedAnticorrBtoLambda/figs/Signal_window_Total_2DFit_stream5_chargedAnti
+corrLambdaC_MinusNcontinuum.png, id=681, 1202.4925pt x 573.14125pt>
+File: 06-chargedAnticorrBtoLambda/figs/Signal_window_Total_2DFit_stream5_charge
+dAnticorrLambdaC_MinusNcontinuum.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/Signal_window_Total_2DFit_stream5_charged
+AnticorrLambdaC_MinusNcontinuum.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/Signal_window_Total_2
+DFit_stream5_chargedAnticorrLambdaC_MinusNcontinuum.png used on input line 400.
+
+(pdftex.def)             Requested size: 386.96024pt x 184.43216pt.
+
+<06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_AnticorrTotal_fit_Continu
+umSys_Plus.png, id=682, 586.19pt x 536.0025pt>
+File: 06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_AnticorrTotal_fit_Co
+ntinuumSys_Plus.png Graphic file (type png)
+
+<use 06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_AnticorrTotal_fit_Con
+tinuumSys_Plus.png>
+Package pdftex.def Info: 06-chargedAnticorrBtoLambda/figs/stream1_chargedBtag_A
+nticorrTotal_fit_ContinuumSys_Plus.png used on input line 407.
+(pdftex.def)             Requested size: 227.62204pt x 208.1323pt.
+ [38 <./06-chargedAnticorrBtoLambda/figs/Signal_window_Total_2DFit_stream5_char
+gedAnticorrLambdaC_MinusNcontinuum.png> <./06-chargedAnticorrBtoLambda/figs/str
+eam1_chargedBtag_AnticorrTotal_fit_ContinuumSys_Plus.png>]
+
+LaTeX Warning: Reference `sec:chargedCorrCrossfeedSys' on page 1 undefined on i
+nput line 445.
+
+[39] [40]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 509.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 509.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 509.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Lambda' on input line 509.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 509.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 509.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 509.
+
+) [41]
+\openout2 = `A-Appendix/appendix.aux'.
+
+ (./A-Appendix/appendix.tex (./A1-Appendix/chargedCorrBtoLambdaPlots.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Lambda' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+<A1-Appendix/figs/Signal_window_streams12345_Generic_charged_corrLambdaC_2Dfit.
+png, id=707, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Signal_window_streams12345_Generic_charged_corrLambdaC_2
+Dfit.png Graphic file (type png)
+
+<use A1-Appendix/figs/Signal_window_streams12345_Generic_charged_corrLambdaC_2D
+fit.png>
+Package pdftex.def Info: A1-Appendix/figs/Signal_window_streams12345_Generic_ch
+arged_corrLambdaC_2Dfit.png used on input line 13.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+<A1-Appendix/figs/Mbc_Sideband_stream12345_Generic_charged_corrLambdaC_2Dfit.pn
+g, id=708, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Mbc_Sideband_stream12345_Generic_charged_corrLambdaC_2Df
+it.png Graphic file (type png)
+
+<use A1-Appendix/figs/Mbc_Sideband_stream12345_Generic_charged_corrLambdaC_2Dfi
+t.png>
+Package pdftex.def Info: A1-Appendix/figs/Mbc_Sideband_stream12345_Generic_char
+ged_corrLambdaC_2Dfit.png used on input line 18.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--20
+[]$[]$
+ []
+
+
+<A1-Appendix/figs/InvM_Sideband_stream12345_Generic_charged_corrLambdaC_2Dfit.p
+ng, id=709, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/InvM_Sideband_stream12345_Generic_charged_corrLambdaC_2D
+fit.png Graphic file (type png)
+
+<use A1-Appendix/figs/InvM_Sideband_stream12345_Generic_charged_corrLambdaC_2Df
+it.png>
+Package pdftex.def Info: A1-Appendix/figs/InvM_Sideband_stream12345_Generic_cha
+rged_corrLambdaC_2Dfit.png used on input line 22.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+
+LaTeX Warning: Reference `fig:5streams_Generic_charged_corrLambdaC_2Dfit' on pa
+ge 1 undefined on input line 24.
+
+
+LaTeX Warning: Reference `fig:5streams_Generic_charged_corrLambdaC_2Dfit' on pa
+ge 1 undefined on input line 24.
+
+[42
+
+
+
+] [43]
+Overfull \vbox (17.78578pt too high) has occurred while \output is active []
+
+
+[44 <./A1-Appendix/figs/Signal_window_streams12345_Generic_charged_corrLambdaC_
+2Dfit.png> <./A1-Appendix/figs/Mbc_Sideband_stream12345_Generic_charged_corrLam
+bdaC_2Dfit.png> <./A1-Appendix/figs/InvM_Sideband_stream12345_Generic_charged_c
+orrLambdaC_2Dfit.png>]
+<A1-Appendix/figs/Mbc_Sideband_stream12345_Crossfeed_charged_corrLambdaC_2Dfit_
+afterParametrization.png, id=724, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Mbc_Sideband_stream12345_Crossfeed_charged_corrLambdaC_2
+Dfit_afterParametrization.png Graphic file (type png)
+
+<use A1-Appendix/figs/Mbc_Sideband_stream12345_Crossfeed_charged_corrLambdaC_2D
+fit_afterParametrization.png>
+Package pdftex.def Info: A1-Appendix/figs/Mbc_Sideband_stream12345_Crossfeed_ch
+arged_corrLambdaC_2Dfit_afterParametrization.png used on input line 33.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+<A1-Appendix/figs/Signal_window_stream12345_Crossfeed_charged_corrLambdaC_2Dfit
+_afterParametrization.png, id=725, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Signal_window_stream12345_Crossfeed_charged_corrLambdaC_
+2Dfit_afterParametrization.png Graphic file (type png)
+
+<use A1-Appendix/figs/Signal_window_stream12345_Crossfeed_charged_corrLambdaC_2
+Dfit_afterParametrization.png>
+Package pdftex.def Info: A1-Appendix/figs/Signal_window_stream12345_Crossfeed_c
+harged_corrLambdaC_2Dfit_afterParametrization.png used on input line 38.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--40
+[]$[]$
+ []
+
+
+<A1-Appendix/figs/InvM_Sideband_stream12345_Crossfeed_charged_corrLambdaC_2Dfit
+.png, id=726, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/InvM_Sideband_stream12345_Crossfeed_charged_corrLambdaC_
+2Dfit.png Graphic file (type png)
+
+<use A1-Appendix/figs/InvM_Sideband_stream12345_Crossfeed_charged_corrLambdaC_2
+Dfit.png>
+Package pdftex.def Info: A1-Appendix/figs/InvM_Sideband_stream12345_Crossfeed_c
+harged_corrLambdaC_2Dfit.png used on input line 42.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+ [45 <./A1-Appendix/figs/Mbc_Sideband_stream12345_Crossfeed_charged_corrLambdaC
+_2Dfit_afterParametrization.png> <./A1-Appendix/figs/Signal_window_stream12345_
+Crossfeed_charged_corrLambdaC_2Dfit_afterParametrization.png> <./A1-Appendix/fi
+gs/InvM_Sideband_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png>]
+<A1-Appendix/figs/Signal_window_stream3_Continuum_charged_corrLambdaC_2Dfit.png
+, id=732, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Signal_window_stream3_Continuum_charged_corrLambdaC_2Dfi
+t.png Graphic file (type png)
+
+<use A1-Appendix/figs/Signal_window_stream3_Continuum_charged_corrLambdaC_2Dfit
+.png>
+Package pdftex.def Info: A1-Appendix/figs/Signal_window_stream3_Continuum_charg
+ed_corrLambdaC_2Dfit.png used on input line 52.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+<A1-Appendix/figs/Mbc_Sideband_stream3_Continuum_charged_corrLambdaC_2Dfit.png,
+ id=733, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Mbc_Sideband_stream3_Continuum_charged_corrLambdaC_2Dfit
+.png Graphic file (type png)
+
+<use A1-Appendix/figs/Mbc_Sideband_stream3_Continuum_charged_corrLambdaC_2Dfit.
+png>
+Package pdftex.def Info: A1-Appendix/figs/Mbc_Sideband_stream3_Continuum_charge
+d_corrLambdaC_2Dfit.png used on input line 57.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--59
+[]$[]$
+ []
+
+
+<A1-Appendix/figs/InvM_Sideband_stream3_Continuum_charged_corrLambdaC_2Dfit.png
+, id=734, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/InvM_Sideband_stream3_Continuum_charged_corrLambdaC_2Dfi
+t.png Graphic file (type png)
+
+<use A1-Appendix/figs/InvM_Sideband_stream3_Continuum_charged_corrLambdaC_2Dfit
+.png>
+Package pdftex.def Info: A1-Appendix/figs/InvM_Sideband_stream3_Continuum_charg
+ed_corrLambdaC_2Dfit.png used on input line 61.
+(pdftex.def)             Requested size: 398.33858pt x 189.85431pt.
+
+
+LaTeX Warning: Reference `fig:stream3corrLambddaC_total_continuum_2DFit' on pag
+e 1 undefined on input line 63.
+
+
+LaTeX Warning: Reference `fig:stream3corrLambddaC_total_continuum_2DFit' on pag
+e 1 undefined on input line 63.
+
+[46 <./A1-Appendix/figs/Signal_window_stream3_Continuum_charged_corrLambdaC_2Df
+it.png> <./A1-Appendix/figs/Mbc_Sideband_stream3_Continuum_charged_corrLambdaC_
+2Dfit.png> <./A1-Appendix/figs/InvM_Sideband_stream3_Continuum_charged_corrLamb
+daC_2Dfit.png>]
+<A1-Appendix/figs/Signal_window_Total_2DFit_stream0_free_sigmas_free_sigmas.png
+, id=740, 1202.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Signal_window_Total_2DFit_stream0_free_sigmas_free_sigma
+s.png Graphic file (type png)
+
+<use A1-Appendix/figs/Signal_window_Total_2DFit_stream0_free_sigmas_free_sigmas
+.png>
+Package pdftex.def Info: A1-Appendix/figs/Signal_window_Total_2DFit_stream0_fre
+e_sigmas_free_sigmas.png used on input line 73.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<A1-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png, id=741, 120
+2.4925pt x 573.14125pt>
+File: A1-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png Graphic
+ file (type png)
+
+<use A1-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png>
+Package pdftex.def Info: A1-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free
+_sigmas.png used on input line 80.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<A1-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png, id=742, 12
+02.4925pt x 573.14125pt>
+File: A1-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png Graphi
+c file (type png)
+
+<use A1-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png>
+Package pdftex.def Info: A1-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_fre
+e_sigmas.png used on input line 87.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+[47 <./A1-Appendix/figs/Signal_window_Total_2DFit_stream0_free_sigmas_free_sigm
+as.png> <./A1-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png>]
+<A1-Appendix/figs/NrecSigBtag_mcstudy.png, id=750, 1202.4925pt x 372.39125pt>
+File: A1-Appendix/figs/NrecSigBtag_mcstudy.png Graphic file (type png)
+
+<use A1-Appendix/figs/NrecSigBtag_mcstudy.png>
+Package pdftex.def Info: A1-Appendix/figs/NrecSigBtag_mcstudy.png used on input
+ line 96.
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+<A1-Appendix/figs/nMisSig_mcstudy.png, id=751, 1202.4925pt x 372.39125pt>
+File: A1-Appendix/figs/nMisSig_mcstudy.png Graphic file (type png)
+
+<use A1-Appendix/figs/nMisSig_mcstudy.png>
+Package pdftex.def Info: A1-Appendix/figs/nMisSig_mcstudy.png used on input lin
+e 101.
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--103
+[]$[]$
+ []
+
+<A1-Appendix/figs/sigmaCB_mcstudy.png, id=752, 1202.4925pt x 372.39125pt>
+File: A1-Appendix/figs/sigmaCB_mcstudy.png Graphic file (type png)
+
+<use A1-Appendix/figs/sigmaCB_mcstudy.png>
+Package pdftex.def Info: A1-Appendix/figs/sigmaCB_mcstudy.png used on input lin
+e 105.
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+<A1-Appendix/figs/k_mcstudy.png, id=753, 1202.4925pt x 372.39125pt>
+File: A1-Appendix/figs/k_mcstudy.png Graphic file (type png)
+
+<use A1-Appendix/figs/k_mcstudy.png>
+Package pdftex.def Info: A1-Appendix/figs/k_mcstudy.png used on input line 108.
+
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--112
+[]$[]$
+ []
+
+
+LaTeX Warning: Reference `BtagFit' on page 48 undefined on input line 112.
+
+
+LaTeX Warning: Reference `BtagFit' on page 48 undefined on input line 112.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [48 <./A1-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png>]
+[49 <./A1-Appendix/figs/NrecSigBtag_mcstudy.png> <./A1-Appendix/figs/nMisSig_mc
+study.png> <./A1-Appendix/figs/sigmaCB_mcstudy.png> <./A1-Appendix/figs/k_mcstu
+dy.png>] (./A2-Appendix/chargedBtoDPlots.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 6.
+
+
+<A2-Appendix/figs/R2Optimisation_chargedB_D0Sample.png, id=767, 791.95876pt x 4
+83.8075pt>
+File: A2-Appendix/figs/R2Optimisation_chargedB_D0Sample.png Graphic file (type 
+png)
+ <use A2-Appendix/figs/R2Optimisation_chargedB_D0Sample.png>
+Package pdftex.def Info: A2-Appendix/figs/R2Optimisation_chargedB_D0Sample.png 
+used on input line 16.
+(pdftex.def)             Requested size: 341.43306pt x 208.57945pt.
+
+<A2-Appendix/figs/SigProbOptimisation_chargedB_D0Sample.png, id=768, 833.1125pt
+ x 500.87125pt>
+File: A2-Appendix/figs/SigProbOptimisation_chargedB_D0Sample.png Graphic file (
+type png)
+
+<use A2-Appendix/figs/SigProbOptimisation_chargedB_D0Sample.png>
+Package pdftex.def Info: A2-Appendix/figs/SigProbOptimisation_chargedB_D0Sample
+.png used on input line 25.
+(pdftex.def)             Requested size: 341.43306pt x 205.27446pt.
+
+<A2-Appendix/figs/chargedBtoD0bar_Pcms_afterOpt.png, id=769, 361.35pt x 289.08p
+t>
+File: A2-Appendix/figs/chargedBtoD0bar_Pcms_afterOpt.png Graphic file (type png
+)
+ <use A2-Appendix/figs/chargedBtoD0bar_Pcms_afterOpt.png>
+Package pdftex.def Info: A2-Appendix/figs/chargedBtoD0bar_Pcms_afterOpt.png use
+d on input line 32.
+(pdftex.def)             Requested size: 341.43306pt x 273.14674pt.
+ [50
+
+ <./A2-Appendix/figs/R2Optimisation_chargedB_D0Sample.png> <./A2-Appendix/figs/
+SigProbOptimisation_chargedB_D0Sample.png>]
+<A2-Appendix/figs/stream0Signal_window_chargedControlD0_Total_2DFit.png, id=778
+, 1202.4925pt x 573.14125pt>
+File: A2-Appendix/figs/stream0Signal_window_chargedControlD0_Total_2DFit.png Gr
+aphic file (type png)
+
+<use A2-Appendix/figs/stream0Signal_window_chargedControlD0_Total_2DFit.png>
+Package pdftex.def Info: A2-Appendix/figs/stream0Signal_window_chargedControlD0
+_Total_2DFit.png used on input line 43.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<A2-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png, id=781, 120
+2.4925pt x 573.14125pt>
+File: A2-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png Graphic
+ file (type png)
+
+<use A2-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png>
+Package pdftex.def Info: A2-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free
+_sigmas.png used on input line 51.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+[51 <./A2-Appendix/figs/chargedBtoD0bar_Pcms_afterOpt.png> <./A2-Appendix/figs/
+stream0Signal_window_chargedControlD0_Total_2DFit.png>]
+<A2-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png, id=789, 12
+02.4925pt x 573.14125pt>
+File: A2-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png Graphi
+c file (type png)
+
+<use A2-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png>
+Package pdftex.def Info: A2-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_fre
+e_sigmas.png used on input line 58.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<A2-Appendix/figs/Signal_window_chargedControlD0_Total_2DFit_onData_free_sigmaC
+B1_InvMsigma.png, id=792, 1202.4925pt x 573.14125pt>
+File: A2-Appendix/figs/Signal_window_chargedControlD0_Total_2DFit_onData_free_s
+igmaCB1_InvMsigma.png Graphic file (type png)
+
+<use A2-Appendix/figs/Signal_window_chargedControlD0_Total_2DFit_onData_free_si
+gmaCB1_InvMsigma.png>
+Package pdftex.def Info: A2-Appendix/figs/Signal_window_chargedControlD0_Total_
+2DFit_onData_free_sigmaCB1_InvMsigma.png used on input line 76.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<A2-Appendix/figs/Mbc_sideband_chargedControlD0_Total_2DFit_onData_free_sigmaCB
+1_InvMsigma.png, id=795, 1202.4925pt x 573.14125pt>
+File: A2-Appendix/figs/Mbc_sideband_chargedControlD0_Total_2DFit_onData_free_si
+gmaCB1_InvMsigma.png Graphic file (type png)
+
+<use A2-Appendix/figs/Mbc_sideband_chargedControlD0_Total_2DFit_onData_free_sig
+maCB1_InvMsigma.png>
+Package pdftex.def Info: A2-Appendix/figs/Mbc_sideband_chargedControlD0_Total_2
+DFit_onData_free_sigmaCB1_InvMsigma.png used on input line 84.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<A2-Appendix/figs/InvMsideband_chargedControlD0_Total_2DFit_onData_free_sigmaCB
+1_InvMsigma.png, id=796, 1202.4925pt x 573.14125pt>
+File: A2-Appendix/figs/InvMsideband_chargedControlD0_Total_2DFit_onData_free_si
+gmaCB1_InvMsigma.png Graphic file (type png)
+
+<use A2-Appendix/figs/InvMsideband_chargedControlD0_Total_2DFit_onData_free_sig
+maCB1_InvMsigma.png>
+Package pdftex.def Info: A2-Appendix/figs/InvMsideband_chargedControlD0_Total_2
+DFit_onData_free_sigmaCB1_InvMsigma.png used on input line 91.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [52 <./A2-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_free_sigmas.png> <./
+A2-Appendix/figs/InvM_Sideband_Total_2DFit_stream0_free_sigmas.png>] [53 <./A2-
+Appendix/figs/Signal_window_chargedControlD0_Total_2DFit_onData_free_sigmaCB1_I
+nvMsigma.png> <./A2-Appendix/figs/Mbc_sideband_chargedControlD0_Total_2DFit_onD
+ata_free_sigmaCB1_InvMsigma.png> <./A2-Appendix/figs/InvMsideband_chargedContro
+lD0_Total_2DFit_onData_free_sigmaCB1_InvMsigma.png>]
+(./A3-Appendix/chargedAnticorrBtoLambdaPlots.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rightarrow' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Lambda' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+<A3-Appendix/figs/2DanticorrLambdaC_NrecSig_mcstudy.png, id=809, 1802.735pt x 5
+74.145pt>
+File: A3-Appendix/figs/2DanticorrLambdaC_NrecSig_mcstudy.png Graphic file (type
+ png)
+ <use A3-Appendix/figs/2DanticorrLambdaC_NrecSig_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/2DanticorrLambdaC_NrecSig_mcstudy.png
+ used on input line 11.
+(pdftex.def)             Requested size: 392.64812pt x 125.05074pt.
+
+<A3-Appendix/figs/2DanticorrLambdaC_NmisSig_mcstudy.png, id=810, 1802.735pt x 5
+74.145pt>
+File: A3-Appendix/figs/2DanticorrLambdaC_NmisSig_mcstudy.png Graphic file (type
+ png)
+ <use A3-Appendix/figs/2DanticorrLambdaC_NmisSig_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/2DanticorrLambdaC_NmisSig_mcstudy.png
+ used on input line 16.
+(pdftex.def)             Requested size: 392.64812pt x 125.05074pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--18
+[]$[]$
+ []
+
+
+<A3-Appendix/figs/2DanticorrLambdaC_N_Generic_mcstudy.png, id=811, 1802.735pt x
+ 574.145pt>
+File: A3-Appendix/figs/2DanticorrLambdaC_N_Generic_mcstudy.png Graphic file (ty
+pe png)
+ <use A3-Appendix/figs/2DanticorrLambdaC_N_Generic_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/2DanticorrLambdaC_N_Generic_mcstudy.p
+ng used on input line 20.
+(pdftex.def)             Requested size: 392.64812pt x 125.05074pt.
+
+<A3-Appendix/figs/2DanticorrLambdaC_sigmaCB1_mcstudy.png, id=812, 1802.735pt x 
+574.145pt>
+File: A3-Appendix/figs/2DanticorrLambdaC_sigmaCB1_mcstudy.png Graphic file (typ
+e png)
+ <use A3-Appendix/figs/2DanticorrLambdaC_sigmaCB1_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/2DanticorrLambdaC_sigmaCB1_mcstudy.pn
+g used on input line 23.
+(pdftex.def)             Requested size: 392.64812pt x 125.05074pt.
+
+<A3-Appendix/figs/2DanticorrLambdaC_InvMsigma_mcstudy.png, id=813, 1802.735pt x
+ 574.145pt>
+File: A3-Appendix/figs/2DanticorrLambdaC_InvMsigma_mcstudy.png Graphic file (ty
+pe png)
+ <use A3-Appendix/figs/2DanticorrLambdaC_InvMsigma_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/2DanticorrLambdaC_InvMsigma_mcstudy.p
+ng used on input line 26.
+(pdftex.def)             Requested size: 392.64812pt x 125.05074pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--30
+[]$[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--30
+[]$
+ []
+
+[54
+
+]
+Overfull \vbox (63.1177pt too high) has occurred while \output is active []
+
+
+[55 <./A3-Appendix/figs/2DanticorrLambdaC_NrecSig_mcstudy.png> <./A3-Appendix/f
+igs/2DanticorrLambdaC_NmisSig_mcstudy.png> <./A3-Appendix/figs/2DanticorrLambda
+C_N_Generic_mcstudy.png> <./A3-Appendix/figs/2DanticorrLambdaC_sigmaCB1_mcstudy
+.png> <./A3-Appendix/figs/2DanticorrLambdaC_InvMsigma_mcstudy.png>]
+<A3-Appendix/figs/Signal_window_Total_2DFit_stream0_chargedAnticorrLambdaC_Cros
+sfeed_fraction.png, id=825, 1202.4925pt x 573.14125pt>
+File: A3-Appendix/figs/Signal_window_Total_2DFit_stream0_chargedAnticorrLambdaC
+_Crossfeed_fraction.png Graphic file (type png)
+
+<use A3-Appendix/figs/Signal_window_Total_2DFit_stream0_chargedAnticorrLambdaC_
+Crossfeed_fraction.png>
+Package pdftex.def Info: A3-Appendix/figs/Signal_window_Total_2DFit_stream0_cha
+rgedAnticorrLambdaC_Crossfeed_fraction.png used on input line 37.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<A3-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_chargedAnticorrLambdaC_Cross
+feed_fraction.png, id=826, 1202.4925pt x 573.14125pt>
+File: A3-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_chargedAnticorrLambdaC_
+Crossfeed_fraction.png Graphic file (type png)
+
+<use A3-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_chargedAnticorrLambdaC_C
+rossfeed_fraction.png>
+Package pdftex.def Info: A3-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0_char
+gedAnticorrLambdaC_Crossfeed_fraction.png used on input line 44.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+
+<A3-Appendix/figs/InvM_Sideband2_Total_2DFit_stream0_chargedAnticorrLambdaC_Cro
+ssfeed_fraction.png, id=827, 1202.4925pt x 573.14125pt>
+File: A3-Appendix/figs/InvM_Sideband2_Total_2DFit_stream0_chargedAnticorrLambda
+C_Crossfeed_fraction.png Graphic file (type png)
+
+<use A3-Appendix/figs/InvM_Sideband2_Total_2DFit_stream0_chargedAnticorrLambdaC
+_Crossfeed_fraction.png>
+Package pdftex.def Info: A3-Appendix/figs/InvM_Sideband2_Total_2DFit_stream0_ch
+argedAnticorrLambdaC_Crossfeed_fraction.png used on input line 51.
+(pdftex.def)             Requested size: 341.43306pt x 162.73477pt.
+ [56 <./A3-Appendix/figs/Signal_window_Total_2DFit_stream0_chargedAnticorrLambd
+aC_Crossfeed_fraction.png> <./A3-Appendix/figs/Mbc_Sideband_Total_2DFit_stream0
+_chargedAnticorrLambdaC_Crossfeed_fraction.png>]
+<A3-Appendix/figs/NrecSigchargedBtag_mcstudy.png, id=835, 1202.4925pt x 372.391
+25pt>
+File: A3-Appendix/figs/NrecSigchargedBtag_mcstudy.png Graphic file (type png)
+ <use A3-Appendix/figs/NrecSigchargedBtag_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/NrecSigchargedBtag_mcstudy.png used o
+n input line 60.
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+<A3-Appendix/figs/NmisSigchargedBtag_mcstudy.png, id=836, 1202.4925pt x 372.391
+25pt>
+File: A3-Appendix/figs/NmisSigchargedBtag_mcstudy.png Graphic file (type png)
+ <use A3-Appendix/figs/NmisSigchargedBtag_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/NmisSigchargedBtag_mcstudy.png used o
+n input line 65.
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--67
+[]$[]$
+ []
+
+
+<A3-Appendix/figs/sigmaCBchargedBtag_mcstudy.png, id=837, 1202.4925pt x 372.391
+25pt>
+File: A3-Appendix/figs/sigmaCBchargedBtag_mcstudy.png Graphic file (type png)
+ <use A3-Appendix/figs/sigmaCBchargedBtag_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/sigmaCBchargedBtag_mcstudy.png used o
+n input line 69.
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+<A3-Appendix/figs/cArg_chargedBtag_mcstudy.png, id=838, 1202.4925pt x 372.39125
+pt>
+File: A3-Appendix/figs/cArg_chargedBtag_mcstudy.png Graphic file (type png)
+ <use A3-Appendix/figs/cArg_chargedBtag_mcstudy.png>
+Package pdftex.def Info: A3-Appendix/figs/cArg_chargedBtag_mcstudy.png used on 
+input line 72.
+(pdftex.def)             Requested size: 398.33858pt x 123.35542pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--76
+[]$[]$
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [57 <./A3-Appendix/figs/InvM_Sideband2_Total_2DFit_stream0_chargedAnticorrLa
+mbdaC_Crossfeed_fraction.png>] [58 <./A3-Appendix/figs/NrecSigchargedBtag_mcstu
+dy.png> <./A3-Appendix/figs/NmisSigchargedBtag_mcstudy.png> <./A3-Appendix/figs
+/sigmaCBchargedBtag_mcstudy.png> <./A3-Appendix/figs/cArg_chargedBtag_mcstudy.p
+ng>] (./main.bbl) [59
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+ (./main.aux (./changelog.aux)
+(./02-Introduction/introduction.aux) (./03-Selection/selection.aux)
+(./04-chargedCorrBtoLambda/chargedCorrBtoLambda.aux)
+(./05-chargedControlSample/chargedControlSample.aux)
+(./06-chargedAnticorrBtoLambda/chargedAnticorrBtoLambda.aux)
+(./A-Appendix/appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 95A8FD049BD3298FBF391C573F0CBC45;3277.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 48579 strings out of 493029
+ 1158967 string characters out of 6136234
+ 1309976 words of memory out of 5000000
+ 50744 multiletter control sequences out of 15000+600000
+ 142980 words of font info for 215 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 59i,15n,98p,10364b,1103s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (64 pages, 2856476 bytes).
+PDF statistics:
+ 1003 PDF objects out of 1200 (max. 8388607)
+ 779 compressed objects within 8 object streams
+ 197 named destinations out of 1000 (max. 500000)
+ 46973 words of extra memory for PDF output out of 51595 (max. 10000000)
+

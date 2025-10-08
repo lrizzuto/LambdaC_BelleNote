@@ -1,0 +1,73 @@
+Major  
+
+   Cross-feed B0<->B+: a joint fit of the charged and neutral samples to with common BFs for B0->Lambda_c X and B+ -> Lambda_c X would seem the best way of controlling this systematic, i.e., making it largely statistical. Also you will have a straightforward way of estimating both statistical and systematic correlation between the two measurements.                                                                                                                                                    Indeed, this would be the best approach to reduce the systematics caused by the crossfeed background. We didn't exclude this possibility a priori and even though it can be a bit technically a bit more challenging, I will try it.                                                                                                                                  
+    Figure 10: Lambda_c momentum spectrum – I am guessing your efficiency is not uniform as a function of Lambda_c momentum. Therefore, as you integrating over the full momentum range when computing the branching fractions you are assuming the momentum spectrum is well modelled. To be robust against this you should perhaps measure partial branching fractions in bins of p_Lambda_c to be more robust against the model used to generate the spectrum.                                                                                                                                                                                                                                 You're  right. I would rather try to assess the possible systematic uncertainty deriving from it. A possible way to estimate it could be  by subtracting the continuum part of spectrum (using the off-resonance data) and  comparing the remaining spectrum  in data/MC.                                                                                                                                
+    P11 the ratio of FEI efficiencies for generic and events containing signal is just taken from MC as far as I could tell. Is this reliable I noticed on line 775 it is radically different for the control channel.                                                                                                                                                              What differs radically here is the FEI efficiency for events containing signal, which can vary pretty much depending on  the signal-decay (in the specific cases 0.535% for the Lam_c and 0.825% for the D⁰). The number of tracks for sure plays a decisive role. The FEI performance on generic decays is instead very similar: 0.589% for the Lam_c  and   0.549% for the D⁰.                                                                                                                                                                                                    
+    What is the planned signal-box opening strategy?
+
+          I think once the above mentioned points are clear andhaving checked the sideband regions, one could proceed with the signal-box opening.
+
+
+Minor
+
+Line 104: what is assumed for S in the optimizations?
+
+S is the reconstructed signal events. I will make it clear in the next BelleNote version.
+
+
+Figure 10: have you confirmed that the charged and mixed background above 1.8 GeV is combinatorial?
+
+I didn't quite understand this question, the charged and mixed background in the figure comprise all events that are not charged correlated decays (in this specific case), so one can consider them as combinatorial
+
+
+Line 180: Is there an explanation for the difference in Mbc distribution compared to signal?
+
+Yes, there's more mis-reconstructed events in the case of generic background, because the signal side doesn't contain the signal decay and there's higher chance that the tagged B candidates are formed with one or more tracks that actually belong to the signal-side. 
+
+
+Fig. 26 is out of order, i.e., comes before 25.
+
+Thanks, I will correct this
+
+ 
+
+Table 2: I would find it easier if these were relative rather than absolute so that comparison to other analyses is straightforward. I realise the relative numbers are largely given in the text but it would be good to have a summary too.
+
+I will add the relative uncerttainties to the table
+
+
+Line 451: Can’t this be done with m(pKpi) sidebands?
+
+Yes, so in case I could add the right-side sideband to the sideband fit shown in Fig. 50 to be less sensitive to statistics.
+
+Fig. 5 twice and no reference in text DONE!
+
+
+
+Line 245: if you are mentioning lambda_c mass then put also the plots here, or leave discussion about it for afterwards...
+
+also from your statment it sounds like that there is no lambdac peak in the off-resonance, but it is just that the statistics is to low to see it...
+
+DONE!
+
+
+Line 293: remove all the discussion about the fit with single gaussian and just say that the same peak shape is adopted as for the signal...
+DONE!
+
+Line 313: this is complete confusion. 
+
+just skip the discussion about fixing the ratio and just describe fixing the ratio of probabilities. Same argumentation (that event categories are similar and that it one can expect the ratio of probabilities to be reasonably well described in the MC) applies for this method. 
+
+Then if the fit of the btag only was done differently you can maybe mention it there (sec. 4.4) and argument there why it is not very relevant?
+
+Line 343: I would not talk this "bias" here. Just refer to fig 37 and say that the average is consistent with expected (the significance of bias is less than 1 sigma). 
+Important point for chi2=2 is that only statistical error from the fit is taken into account here. While if one would linclude systamatics from the statistics of the continuum (which also applies to MC, since also here you take its value from an independent stream) the chi2 would already be much reduced...
+
+Line 344: this is just a linearity test, i.e. how result is stable for different amount of signal and not S/B ratio...
+DONE!
+Line 353: what do you mean according to the MC? the data sets are generated according to the prepared fit model
+
+Figure 43 You never comment that in this case you use just histogram PDF? can you remind me what is actually the reason to use here histogram and fit in the 2d case?
+
+Line 485: why is this done differently in the case of 1d and 2d fits? 
+should you mention already here that also control channel gives us confidence in the approach?

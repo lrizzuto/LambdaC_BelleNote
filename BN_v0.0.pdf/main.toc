@@ -1,0 +1,43 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Analysis Setup}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Datasets}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Event selection and reconstruction}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}$B_{tag}$ reconstruction}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}$\Lambda _c$ reconstruction}{2}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Wrongly reconstructed $B_{tag}$ candidates}{3}{subsection.2.3}
+\contentsline {section}{\numberline {3}Signal selection optimization}{4}{section.3}
+\contentsline {section}{\numberline {4}$B^- \rightarrow D^0$ control decay}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Dataset used}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Event selection and reconstruction}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Signal selection optimization}{6}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Probability Density Functions (PDFs) for two dimensional fit}{7}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}2D Fit on Monte Carlo simulated data}{11}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}2D Fit on data}{12}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Probability Density Functions (PDFs) for the $B_{tag}$}{15}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}$B_{tag}$ Fit on Monte Carlo simulated data}{16}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}$B_{tag}$ Fit on data}{18}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}PID efficiency correction}{19}{subsection.4.10}
+\contentsline {subsection}{\numberline {4.11}$D^0$ and FEI efficiency}{19}{subsection.4.11}
+\contentsline {subsection}{\numberline {4.12}Studies of Systematic Effects}{20}{subsection.4.12}
+\contentsline {subsection}{\numberline {4.13}Measured $B^+ \rightarrow \bar {D}^0 X$ inclusive Branching Fraction}{20}{subsection.4.13}
+\contentsline {section}{\numberline {5}$B^- \rightarrow \bar {\Lambda _c}^-$ decays}{22}{section.5}
+\contentsline {subsection}{\numberline {5.1}Probability Density Functions (PDFs) for the two dimensional fit}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Two dimensional fit}{28}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Probability Density Functions (PDFs) for the $B_{tag}$}{33}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4} $B_{tag}$ fit}{35}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}$\Lambda _c$ and FEI efficiency}{36}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Studies of Systematic Effects}{37}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Continuum background modeling}{37}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Crossfeed background modeling}{39}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Crossfeed ratio}{39}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Parametrization of crossfeed normalization in the 2D fit}{40}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Crossfeed peaking fraction in the 2D fit}{40}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}Efficiencies}{40}{subsection.5.12}
+\contentsline {subsection}{\numberline {5.13}Fit biases}{40}{subsection.5.13}
+\contentsline {subsection}{\numberline {5.14}Tracking efficiency}{40}{subsection.5.14}
+\contentsline {subsection}{\numberline {5.15}Measured $B^+ \rightarrow {\Lambda _c}^+$ inclusive Branching Fraction}{41}{subsection.5.15}
+\contentsline {section}{Appendix}{42}{table.caption.58}
+\contentsline {subsection}{\numberline {.1}$B^- \rightarrow \Lambda _c^+$ decays: additional plots}{44}{subsection.Alph0.1}
+\contentsline {subsection}{\numberline {.2}$B^- \rightarrow D^0$ decays: additional plots}{50}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {.3}$B^- \rightarrow \bar {\Lambda _c}^-$ decays: additional plots}{55}{subsection.Alph0.3}
+\contentsline {section}{References}{59}{figure.caption.79}

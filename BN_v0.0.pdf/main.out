@@ -1,0 +1,43 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Analysis Setup}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Datasets}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Event selection and reconstruction}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Btag reconstruction}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{c reconstruction}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Wrongly reconstructed Btag candidates}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Signal selection optimization}{}% 8
+\BOOKMARK [1][-]{section.4}{B- D0 control decay}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Dataset used}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.2}{Event selection and reconstruction}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.3}{Signal selection optimization}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.4}{Probability Density Functions \(PDFs\) for two dimensional fit}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.5}{2D Fit on Monte Carlo simulated data}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.6}{2D Fit on data}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.7}{Probability Density Functions \(PDFs\) for the Btag}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.8}{Btag Fit on Monte Carlo simulated data}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.9}{Btag Fit on data}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.10}{PID efficiency correction}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.11}{D0 and FEI efficiency}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.12}{Studies of Systematic Effects}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.13}{Measured B+ barD0 X inclusive Branching Fraction}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{B- barc- decays}{}% 23
+\BOOKMARK [2][-]{subsection.5.1}{Probability Density Functions \(PDFs\) for the two dimensional fit}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.2}{Two dimensional fit}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.3}{Probability Density Functions \(PDFs\) for the Btag}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.4}{ Btag fit}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.5}{c and FEI efficiency}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.6}{Studies of Systematic Effects}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.7}{Continuum background modeling}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.8}{Crossfeed background modeling}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.9}{Crossfeed ratio}{section.5}% 32
+\BOOKMARK [2][-]{subsection.5.10}{Parametrization of crossfeed normalization in the 2D fit}{section.5}% 33
+\BOOKMARK [2][-]{subsection.5.11}{Crossfeed peaking fraction in the 2D fit}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.12}{Efficiencies}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.13}{Fit biases}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.14}{Tracking efficiency}{section.5}% 37
+\BOOKMARK [2][-]{subsection.5.15}{Measured B+ c+ inclusive Branching Fraction}{section.5}% 38
+\BOOKMARK [1][-]{table.caption.58}{Appendix}{}% 39
+\BOOKMARK [2][-]{subsection.Alph0.1}{B- c+ decays: additional plots}{table.caption.58}% 40
+\BOOKMARK [2][-]{subsection.Alph0.2}{B- D0 decays: additional plots}{table.caption.58}% 41
+\BOOKMARK [2][-]{subsection.Alph0.3}{B- barc- decays: additional plots}{table.caption.58}% 42
+\BOOKMARK [1][-]{figure.caption.79}{References}{}% 43

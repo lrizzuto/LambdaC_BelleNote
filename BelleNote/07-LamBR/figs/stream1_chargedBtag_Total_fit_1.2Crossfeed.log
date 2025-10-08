@@ -1,0 +1,181 @@
+[INFO] Steering file: Btag_Total_fit.py
+
+RooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+TClass::Init:0: RuntimeWarning: no dictionary for class ROOT::TIOFeatures is available
+proceeding with the fit on correlated decays ...with number of entries: 
+                            
+DataStore df (df)
+  Contains 31297035 entries
+  Observables: 
+    1)  Mbc = 5.28561  L(5.25 - 5.29)  "M_{bc} (GeV/c^{2})"
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(hist1): fit range of variable Mbc expanded to nearest bin boundaries: [5.25,5.29] --> [5.25,5.29]
+[#1] INFO:Eval -- RooRealVar::setRange(Mbc) new range named 'newRange' created with bounds [5.25,5.287]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll__df) constructing test statistic for sub-range named newRange
+[#1] INFO:Eval -- RooRealVar::setRange(Mbc) new range named 'NormalizationRangeFornewRange' created with bounds [5.25,5.29]
+[#1] INFO:Eval -- RooRealVar::setRange(Mbc) new range named 'fit_nll__df' created with bounds [5.25,5.287]
+[#1] INFO:Fitting -- RooAbsOptTestStatistic::ctor(nll__df) fixing interpretation of coefficients of any RooAddPdf to full domain of observables 
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Continuum_pdf_Int[Mbc]) using numeric integrator RooIntegrator1D to calculate Int(Mbc)
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: activating const optimization
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(Continuum_pdf_Int[Mbc]) using numeric integrator RooIntegrator1D to calculate Int(Mbc)
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (Crossfeed_pdf,Continuum_pdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (CB,Novosibirsk)
+ **********
+ **    1 **SET PRINT           1
+ **********
+ **********
+ **    2 **SET NOGRAD
+ **********
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 NmisSig      5.95170e+06  6.00000e+05    4.00000e+06  1.00000e+07
+     2 NrecSig      4.22440e+06  3.87800e+05    1.00000e+06  5.00000e+06
+     3 k            1.77569e+00  2.00000e-01    5.00000e-01  2.50000e+00
+     4 sigmaCB      2.83330e-03  9.50000e-04    5.00000e-04  1.00000e-02
+ **********
+ **    3 **SET ERR         0.5
+ **********
+ **********
+ **    4 **SET PRINT           1
+ **********
+ **********
+ **    5 **SET STR           2
+ **********
+ NOW USING STRATEGY  2: MAKE SURE MINIMUM TRUE, ERRORS CORRECT  
+ **********
+ **    6 **MIGRAD        2000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  2.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-6.03374e+08 FROM HESSE     STATUS=OK             39 CALLS          40 TOTAL
+                     EDM=9939.82    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NmisSig      5.95170e+06   4.22255e+03   5.00000e-01  -1.05799e+05
+   2  NrecSig      4.22440e+06   3.96977e+03   5.00000e-01  -3.45036e+04
+   3  k            1.77569e+00   5.90152e-03   5.00000e-01  -9.89376e+03
+   4  sigmaCB      2.83330e-03   2.99341e-06   3.77603e-01  -1.23469e+04
+                               ERR DEF= 0.5
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ MACHINE ACCURACY LIMITS FURTHER IMPROVEMENT.
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-6.03382e+08 FROM HESSE     STATUS=OK             35 CALLS         153 TOTAL
+                     EDM=0.124989    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NmisSig      6.34375e+06   5.17158e+03   2.00115e-02   2.57349e+01
+   2  NrecSig      4.27862e+06   5.96938e+03   4.18674e-02  -4.55391e+01
+   3  k            1.85328e+00   6.46428e-03   1.03748e-01  -7.31343e+01
+   4  sigmaCB      2.85230e-03   4.01274e-06   1.21475e-02   2.78450e+02
+                               ERR DEF= 0.5
+ MIGRAD FAILS TO FIND IMPROVEMENT
+ MACHINE ACCURACY LIMITS FURTHER IMPROVEMENT.
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-6.03382e+08 FROM MIGRAD    STATUS=CONVERGED     228 CALLS         229 TOTAL
+                     EDM=0.000362575    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  NmisSig      6.34262e+06   5.18925e+03   2.00102e-02   9.76758e+00
+   2  NrecSig      4.27938e+06   6.00351e+03   3.34939e-02   2.27340e+00
+   3  k            1.85628e+00   6.41919e-03   1.03465e-01  -7.98955e-01
+   4  sigmaCB      2.85250e-03   4.02523e-06   1.21477e-02   1.83982e+01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  2.693e+07 -2.173e+07 -1.224e+01 -1.157e-02 
+ -2.173e+07  3.604e+07  6.257e+00  1.531e-02 
+ -1.224e+01  6.257e+00  4.121e-05  8.961e-09 
+ -1.157e-02  1.531e-02  8.961e-09  1.620e-11 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4
+        1  0.74643   1.000 -0.697 -0.367 -0.554
+        2  0.77450  -0.697  1.000  0.162  0.634
+        3  0.46273  -0.367  0.162  1.000  0.347
+        4  0.68391  -0.554  0.634  0.347  1.000
+ **********
+ **    7 **SET ERR         0.5
+ **********
+ **********
+ **    8 **SET PRINT           1
+ **********
+ **********
+ **    9 **HESSE        2000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-6.03382e+08 FROM HESSE     STATUS=OK             23 CALLS         252 TOTAL
+                     EDM=0.000376426    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  NmisSig      6.34262e+06   5.39014e+03   1.60081e-04  -2.20920e-01
+   2  NrecSig      4.27938e+06   6.23202e+03   5.35903e-05   6.94096e-01
+   3  k            1.85628e+00   6.49561e-03   1.65545e-04   3.64282e-01
+   4  sigmaCB      2.85250e-03   4.11918e-06   9.71814e-05  -5.29077e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  4    ERR DEF=0.5
+  2.905e+07 -2.398e+07 -1.347e+01 -1.289e-02 
+ -2.398e+07  3.884e+07  6.418e+00  1.692e-02 
+ -1.347e+01  6.418e+00  4.219e-05  8.827e-09 
+ -1.289e-02  1.692e-02  8.827e-09  1.697e-11 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2      3      4
+        1  0.76786   1.000 -0.714 -0.385 -0.581
+        2  0.79291  -0.714  1.000  0.159  0.659
+        3  0.47489  -0.385  0.159  1.000  0.330
+        4  0.70124  -0.581  0.659  0.330  1.000
+[#1] INFO:Minization -- RooMinimizer::optimizeConst: deactivating const optimization
+[#1] INFO:Eval -- RooRealVar::setRange(Mbc) new range named 'FullRange' created with bounds [5.25,5.29]
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() only plotting range 'FullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f. curve is normalized using explicit choice of ranges 'fit_nll__df'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() directly selected PDF components: (CB)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() indirectly selected PDF components: ()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(_Int[Mbc|fit_nll__df]_Norm[Mbc]) using numeric integrator RooIntegrator1D to calculate Int(Mbc)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() only plotting range 'FullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f. curve is normalized using explicit choice of ranges 'fit_nll__df'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() directly selected PDF components: (Novosibirsk)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() indirectly selected PDF components: ()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(_Int[Mbc|fit_nll__df]_Norm[Mbc]) using numeric integrator RooIntegrator1D to calculate Int(Mbc)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() only plotting range 'FullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f. curve is normalized using explicit choice of ranges 'fit_nll__df'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() directly selected PDF components: (Continuum_pdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() indirectly selected PDF components: ()
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(_Int[Mbc|fit_nll__df]_Norm[Mbc]) using numeric integrator RooIntegrator1D to calculate Int(Mbc)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f was fitted in range and no explicit norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() only plotting range 'FullRange'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f. curve is normalized using explicit choice of ranges 'fit_nll__df'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() directly selected PDF components: (Crossfeed_pdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() indirectly selected PDF components: (Crossfeed_asymGauss,Crossfeed_Novosibirsk)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(_Int[Mbc|fit_nll__df]_Norm[Mbc]) using numeric integrator RooIntegrator1D to calculate Int(Mbc)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f was fitted in range and no explicit plot,norm range was specified, using fit range as default
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() only plotting range 'fit_nll__df'
+[#1] INFO:Plotting -- RooAbsPdf::plotOn() p.d.f. curve is normalized using explicit choice of ranges 'fit_nll__df'
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(_Int[Mbc|fit_nll__df]_Norm[Mbc]) using numeric integrator RooIntegrator1D to calculate Int(Mbc)
+Info in <TCanvas::Print>: file stream1_chargedBtag_Total_fit_CrossfeedSys_Plus-freeRatio.png has been created
+Info in <TCanvas::Print>: pdf file stream1_chargedBtag_Total_fit_CrossfeedSys_Plus-freeRatio.pdf has been created
+Mbc fit Chi2/n.d.f. = 2.792834956073417
+
+  RooFitResult: minimized FCN value: -6.03382e+08, estimated distance to minimum: 0.000376426
+                covariance matrix quality: Full, accurate covariance matrix
+                Status : MINIMIZE=0 HESSE=0 
+
+    Floating Parameter    FinalValue +/-  Error   
+  --------------------  --------------------------
+               NmisSig    6.3426e+06 +/-  5.39e+03
+               NrecSig    4.2794e+06 +/-  6.23e+03
+                     k    1.8563e+00 +/-  6.50e-03
+               sigmaCB    2.8525e-03 +/-  4.12e-06
+
+Total  normalization = 31264551 +/- 6111
+Total Signal normalization = 10621998 +/- 4465
+  (includes  correlations) 
+Total signal events in MC = 10158571
+Finished Fit after 7680.74325799942 seconds.
+

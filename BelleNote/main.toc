@@ -1,0 +1,55 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Analysis Setup}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Datasets}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Event selection and reconstruction}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}$B_{tag}$ reconstruction}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}$\Lambda _c$ reconstruction}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Wrongly reconstructed $B_{tag}$ candidates}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Signal selection optimization}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}$B^- \rightarrow \Lambda _c^+$ decays}{7}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}$B^+ \rightarrow \Lambda _c^+$ decays}{10}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}$\bar {B^0} \rightarrow \Lambda _c^+$ decays}{14}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}$B^0 \rightarrow \Lambda _c^+$ decays}{18}{subsection.2.4.4}
+\contentsline {chapter}{\numberline {3}2D simultaneous fit}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Probability Density Functions (PDFs) for the two dimensional fit}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Total Signal fits}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Mbc peaking and flat background}{23}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Crossfeed background}{25}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Continuum background}{27}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Two dimensional fit on Monte Carlo}{35}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Fit results for $B^- \rightarrow \Lambda _c^+$ decays}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Fit results for $B^- \rightarrow \bar {\Lambda }_c^-$ decays}{39}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Fit results for $\bar {B^0} \rightarrow \Lambda _c^+$ decays}{41}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Fit results for $\bar {B^0} \rightarrow \bar {\Lambda }_c^-$ decays}{43}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Fit residuals}{44}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}toy Monte Carlo study}{46}{subsection.3.2.6}
+\contentsline {chapter}{\numberline {4}$B_{tag}$ fit}{48}{chapter.4}
+\contentsline {section}{\numberline {4.1}Probability Density Functions (PDFs) for the $B_{tag}$}{48}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Total Signal fits}{48}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Crossfeed PDF}{50}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Continuum PDF}{53}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2} $B_{tag}$ fit}{54}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Fit results for $B^- \rightarrow \Lambda _c^+$ decays}{54}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Fit results for $B^- \rightarrow \bar {\Lambda }_c^-$ decays}{55}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Fit results for $\bar {B^0} \rightarrow \Lambda _c^+$ decays}{56}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Fit results for $B^0 \rightarrow \bar {\Lambda }_c^+$ decays}{57}{subsection.4.2.4}
+\contentsline {chapter}{\numberline {5}Efficiencies}{59}{chapter.5}
+\contentsline {section}{\numberline {5.1}FEI Efficiencies}{59}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Generic FEI efficiency}{59}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Signalside-dependent FEI efficiency}{60}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}$\Lambda _c$ efficiency}{61}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}$B^- \rightarrow \Lambda _c^+$ decays}{61}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}$B^- \rightarrow \bar {\Lambda }_c^-$ decays}{61}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}$\bar {B^0} \rightarrow \Lambda _c^+$ decays}{61}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}$\bar {B^0} \rightarrow \Lambda _c^-$ decays}{61}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Branching ratio}{62}{chapter.6}
+\contentsline {section}{\numberline {6.1}Systematics}{63}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Continuum background}{63}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Crossfeed ratio}{66}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Crossfeed $B_{tag}$ PDF}{66}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}2DFit crossfeed normalization}{66}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}2DFit $M_{bc}$ peaking/flat PDFs}{67}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}PID efficiency correction}{67}{subsection.6.1.6}
+\contentsline {subsection}{\numberline {6.1.7}$B^- \rightarrow \Lambda _c^+$ decays}{68}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}$B^+ \rightarrow \Lambda _c^+$ decays}{69}{subsection.6.1.8}
+\contentsline {section}{References}{70}{subsection.6.1.8}

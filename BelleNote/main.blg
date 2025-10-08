@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: 02-Introduction/introduction.aux
+A level-1 auxiliary file: 03-Selection/selection.aux
+A level-1 auxiliary file: 04-SimultaneousFit/2DsimultaneousFit.aux
+A level-1 auxiliary file: 05-BtagFit/BtagFit.aux
+A level-1 auxiliary file: 06-Efficiencies/efficiencies.aux
+A level-1 auxiliary file: 07-LamBR/LamBR.aux
+The style file: belle2-note.bst
+Database file #1: 99-References/bibliography.bib
+Repeated entry---line 96 of file 99-References/bibliography.bib
+ : @mastersthesis{schwab_judith_2017_21422
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 104 of file 99-References/bibliography.bib
+ : @phdthesis{gelb_moritz_2018_21546
+ :                                  ,
+I'm skipping whatever remains of this entry
+You can't pop an empty literal stack for entry Hsiao_2020
+while executing---line 1158 of file belle2-note.bst
+You've used 7 entries,
+            2333 wiz_defined-function locations,
+            587 strings with 5057 characters,
+and the built_in function-call counts, 1535 in all, are:
+= -- 156
+> -- 56
+< -- 0
++ -- 22
+- -- 15
+* -- 131
+:= -- 219
+add.period$ -- 9
+call.type$ -- 7
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 7
+duplicate$ -- 80
+empty$ -- 155
+format.name$ -- 15
+if$ -- 387
+int.to.chr$ -- 0
+int.to.str$ -- 7
+missing$ -- 18
+newline$ -- 25
+num.names$ -- 7
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 44
+stack$ -- 0
+substring$ -- 44
+swap$ -- 23
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 11
+width$ -- 8
+write$ -- 59
+(There were 3 error messages)

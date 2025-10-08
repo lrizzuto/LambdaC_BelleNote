@@ -1,0 +1,36 @@
+%!TEX root = ../main.tex
+
+\section{Introduction}
+\label{sec:introduction}
+
+ 
+ Inclusive $B$ meson baryonic decays with a $\Lambda_c$ baryon in the final state are the most abundant, due to a relatively large $V_{cb}$ element of the CKM matrix. The $BaBar$ experiment measured their branching fractions to be around the percent level (see ref. \cite{PhysRevD.75.072002}). 
+However, the branching fractions were determined with big uncertainties: nearly 50$\%$ on the measured values or, in the case of the  $B^0 \rightarrow \Lambda_c^+$ decay, only an upper limit could be established. 
+A more precise measurement of inclusive $B \rightarrow \Lambda_c$ branching fractions may shed light on the appropriateness of  $B$ meson weak decays treatment, particularly of strong
+interaction effects modelling. Predictions for inclusive branching fractions are given, for example,
+in ref. \cite{grach1997exclusive} or in \cite{Hsiao_2020}  for $B \rightarrow \Lambda_c p$ decays.
+
+Exploiting the Full Evenet Interpretation (FEI) algorithm, developed for the Belle II experiment, it may be possible to perform a more precise measurement of inclusive $B \rightarrow \Lambda_c$ branching fractions, using the full Belle data set. A more precise measurement may also trigger further research on currently scarce theory predictions for B meson decays to charm baryons.
+
+\subsection{Analysis Setup}
+
+The reconstruction is performed with \texttt{BASF2} release \texttt{05-02-03} together with the 
+\texttt{b2bii} package in order to convert the \textit{Belle} \texttt{MDST} files (\texttt{BASF} 
+data format) to \textit{Belle II} \texttt{MDST} files (\texttt{BASF2} data format). 
+The FEI version used is \texttt{FEI\_}\texttt{B2BII\_}\texttt{light-2012-minos}.
+
+\subsection{Datasets}
+
+The Belle detector acquired a dataset of about $L_0 \approx 710 fb^{-1}$ of integrated luminosity in its lifetime at the $\Upsilon(4S)$ energy of 10.58 GeV, which corresponds to about 771 $\times 10^6 B\bar{B}$ meson pairs. Additionally, several streams of Monte-Carlo (MC) samples were produced, where each stream of MC corresponds to the same amount of data that was taken with the detector.
+No specific signal MC was used: instead of producing dedicated signal MC samples, the samples were obtained by filtering the decays of interest from the generic on-resonance MC samples.
+The following samples were used in this analysis:
+\begin{itemize}
+    \item data
+    \item MC 
+    - 10 streams of $B^+B^-$ and $B^0\bar{B^0}$ (denoted as \texttt{charged}
+and \texttt{mixed}) for signal decays and backgrounds.\\
+    - 6 streams of $q\bar{q}$ produced at $\Upsilon(4S)$ resonance energy \\
+    - 6 streams of $q\bar{q}$ produced at 60 MeV below $\Upsilon(4S)$ resonance energy, where each stream corresponds to 1/10 $\times L_0 $.\\
+\end{itemize}
+
+

@@ -1,0 +1,40 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}
+
+\bibitem{PhysRevD.75.072002}
+B.~Aubert et al., {BaBar}, {\em {Study of inclusive $B^-$ and $\bar{B^0}$
+  decays to flavor-tagged $D$, $D_s$ and $\Lambda_c^+$}\/},
+  \href{http://dx.doi.org/10.1103/PhysRevD.75.072002}{Phys. Rev. D {\bf 75}
+  (2007)  072002}, \href{http://arxiv.org/abs/hep-ex/0606026}{{\tt
+  arXiv:hep-ex/0606026}}.
+
+\bibitem{grach1997exclusive}
+I.~Grach, I.~Narodetskii, S.~Simula, and K.~Ter-Martirosyan, {\em Exclusive and
+  inclusive weak decays of the B-meson\/},  Nuclear Physics B {\bf 502} (1997)
+  no.~1-2, 227--248.
+
+\bibitem{Hsiao_2020}
+Y.~Hsiao, S.-Y. Tsai, C.-C. Lih, and E.~Rodrigues,
+  \href{http://dx.doi.org/10.1007/jhep04(2020)035}{{\em Testing the W-exchange
+  mechanism with two-body baryonic B decays\/}, Journal of High Energy Physics
+  {\bf 2020} (apr, 2020)  }. \url{https://doi.org/10.1007/JHEP04(2020)035}.
+
+\bibitem{gelb_moritz_2018_21546}
+M.~Gelb, {\em {Search for the Rare Decay $\mathrm{B}^+ \to \ell^+ \nu_{\ell}
+  \gamma$ with the Full Event Interpretation at the Belle Experiment}}.
+\newblock PhD thesis, Karlsruhe Institute of Technology (KIT), 2018.
+
+\bibitem{schwab_judith_2017_21422}
+J.~Schwab, {\em {Calibration of the Full Event Interpretation for the Belle and
+  the Belle II Experiment}\/},  Master's thesis, Karlsruhe Institute of
+  Technology (KIT), 2017.
+
+\bibitem{PIDeff}
+K.-J. Tien and M.-Z. Wang, {\em {Proton identification efficiency study}\/},
+  \href{http://arxiv.org/abs/BELLE NOTE 1279}{{\tt BELLE NOTE 1279}}.
+
+\bibitem{KIDeff}
+S.~Nishida, {\em {Study of Kaon and Pion Identification Using Inclusive $D^*$
+  Sample}\/},  \href{http://arxiv.org/abs/BELLE NOTE 779}{{\tt BELLE NOTE
+  779}}.
+
+\end{thebibliography}\endgroup

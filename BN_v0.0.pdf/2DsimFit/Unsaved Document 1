@@ -1,0 +1,167 @@
+\Chapter{2D simultaneous fit}
+\label{sec:2DsimFit}
+\subsection{Probability Density Functions (PDFs) for the two dimensional fit}\label{sec:2Dpdf}
+
+The PDFs used to describe the signal distributions are discussed first. The final sample of total signal events presents a peak around the expected $B$ meson mass and a tail at low $M_{bc}$ values. 
+
+
+
+%\begin{figure}[H]
+%\centering
+%{\includegraphics[width=0.9\textwidth]{04-chargedCorrBtoLambda/figs/5streams_TotalSignal_charged_corrLambdaC_2Dfit.png}}
+%\caption{Two dimensional fit of total signal events in $M_{bc}$  and $M(p K \pi)$ }
+%\label{fig:5streams_TotalSignal_charged_corrLambdaC_2Dfit}
+%\end{figure}
+
++++++++++++++++++++++++++++++++++++++++
+show the fits for the 4 sample here
++++++++++++++++++++++++++++++++++++++++
+
+The 2D fit shown in Fig. \ref{fig:5streams_TotalSignal_charged_corrLambdaC_2Dfit} is performed on five streams of signal MC with a sum of the following probability density functions:
+\vspace{0.2 cm}
+ \begin{equation}
+        P^{recSig}_{B,\Lambda_c}(M_{bc}, M(p K \pi)) = \Gamma_{CB}(M_{bc}) \times \rho_G(M(p K \pi))
+    \label{eq:RecSigEq}
+\end{equation} 
+\begin{equation}
+        P^{misSig}_{B,\Lambda_c}(M_{bc}, M(p K \pi)) = \Gamma_{ARG}(M_{bc}) \times \rho_G(M(p K \pi))
+    \end{equation}  \label{eq:MisSigEq}
+
+The first is used to fit the reconstructed signal and $\Gamma_{CB}(M_{bc})$ is a Crystal Ball function. The second is used to model the misreconstructed signal and $\Gamma_{ARG}(M_{bc})$ is an Argus function. In both cases a sum of three Gaussian functions $\rho_G(M(p K \pi))$ describes the mass of the $\Lambda_c$ baryon.  
+
+
+%\newpage
+As already said in Sec. \ref{wronglyBtag}, only the reconstructed signal considered for the signal yield, while the misreconstructed signal is considered as background.
+Other background components that will be discussed in the next pages are:
+
+\begin{itemize}
+    \item \textbf{Mbc peaking and flat background}  background
+%   \item \textbf{crossfeed} (neutral $B$) background 
+    \item \textbf{continuum} background 
+\end{itemize}
+\vspace{0.2 cm}
+
+\newpage
+\noindent \textbf{Generic background}
+
+
+
+%\begin{figure}[H]
+%\centering
+%{\includegraphics[width=0.9\textwidth]{04-chargedCorrBtoLambda/figs/streams12345_charged_corrLambdaC_Generic_2DFit.png}}
+%\caption{Two dimensional fit of generic ($B^+B^-$) events in $M_{bc}$  and $M(p K \pi)$. }
+%\label{fig:5streams_Generic_charged_corrLambdaC_2Dfit}
+%\end{figure}
+
++++++++++++++++++++++++++++++++++++++++
+show the fits for the 4 sample here
++++++++++++++++++++++++++++++++++++++++
+
+
+\noindent The generic background deriving from other $B^{+}B^-$ events presents a 
+similar shape of the distribution in $M_{bc}$ (see Fig. \ref{fig:5streams_Generic_charged_corrLambdaC_2Dfit}): the probability
+density functions used for it are again a  Crystal Ball and an Argus. For both functions the parameters differ from the ones used in Eq. \ref{eq:RecSigEq}-\ref{eq:MisSigEq}.
+Instead, the flat background in $M(p K \pi)$ can be described with a second order Chebychev polynomial function. The two dimensional PDF in this case is given by:
+
+\begin{equation}
+P^{GenBkg}_{B,\Lambda_c}(M_{bc}, M(p K \pi)) = [\Gamma_{CB}(M_{bc}) + \Gamma_{ARG}(M_{bc})] \times \rho_{Cheb2}(M(p K \pi))
+ \end{equation}
+
+
+\newpage
+
+\noindent \textbf{Crossfeed background}
+\newline
+The contamination of misreconstructed $B^0$ events in the $B^+$ signal (and vice-versa) induces a background which peaks near the $B$ meson mass, as one can see in Fig. \ref{fig:chargedBcorr_Crossfeed}, indipendently from the category of events in the $\Lambda_c$ mass (see Figures \ref{fig:chargedBcorr_CrossfeedLambdaCpeak}- \ref{fig:chargedBcorr_CrossfeedNoLambdaCpeak}). 
+Since among the misreconstructed $B^0$ events there are also $B^0 \rightarrow \Lambda_c $ decays (peaking at the $\Lambda_c$ mass, see e.g. \cref{fig:chargedBcorr_CrossfeedLambdaCpeak}), this background contribution is also named "crossfeed background". 
+
+\begin{figure}[H]
+\centering
+{\includegraphics[width=1\textwidth]{04-chargedCorrBtoLambda/figs/chargedBcorr_Crossfeed.png}}
+\caption{$M_{bc}$ and $M(p K \pi)$ distributions of crossfeed background events. }
+\label{fig:chargedBcorr_Crossfeed}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics[width=1\textwidth]{04-chargedCorrBtoLambda/figs/chargedBcorr_CrossfeedLambdaCpeak.png}}
+\caption{$M_{bc}$ and $M(p K \pi)$ of crossfeed events peaking at the $ \Lambda_c$ mass, i.e.: where true $ \Lambda_c$ baryons were correctly reconstructed. }
+\label{fig:chargedBcorr_CrossfeedLambdaCpeak}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+{\includegraphics[width=1\textwidth]{04-chargedCorrBtoLambda/figs/chargedBcorr_CrossfeedNoLambdaCpeak.png}}
+\caption{$M_{bc}$ and $M(p K \pi)$ of crossfeed events without $ \Lambda_c$ peak, i.e.: where $ \Lambda_c$ baryons were not present or not correctly reconstructed. }
+\label{fig:chargedBcorr_CrossfeedNoLambdaCpeak}
+\end{figure}
+
+\noindent \cref{fig:5streams_Crossfeed_charged_corrLambdaC_2Dfit} shows the projections in $M_{bc}$  and $M(p K \pi)$ of the two dimensional fit of this type of background.
+The $M_{bc}$ is modelled with a sum of Novosibirsk (colored in magenta) and Argus function (colored in red). Whereas the $M(p K \pi)$ distribution is described by the sum of a first order Chebychev polynomial and the peak by the same sum of three Gaussian functions used to describe the signal peak. In fact the latter is the result of the reconstruction of crossfeed events $B^0 \rightarrow \Lambda_c$.  Therefore the 2D PDF can be written as:\\
+
+\begin{equation}
+P^{CrossBkg}_{B,\Lambda_c}(M_{bc}, M(p K \pi)) = [\Gamma_{Nov}(M_{bc}) + \Gamma_{ARG}(M_{bc})] \times [\rho_{Cheb1}(M(p K \pi)) + \rho_{G}(M(p K \pi))]
+\end{equation}
+
+\begin{figure}[H]
+\centering
+{\includegraphics[width=0.8\textwidth]{04-chargedCorrBtoLambda/figs/stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}}
+\caption{Two dimensional fit of crossfeed ($B^0\bar{B^0}$) events in $M_{bc}$  and $M(p K \pi)$. }
+\label{fig:5streams_Crossfeed_charged_corrLambdaC_2Dfit}
+\end{figure}
+
+
+\begin{figure}[h!]
+%\centering
+{\includegraphics[width=0.8\textwidth]{04-chargedCorrBtoLambda/figs/Signal_window_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}}
+\caption{Signal region projections in $M_{bc}$ and $M(p K \pi)$. }
+\label{fig:5streams_Signal_window_Crossfeed_charged_corrLambdaC_2Dfit}
+\end{figure}
+
+\begin{figure}[h!]
+%\centering
+{\includegraphics[width=0.8\textwidth]{04-chargedCorrBtoLambda/figs/Mbc_Sideband_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}}
+\caption{$M_{bc}$ sideband region projection. }
+\label{fig:5streams_Mbc_Sideband_Crossfeed_charged_corrLambdaC_2Dfit}
+\end{figure}
+
+\noindent From the projections plotted in \cref{fig:5streams_Crossfeed_charged_corrLambdaC_2Dfit} the distributions appear to be well described by the PDF discussed above.
+Though the agreement in the $\Lambda_c$ invariant mass is not fully respected when different regions of $M_{bc}$ are considered, as one can see from \cref{fig:5streams_Signal_window_Crossfeed_charged_corrLambdaC_2Dfit} and 
+\cref{fig:5streams_Mbc_Sideband_Crossfeed_charged_corrLambdaC_2Dfit}. The fraction of the amount of peaking events is not uniform among different $M_{bc}$ regions. Since this background typology is peaking in both the observables of the fit, the potential correlation between them could have an impact on the signal yield extraction in the total fit. 
+
+To minimize this effect, and to avoid possible biases deriving from this feature, a correction is attempted. The $M_{bc}$ is divided in 5 different regions. 
+As shown in Figures \ref{fig:CrossfeedMbcRegionsInvMpeak1}-\ref{fig:CrossfeedMbcRegionsInvMpeak5}, for each of these regions a fit on the projected $\Lambda_c$ invariant mass 
+is performed to extract 5 values of the fraction of peaking events in those regions (all other parameters are fixed). Those values are then used for a parametrization of this 
+parameter as a function of $M_{bc}$. \\
+\noindent From the plot shown in \cref{fig:InvMpeak_fraction_linearFit} one can see that it is possible to describe the trend with a linear dependence with a good approximation.
+
+\begin{figure}[H]
+\centering
+{\includegraphics[width=0.6\textwidth]{04-chargedCorrBtoLambda/figs/streams12345_chargedCorrLambdaC_Crossfeed_InvM_frac_param.png}}
+\caption{Invariant mass peak fraction as a function of $M_{bc}$. }
+\label{fig:InvMpeak_fraction_linearFit}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\subcaptionbox{\label{fig:CrossfeedMbcRegionsInvMpeak1}}
+{\includegraphics[width=.4\textwidth]{04-chargedCorrBtoLambda/figs/region1_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}} 
+\subcaptionbox{\label{fig:CrossfeedMbcRegionsInvMpeak2}}
+{\includegraphics[width=.4\textwidth]{04-chargedCorrBtoLambda/figs/region2_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}}
+\subcaptionbox{\label{fig:CrossfeedMbcRegionsInvMpeak3}}
+{\includegraphics[width=.4\textwidth]{04-chargedCorrBtoLambda/figs/region3_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}}
+\subcaptionbox{\label{fig:CrossfeedMbcRegionsInvMpeak4}}
+{\includegraphics[width=.4\textwidth]{04-chargedCorrBtoLambda/figs/region4_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}}
+\subcaptionbox{\label{fig:CrossfeedMbcRegionsInvMpeak5}}
+{\includegraphics[width=.4\textwidth]{04-chargedCorrBtoLambda/figs/region5_stream12345_Crossfeed_charged_corrLambdaC_2Dfit.png}}
+\caption{Fits of $M(p K \pi)$ in 5 different regions of $M_{bc}$: $5.25 < M_{bc} < 5.258$ GeV/c$^2$, $5.258 < M_{bc} < 5.266$ GeV/c$^2$, $5.266 < M_{bc} < 5.274$ GeV/c$^2$, $5.274 < M_{bc} < 5.282$ GeV/c$^2$,  $5.282 < M_{bc} < 5.29$ GeV/c$^2$.}
+\end{figure}
+
+The 2D PDF describing the crossfeed background is consequently modified:\\
+\begin{equation}\label{eq:paramCrossfeedPDF}
+P^{CrossBkg}_{B,\Lambda_c}(M_{bc}, M(p K \pi)) = [\Gamma_{Nov}(M_{bc}) + \Gamma_{ARG}(M_{bc})] \times [F(M(p K \pi)|M_{bc})]
+\end{equation}
+where the conditional PDF $F(M(p K \pi)|M_{bc})$ describing the invariant mass is still a sum of $\rho_{Cheb1}(M(p K \pi))$ and $ \rho_{G}(M(p K \pi))$, but their fraction is now parametrized as a function of  $M_{bc}$.\\
+In Figures \ref{fig:correctedSignal_window_Crossfeed_charged_corrLambdaC}- \ref{fig:corrrectedMbc_Sideband_stream12345_Crossfeed_charged_corrLambdaC} one can appreciate the improvement obtained with this correction.  
+

@@ -1,0 +1,253 @@
+\pdfoutput=1
+% Uncomment line above if submitting to arXiv and using pdflatex
+
+% BNxxxx
+
+% ============================================================================
+% Title: 
+
+
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+% Variables that controls behaviour
+\usepackage{ifthen} % for conditional statements
+\usepackage{etoolbox} % for modern conditional statements
+\usepackage{forarray} % allows the use of array's ForEach
+\usepackage{array}
+\newboolean{pdflatex}
+\setboolean{pdflatex}{true} % False for eps figures 
+
+\newboolean{articletitles}
+\setboolean{articletitles}{true} % False removes titles in references
+
+\newboolean{uprightparticles}
+\setboolean{uprightparticles}{false} %True for upright particle symbols
+
+\newboolean{inbibliography}
+\setboolean{inbibliography}{true} %True once you enter the bibliography
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+\usetikzlibrary{chains}
+\usetikzlibrary{circuits.logic.IEC,circuits.ee.IEC}
+\usetikzlibrary{decorations.pathmorphing}   % For Feynman Diagrams
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{fit}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shadows}
+\usetikzlibrary{shapes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{through}
+\usetikzlibrary{trees}
+\usetikzlibrary{mindmap}
+\usetikzlibrary{patterns,fadings}
+\usetikzlibrary{intersections}
+\usetikzlibrary{plotmarks}
+
+%%%%%%%%%%%%%%%%
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.13}
+
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\usepackage[abs]{overpic}
+\usepackage{float}
+\usepackage{textcomp}%permillesymbol
+
+%% %%%%%%%%%%%%%%%%%%
+%%  Page formatting
+%% %%%%%%%%%%%%%%%%%%
+\textheight=230mm
+\textwidth=160mm
+\oddsidemargin=7mm
+\evensidemargin=-10mm
+\topmargin=-10mm
+\headsep=20mm
+\columnsep=5mm
+\addtolength{\belowcaptionskip}{0.5em}
+
+\renewcommand{\textfraction}{0.01}
+\renewcommand{\floatpagefraction}{0.99}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+
+
+\setlength{\hoffset}{-2cm}
+\setlength{\voffset}{-2cm}
+% Page defaults ...
+\topmargin=0.5cm
+\oddsidemargin=2.5cm
+\textwidth=16cm
+\textheight=22cm
+% Allow the page size to vary a bit ...
+\raggedbottom
+% To avoid Latex to be too fussy with line breaking ...
+\sloppy
+
+%% %%%%%%%%%%%%%%%%%%%%%%%
+%% Packages to be used
+%% %%%%%%%%%%%%%%%%%%%%%%% 
+\usepackage{microtype}
+\usepackage{placeins} % allows to set float barriers (all previously included floats will be set before the barrier)
+\usepackage{lineno}  % for line numbering during review
+\usepackage{csquotes} % context sensitive quotation
+\usepackage{xspace} % To avoid problems with missing or double spaces after predefined symbols
+% \usepackage{caption} %these three command get the figure and table captions automatically small
+% \renewcommand{\captionfont}{\small}
+% \renewcommand{\captionlabelfont}{\small}
+\usepackage{scalefnt}
+
+%% Graphics
+\usepackage{xcolor}
+\definecolor{nice_green}{rgb}{0.08,0.72,0.08}
+\definecolor{nice_yellow}{rgb}{1,0.56,0}
+\definecolor{nice_red}{rgb}{0.72,0.08,0.08}
+\definecolor{nice_blue}{rgb}{0.08,0.08,0.72}
+\definecolor{nice_purple}{rgb}{0.72,0.08,0.72}
+\definecolor{nice_turquoise}{rgb}{0.08,0.72,0.72}
+
+\usepackage{color}
+\usepackage{colortbl}
+\graphicspath{{./}} % Make Latex search fig subdir for figures
+
+\usepackage{textcomp} % to use \textperthousand
+%% Math
+\usepackage{siunitx}
+% Unit typesetting
+\sisetup{
+  detect-weight = true, 
+  separate-uncertainty=true,
+  uncertainty-separator = {\,},
+  list-units = single,
+  range-units = single,
+  list-pair-separator = {\,and\,}
+%  exponent-product      = {\cdot}
+}
+\DeclareSIUnit\permille{\text{\textperthousand}}
+\usepackage{amsmath} % Adds a large collection of math symbols
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsbsy}
+\usepackage{upgreek} % Adds in support for greek letters in roman typeset
+\usepackage{fancyvrb} % allows verbatim in math
+\usepackage{xfrac}
+
+%% to-do notes
+\usepackage[colorinlistoftodos, disable]{todonotes}  %% add option 'disable' to remove all notes
+
+% nice tables
+\usepackage{booktabs}
+% long tables
+\usepackage{longtable}
+% multi-rows
+\usepackage{multirow}
+
+\usepackage{blindtext}
+
+% to enable multi-figures option
+\usepackage{subcaption}
+\usepackage{graphicx}
+%\usepackage{subfigure}
+%\expandafter\def\csname ver@subfig.sty\endcsname{}
+\usepackage[labelformat=parens,labelsep=quad,skip=3pt]{caption}
+
+% landscape
+\usepackage{lscape}
+
+%% fix to allow peaceful coexistence of line numbering and
+%% mathematical objects
+%% http://www.latex-community.org/forum/viewtopic.php?f=5&t=163
+%%
+\newcommand*\patchAmsMathEnvironmentForLineno[1]{%
+\expandafter\let\csname old#1\expandafter\endcsname\csname #1\endcsname
+\expandafter\let\csname oldend#1\expandafter\endcsname\csname
+end#1\endcsname
+ \renewenvironment{#1}%
+   {\linenomath\csname old#1\endcsname}%
+   {\csname oldend#1\endcsname\endlinenomath}%
+}
+\newcommand*\patchBothAmsMathEnvironmentsForLineno[1]{%
+  \patchAmsMathEnvironmentForLineno{#1}%
+  \patchAmsMathEnvironmentForLineno{#1*}%
+}
+\AtBeginDocument{%
+\patchBothAmsMathEnvironmentsForLineno{equation}%
+\patchBothAmsMathEnvironmentsForLineno{align}%
+\patchBothAmsMathEnvironmentsForLineno{flalign}%
+\patchBothAmsMathEnvironmentsForLineno{alignat}%
+\patchBothAmsMathEnvironmentsForLineno{gather}%
+\patchBothAmsMathEnvironmentsForLineno{multline}%
+\patchBothAmsMathEnvironmentsForLineno{eqnarray}%
+}
+
+% Get hyperlinks to captions and in references.
+% These do not work with revtex. Use "hypertext" as class option instead.
+\usepackage{hyperref}    % Hyperlinks in references
+\usepackage[all]{hypcap} % Internal hyperlinks to floats.
+
+% Clever referencing
+\usepackage{cleveref}
+\crefname{chapter}{Ch.\@}{Chs.\@}
+\crefname{section}{Sec.\@}{Secs.\@}
+\crefname{subsection}{Sec.\@}{Secs.\@}
+\crefname{appendix}{Appendix\@}{Appendices\@}
+\crefname{figure}{Fig.\@}{Figs.\@}
+\crefname{table}{Table\@}{Tables\@}
+\crefname{equation}{Eq.\@}{Eqs.\@}
+\newcommand{\crefpairconjunction}{ and }
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\input{97-Symbols/personal-definitions.tex} % Add some analysis specific symbols
+%\input{results}
+
+% Make this the last packages you include before the \begin{document}
+\usepackage{cite} % Allows for ranges in citations
+\usepackage{mciteplus}
+
+\begin{document}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\setcounter{footnote}{1}
+
+\input{01-Titlepage/titlepage}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+\setcounter{footnote}{0}
+
+\include{changelog}
+
+\todototoc
+\listoftodos
+\newpage
+
+\tableofcontents
+\cleardoublepage
+
+\pagestyle{plain} % restore page numbers for the main text
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\linenumbers
+
+\include{02-Introduction/introduction}
+\include{03-Selection/selection}
+\include{04-chargedCorrBtoLambda/chargedCorrBtoLambda}
+\include{05-chargedControlSample/chargedControlSample}
+\include{06-chargedAnticorrBtoLambda/chargedAnticorrBtoLambda}
+\include{A-Appendix/appendix}
+
+
+\clearpage
+\addcontentsline{toc}{section}{References}
+\setboolean{inbibliography}{true}
+\bibliographystyle{belle2-note}
+\bibliography{99-References/bibliography}
+
+\end{document}
