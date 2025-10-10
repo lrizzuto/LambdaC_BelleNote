@@ -80,6 +80,92 @@ the following quantities need to be known:
     %\caption{Measured branching fraction values obtained using the results listed in \cref{tab:SixStreams_chargedCorrLam2Dfits} for the six different streams (only statistical uncertainties are displayed) and its average.}
     \end{table}
 
+\section{extraction of neutral decays branching fractions}
+Due to the mixing phenomenon of neutral $B$ mesons the measurement requires an intermediate step in order to correct the production 
+obtained rates of $\Lambda_c$ baryons in the reocoil of the reconstructed neutral $B$ mesons for the $B^0\bar{B^0}$ mixing. \\
+Being $\chi_d$ the mixing parameters, on average, if one looks at the recoil of a correctly reconstructed $B^0$ ($\bar{B^0}$) meson $1 - \chi_d$ of the time the reconstructed $\Lambda_c$ baryon
+will have decayed from a $\bar{B^0}$ ($B^0$) and $\chi_d$ of the time from $B^0$ ($\bar{B^0}$), due to mixing.\\
+
+i.e.:   
+\begin{equation}
+    \begin{cases}
+        \mathcal{B}(B^0_{tag}, \Lambda_c^-) = (1 - \chi_d) \mathcal{B}_c + \chi_d \bar{\mathcal{B}}_c \\
+
+        \mathcal{B}(\bar{B}^0_{tag}, \Lambda_c^-) = (1 - \chi_d) \bar{\mathcal{B}}_c + \chi_d \mathcal{B}_c
+    \end{cases}  
+\end{equation}
+
+are the two equations corresponding to the spurious correlated/ anticorrelated branching ratios, with  $\chi_d$ factor of missing events
+and $\chi_d$ amount of events that belong actually to the other type of decays. Solving those simultaneous equations one obtains the
+mixing-corrected branching ratios $\mathcal{B}_c$ (correlated decays) and $\bar{\mathcal{B}}$ (anticorrelated decays): \\
+
+\begin{equation}
+    \begin{cases}
+        \mathcal{B}_c  = \dfrac{\mathcal{B}(B^0_{tag}, \Lambda_c^-) - \chi_d (\mathcal{B}(B^0_{tag}, \Lambda_c^-) +  \mathcal{B}(\bar{B}^0_{tag}, \Lambda_c^-))}{1 - 2\chi_d}      \\
+
+        \bar{\mathcal{B}}_c = \dfrac{(\bar{B}^0_{tag}, \Lambda_c^-) - \chi_d (\bar{B}^0_{tag}, \Lambda_c^-) +  \mathcal{B}(B^0_{tag}, \Lambda_c^-))}{1 - 2\chi_d}
+    \end{cases}  
+\end{equation}
+\\
+First a check of the decays that didn't experience mixing is performed.
+\subsection{unmixed neutral decays branching ratios}
+
+\begin{table}[H]
+    \centering
+    \resizebox{0.65\textwidth}{!}{%
+    \setlength{\tabcolsep}{8pt}
+    \begin{tabular}{c c c}
+    
+    \toprule
+     \hline
+         &    signal fit  &  BELLE MC VALUE  \\
+     \midrule
+     \hline
+    stream 0	&	(3.48 $\pm$ 0.11)$\%$	 &	(3.439 $\pm$ 0.003)$\%$\\
+    stream 1	&	(3.54 $\pm$ 0.11)$\%$	 &	(3.431 $\pm$ 0.003)$\%$	\\
+    stream 2	&	(3.48 $\pm$ 0.11)$\%$	 &	(3.433 $\pm$ 0.003)$\%$\\
+    stream 3	&	(3.47 $\pm$ 0.11)$\%$	 &	(3.433 $\pm$ 0.003)$\%$\\
+    stream 4	&	(3.34 $\pm$ 0.11)$\%$	 &	(3.434 $\pm$ 0.003)$\%$\\
+    stream 5	&	(3.45 $\pm$ 0.11)$\%$	 &	(3.436 $\pm$ 0.003)$\%$\\
+    \midrule
+    \hline
+    average			&	(3.46 $\pm$	0.05)$\%$	& (3.434 $\pm$ 0.001)$\%$\\
+    \bottomrule
+    \hline
+    \end{tabular}%
+    }
+    \caption{Measured branching fraction values obtained using only unmixed events for the six different streams (only statistical uncertainties are displayed) and its average.}
+    \end{table}
+    
+
+
+    \begin{table}[H]
+        \centering
+        \resizebox{0.65\textwidth}{!}{%
+        \setlength{\tabcolsep}{8pt}
+        \begin{tabular}{c c c}
+        
+        \toprule
+         \hline
+             &    signal fit  &  BELLE MC VALUE  \\
+         \midrule
+         \hline
+        stream 0	&	(1.35 $\pm$ 0.09)$\%$	 &	(1.300 $\pm$ 0.002)$\%$\\
+        stream 1	&	(1.30 $\pm$ 0.07)$\%$	 &	(1.299 $\pm$ 0.002)$\%$	\\
+        stream 2	&	(1.31 $\pm$ 0.07)$\%$	 &	(1.300 $\pm$ 0.002)$\%$\\
+        stream 3	&	(1.31 $\pm$ 0.07)$\%$	 &	(1.299 $\pm$ 0.002)$\%$\\
+        stream 4	&	(1.22 $\pm$ 0.09)$\%$	 &	(1.295 $\pm$ 0.002)$\%$\\
+        stream 5	&	(1.30 $\pm$ 0.07)$\%$	 &	(1.298 $\pm$ 0.002)$\%$\\
+        \midrule
+        \hline
+        average			&	(1.30 $\pm$	0.03)$\%$	& (1.299 $\pm$ 0.001)$\%$\\
+        \bottomrule
+        \hline
+        \end{tabular}%
+        }
+        \caption{Measured branching fraction values obtained using only unmixed events for the six different streams (only statistical uncertainties are displayed) and its average.}
+        \end{table}    
+
 \section{Systematics}
 
 

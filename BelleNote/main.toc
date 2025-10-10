@@ -42,14 +42,16 @@
 \contentsline {subsection}{\numberline {5.2.2}$B^- \rightarrow \bar {\Lambda }_c^-$ decays}{61}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}$\bar {B^0} \rightarrow \Lambda _c^+$ decays}{61}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}$\bar {B^0} \rightarrow \Lambda _c^-$ decays}{61}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}Branching ratio}{62}{chapter.6}
-\contentsline {section}{\numberline {6.1}Systematics}{63}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Continuum background}{63}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Crossfeed ratio}{66}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Crossfeed $B_{tag}$ PDF}{66}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}2DFit crossfeed normalization}{66}{subsection.6.1.4}
-\contentsline {subsection}{\numberline {6.1.5}2DFit $M_{bc}$ peaking/flat PDFs}{67}{subsection.6.1.5}
-\contentsline {subsection}{\numberline {6.1.6}PID efficiency correction}{67}{subsection.6.1.6}
-\contentsline {subsection}{\numberline {6.1.7}$B^- \rightarrow \Lambda _c^+$ decays}{68}{subsection.6.1.7}
-\contentsline {subsection}{\numberline {6.1.8}$B^+ \rightarrow \Lambda _c^+$ decays}{69}{subsection.6.1.8}
-\contentsline {section}{References}{70}{subsection.6.1.8}
+\contentsline {chapter}{\numberline {6}Branching ratio}{63}{chapter.6}
+\contentsline {section}{\numberline {6.1}extraction of neutral decays branching fractions}{64}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}unmixed neutral decays branching ratios}{65}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Systematics}{66}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Continuum background}{66}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Crossfeed ratio}{69}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Crossfeed $B_{tag}$ PDF}{69}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}2DFit crossfeed normalization}{69}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}2DFit $M_{bc}$ peaking/flat PDFs}{70}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}PID efficiency correction}{70}{subsection.6.2.6}
+\contentsline {subsection}{\numberline {6.2.7}$B^- \rightarrow \Lambda _c^+$ decays}{71}{subsection.6.2.7}
+\contentsline {subsection}{\numberline {6.2.8}$B^+ \rightarrow \Lambda _c^+$ decays}{72}{subsection.6.2.8}
+\contentsline {section}{References}{73}{subsection.6.2.8}

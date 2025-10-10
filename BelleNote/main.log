@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.7.25)  8 OCT 2025 15:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.7.25)  10 OCT 2025 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1785,7 +1785,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (./01-Titlepage/titlepage.tex
-<01-Titlepage/figs/B-logo.pdf, id=251, 321.2pt x 260.975pt>
+<01-Titlepage/figs/B-logo.pdf, id=259, 321.2pt x 260.975pt>
 File: 01-Titlepage/figs/B-logo.pdf Graphic file (type pdf)
 
 <use 01-Titlepage/figs/B-logo.pdf>
@@ -1917,7 +1917,7 @@ l.23
 
 
 ]
-<03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.png, id=374, 3331.44624pt
+<03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.png, id=384, 3331.44624pt
  x 1475.5125pt>
 File: 03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.png Graphic file (ty
 pe png)
@@ -1944,7 +1944,7 @@ been already used, duplicate ignored
                    \relax 
 l.42 
       [4 <./03-Selection/figs/chargedBcorr_Mbc_MpKpi_TotalSignal.png>]
-<03-Selection/figs/wrongly_recoB.png, id=386, 1077.02374pt x 480.79625pt>
+<03-Selection/figs/wrongly_recoB.png, id=396, 1077.02374pt x 480.79625pt>
 File: 03-Selection/figs/wrongly_recoB.png Graphic file (type png)
 
 <use 03-Selection/figs/wrongly_recoB.png>
@@ -1952,7 +1952,7 @@ Package pdftex.def Info: 03-Selection/figs/wrongly_recoB.png used on input line
  46.
 (pdftex.def)             Requested size: 455.24408pt x 203.22423pt.
  [5 <./03-Selection/figs/wrongly_recoB.png>] <03-Selection/figs/wrongB_Mbc.png,
- id=397, 571.13374pt x 338.26375pt>
+ id=407, 571.13374pt x 338.26375pt>
 File: 03-Selection/figs/wrongB_Mbc.png Graphic file (type png)
 
 <use 03-Selection/figs/wrongB_Mbc.png>
@@ -1991,7 +1991,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 81.
 
 
-<03-Selection/figs/R2EventLevel_sig_qqbar_distributions.png, id=404, 871.255pt 
+<03-Selection/figs/R2EventLevel_sig_qqbar_distributions.png, id=414, 871.255pt 
 x 679.53876pt>
 File: 03-Selection/figs/R2EventLevel_sig_qqbar_distributions.png Graphic file (
 type png)
@@ -2001,7 +2001,7 @@ Package pdftex.def Info: 03-Selection/figs/R2EventLevel_sig_qqbar_distributions
 .png used on input line 88.
 (pdftex.def)             Requested size: 341.43306pt x 266.29443pt.
 
-<03-Selection/figs/corr_chargedB_FOMvsR2_cut.png, id=405, 361.35pt x 216.81pt>
+<03-Selection/figs/corr_chargedB_FOMvsR2_cut.png, id=415, 361.35pt x 216.81pt>
 File: 03-Selection/figs/corr_chargedB_FOMvsR2_cut.png Graphic file (type png)
 
 <use 03-Selection/figs/corr_chargedB_FOMvsR2_cut.png>
@@ -2013,7 +2013,7 @@ n input line 96.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<03-Selection/figs/corr_chargedB_FOMvsSigProb_cut.png, id=408, 361.35pt x 216.8
+<03-Selection/figs/corr_chargedB_FOMvsSigProb_cut.png, id=418, 361.35pt x 216.8
 1pt>
 File: 03-Selection/figs/corr_chargedB_FOMvsSigProb_cut.png Graphic file (type p
 ng)
@@ -2022,7 +2022,7 @@ Package pdftex.def Info: 03-Selection/figs/corr_chargedB_FOMvsSigProb_cut.png u
 sed on input line 106.
 (pdftex.def)             Requested size: 341.43306pt x 204.86006pt.
  [7 <./03-Selection/figs/R2EventLevel_sig_qqbar_distributions.png>]
-<03-Selection/figs/corr_chargedB_FOMvsR2_cut_SigProbOpt.png, id=421, 361.35pt x
+<03-Selection/figs/corr_chargedB_FOMvsR2_cut_SigProbOpt.png, id=431, 361.35pt x
  216.81pt>
 File: 03-Selection/figs/corr_chargedB_FOMvsR2_cut_SigProbOpt.png Graphic file (
 type png)
@@ -2033,7 +2033,7 @@ Package pdftex.def Info: 03-Selection/figs/corr_chargedB_FOMvsR2_cut_SigProbOpt
 
 [8 <./03-Selection/figs/corr_chargedB_FOMvsR2_cut.png> <./03-Selection/figs/cor
 r_chargedB_FOMvsSigProb_cut.png>]
-<03-Selection/figs/corr_chargedB_FOMvsCMS_Pcut.png, id=429, 361.35pt x 216.81pt
+<03-Selection/figs/corr_chargedB_FOMvsCMS_Pcut.png, id=439, 361.35pt x 216.81pt
 >
 File: 03-Selection/figs/corr_chargedB_FOMvsCMS_Pcut.png Graphic file (type png)
 
@@ -2044,7 +2044,7 @@ Package pdftex.def Info: 03-Selection/figs/corr_chargedB_FOMvsCMS_Pcut.png used
  [9 <./03-Selection/figs/corr_chargedB_FOMvsR2_cut_SigProbOpt.png> <./03-Select
 ion/figs/corr_chargedB_FOMvsCMS_Pcut.png>]
 <03-Selection/figs/LogPlotchargedBcorr_Lambda_c_CMS_P_optimisedSigProb_R.png, i
-d=439, 361.35pt x 289.08pt>
+d=449, 361.35pt x 289.08pt>
 File: 03-Selection/figs/LogPlotchargedBcorr_Lambda_c_CMS_P_optimisedSigProb_R.p
 ng Graphic file (type png)
 
@@ -2054,7 +2054,7 @@ Package pdftex.def Info: 03-Selection/figs/LogPlotchargedBcorr_Lambda_c_CMS_P_o
 ptimisedSigProb_R.png used on input line 142.
 (pdftex.def)             Requested size: 386.96024pt x 309.56837pt.
 
-<03-Selection/figs/Mbc_InvM_optimizedSelection_SigR.png, id=440, 1077.02374pt x
+<03-Selection/figs/Mbc_InvM_optimizedSelection_SigR.png, id=450, 1077.02374pt x
  467.7475pt>
 File: 03-Selection/figs/Mbc_InvM_optimizedSelection_SigR.png Graphic file (type
  png)
@@ -2095,7 +2095,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 154.
 
 
-<03-Selection/figs/acorr_chargedB_FOMvsR2_cut.png, id=442, 361.35pt x 216.81pt>
+<03-Selection/figs/acorr_chargedB_FOMvsR2_cut.png, id=452, 361.35pt x 216.81pt>
 File: 03-Selection/figs/acorr_chargedB_FOMvsR2_cut.png Graphic file (type png)
 <use 03-Selection/figs/acorr_chargedB_FOMvsR2_cut.png>
 Package pdftex.def Info: 03-Selection/figs/acorr_chargedB_FOMvsR2_cut.png used 
@@ -2106,7 +2106,7 @@ on input line 161.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<03-Selection/figs/charged_anticorrLambdaC_FOMvsSigProb.png, id=443, 3011.25pt 
+<03-Selection/figs/charged_anticorrLambdaC_FOMvsSigProb.png, id=453, 3011.25pt 
 x 1806.75pt>
 File: 03-Selection/figs/charged_anticorrLambdaC_FOMvsSigProb.png Graphic file (
 type png)
@@ -2123,7 +2123,7 @@ Overfull \vbox (81.86334pt too high) has occurred while \output is active []
 [11 <./03-Selection/figs/Mbc_InvM_optimizedSelection_SigR.png> <./03-Selection/
 figs/acorr_chargedB_FOMvsR2_cut.png> <./03-Selection/figs/charged_anticorrLambd
 aC_FOMvsSigProb.png>]
-<03-Selection/figs/acorr_chargedB_FOMvsR2_cut_SigProbOpt.png, id=461, 361.35pt 
+<03-Selection/figs/acorr_chargedB_FOMvsR2_cut_SigProbOpt.png, id=471, 361.35pt 
 x 216.81pt>
 File: 03-Selection/figs/acorr_chargedB_FOMvsR2_cut_SigProbOpt.png Graphic file 
 (type png)
@@ -2132,7 +2132,7 @@ Package pdftex.def Info: 03-Selection/figs/acorr_chargedB_FOMvsR2_cut_SigProbOp
 t.png used on input line 177.
 (pdftex.def)             Requested size: 341.43306pt x 204.86006pt.
 
-<03-Selection/figs/acorr_chargedB_Lambda_c_CMS_P.pdf, id=462, 361.35pt x 289.08
+<03-Selection/figs/acorr_chargedB_Lambda_c_CMS_P.pdf, id=472, 361.35pt x 289.08
 pt>
 File: 03-Selection/figs/acorr_chargedB_Lambda_c_CMS_P.pdf Graphic file (type pd
 f)
@@ -2141,7 +2141,7 @@ Package pdftex.def Info: 03-Selection/figs/acorr_chargedB_Lambda_c_CMS_P.pdf us
 ed on input line 189.
 (pdftex.def)             Requested size: 386.96024pt x 309.56837pt.
  [12 <./03-Selection/figs/acorr_chargedB_FOMvsR2_cut_SigProbOpt.png>]
-<03-Selection/figs/acorr_chargedB_Mbc_InvM_opt_cuts.png, id=469, 1634.105pt x 7
+<03-Selection/figs/acorr_chargedB_Mbc_InvM_opt_cuts.png, id=479, 1634.105pt x 7
 14.67pt>
 File: 03-Selection/figs/acorr_chargedB_Mbc_InvM_opt_cuts.png Graphic file (type
  png)
@@ -2178,7 +2178,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 213.
 
-<03-Selection/figs/corr_B0_FOMvsR2_cut.png, id=535, 361.35pt x 216.81pt>
+<03-Selection/figs/corr_B0_FOMvsR2_cut.png, id=545, 361.35pt x 216.81pt>
 File: 03-Selection/figs/corr_B0_FOMvsR2_cut.png Graphic file (type png)
 
 <use 03-Selection/figs/corr_B0_FOMvsR2_cut.png>
@@ -2186,7 +2186,7 @@ Package pdftex.def Info: 03-Selection/figs/corr_B0_FOMvsR2_cut.png used on inpu
 t line 220.
 (pdftex.def)             Requested size: 295.90587pt x 177.54384pt.
 
-<03-Selection/figs/corr_B0_FOMvsSigProb_cut_until1.png, id=539, 361.35pt x 216.
+<03-Selection/figs/corr_B0_FOMvsSigProb_cut_until1.png, id=549, 361.35pt x 216.
 81pt>
 File: 03-Selection/figs/corr_B0_FOMvsSigProb_cut_until1.png Graphic file (type 
 png)
@@ -2196,7 +2196,7 @@ used on input line 236.
 (pdftex.def)             Requested size: 341.43306pt x 204.86006pt.
  [14 <./03-Selection/figs/acorr_chargedB_Mbc_InvM_opt_cuts.png> <./03-Selection
 /figs/corr_B0_FOMvsR2_cut.png>]
-<03-Selection/figs/corr_B0_FOMvsSigProb_cut_until015.png, id=549, 2887.78876pt 
+<03-Selection/figs/corr_B0_FOMvsSigProb_cut_until015.png, id=559, 2887.78876pt 
 x 1684.2925pt>
 File: 03-Selection/figs/corr_B0_FOMvsSigProb_cut_until015.png Graphic file (typ
 e png)
@@ -2205,7 +2205,7 @@ Package pdftex.def Info: 03-Selection/figs/corr_B0_FOMvsSigProb_cut_until015.pn
 g used on input line 243.
 (pdftex.def)             Requested size: 341.43306pt x 199.12515pt.
 
-<03-Selection/figs/corr_B0SigProbOpt_FOMvsR2_cutRecheck.png, id=551, 361.35pt x
+<03-Selection/figs/corr_B0SigProbOpt_FOMvsR2_cutRecheck.png, id=561, 361.35pt x
  216.81pt>
 File: 03-Selection/figs/corr_B0SigProbOpt_FOMvsR2_cutRecheck.png Graphic file (
 type png)
@@ -2216,14 +2216,14 @@ Package pdftex.def Info: 03-Selection/figs/corr_B0SigProbOpt_FOMvsR2_cutRecheck
 
 [15 <./03-Selection/figs/corr_B0_FOMvsSigProb_cut_until1.png> <./03-Selection/f
 igs/corr_B0_FOMvsSigProb_cut_until015.png>]
-<03-Selection/figs/corr_B0_FOMvsCMS_Pcut.png, id=560, 1033.8625pt x 660.4675pt>
+<03-Selection/figs/corr_B0_FOMvsCMS_Pcut.png, id=570, 1033.8625pt x 660.4675pt>
 File: 03-Selection/figs/corr_B0_FOMvsCMS_Pcut.png Graphic file (type png)
 <use 03-Selection/figs/corr_B0_FOMvsCMS_Pcut.png>
 Package pdftex.def Info: 03-Selection/figs/corr_B0_FOMvsCMS_Pcut.png used on in
 put line 267.
 (pdftex.def)             Requested size: 386.96024pt x 247.20103pt.
 
-<03-Selection/figs/B0corr_Lambda_c_CMS_P_optimisedSigProb_R.png, id=561, 1033.8
+<03-Selection/figs/B0corr_Lambda_c_CMS_P_optimisedSigProb_R.png, id=571, 1033.8
 625pt x 876.27374pt>
 File: 03-Selection/figs/B0corr_Lambda_c_CMS_P_optimisedSigProb_R.png Graphic fi
 le (type png)
@@ -2234,7 +2234,7 @@ ob_R.png used on input line 276.
 (pdftex.def)             Requested size: 386.96024pt x 327.9734pt.
  [16 <./03-Selection/figs/corr_B0SigProbOpt_FOMvsR2_cutRecheck.png> <./03-Selec
 tion/figs/corr_B0_FOMvsCMS_Pcut.png>]
-<03-Selection/figs/B0corr_Mbc_MpKpi_optmised.png, id=571, 6895.7625pt x 2901.84
+<03-Selection/figs/B0corr_Mbc_MpKpi_optmised.png, id=581, 6895.7625pt x 2901.84
 125pt>
 File: 03-Selection/figs/B0corr_Mbc_MpKpi_optmised.png Graphic file (type png)
  <use 03-Selection/figs/B0corr_Mbc_MpKpi_optmised.png>
@@ -2280,7 +2280,7 @@ on input line 318.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<03-Selection/figs/acorr_B0_FOMvsSigProb_cut.png, id=579, 361.35pt x 216.81pt>
+<03-Selection/figs/acorr_B0_FOMvsSigProb_cut.png, id=589, 361.35pt x 216.81pt>
 File: 03-Selection/figs/acorr_B0_FOMvsSigProb_cut.png Graphic file (type png)
 
 <use 03-Selection/figs/acorr_B0_FOMvsSigProb_cut.png>
@@ -2292,7 +2292,7 @@ n input line 327.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [18 <./03-Selection/figs/B0corr_Mbc_MpKpi_optmised.png>]
-<03-Selection/figs/acorrB0_Lambda_c_CMS_P_optimisedSigProb_R.png, id=585, 1122.
+<03-Selection/figs/acorrB0_Lambda_c_CMS_P_optimisedSigProb_R.png, id=595, 1122.
 1925pt x 868.24374pt>
 File: 03-Selection/figs/acorrB0_Lambda_c_CMS_P_optimisedSigProb_R.png Graphic f
 ile (type png)
@@ -2306,7 +2306,7 @@ rob_R.png used on input line 336.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<03-Selection/figs/B0acorr_Mbc_MpKpi_optmised.png, id=586, 6792.37625pt x 2912.
+<03-Selection/figs/B0acorr_Mbc_MpKpi_optmised.png, id=596, 6792.37625pt x 2912.
 8825pt>
 File: 03-Selection/figs/B0acorr_Mbc_MpKpi_optmised.png Graphic file (type png)
  <use 03-Selection/figs/B0acorr_Mbc_MpKpi_optmised.png>
@@ -2326,7 +2326,7 @@ r_Mbc_MpKpi_optmised.png>]
 Chapter 3.
 
 <04-SimultaneousFit/figs/5streams_TotalSignal_charged_corrLambdaC_2Dfit.png, id
-=601, 1202.4925pt x 573.14125pt>
+=611, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/5streams_TotalSignal_charged_corrLambdaC_2Dfit.pn
 g Graphic file (type png)
 
@@ -2337,7 +2337,7 @@ orrLambdaC_2Dfit.png used on input line 24.
 (pdftex.def)             Requested size: 318.66946pt x 151.8817pt.
 
 <04-SimultaneousFit/figs/stream12345_TotalSignal_charged_anticorrLambdaC_2Dfit.
-png, id=602, 1202.4925pt x 573.14125pt>
+png, id=612, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/stream12345_TotalSignal_charged_anticorrLambdaC_2
 Dfit.png Graphic file (type png)
 
@@ -2348,7 +2348,7 @@ d_anticorrLambdaC_2Dfit.png used on input line 35.
 (pdftex.def)             Requested size: 318.66946pt x 151.8817pt.
 
 <04-SimultaneousFit/figs/NEWstream01234_TotalSignal_neutral_corrLambdaC_2Dfit.p
-ng, id=603, 1202.4925pt x 573.14125pt>
+ng, id=613, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/NEWstream01234_TotalSignal_neutral_corrLambdaC_2D
 fit.png Graphic file (type png)
 
@@ -2359,7 +2359,7 @@ tral_corrLambdaC_2Dfit.png used on input line 43.
 (pdftex.def)             Requested size: 318.66946pt x 151.8817pt.
 
 <04-SimultaneousFit/figs/NEWstream01234_TotalSignal_neutral_anticorrLambdaC_2Df
-it.png, id=604, 1202.4925pt x 573.14125pt>
+it.png, id=614, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/NEWstream01234_TotalSignal_neutral_anticorrLambda
 C_2Dfit.png Graphic file (type png)
 
@@ -2376,7 +2376,7 @@ tral_anticorrLambdaC_2Dfit.png used on input line 50.
 .png> <./04-SimultaneousFit/figs/stream12345_TotalSignal_charged_anticorrLambda
 C_2Dfit.png>]
 <04-SimultaneousFit/figs/stream01234_charged_corrLambdaC_TotalGeneric_2DFit_onl
-yArgus.png, id=617, 1202.4925pt x 531.9875pt>
+yArgus.png, id=627, 1202.4925pt x 531.9875pt>
 File: 04-SimultaneousFit/figs/stream01234_charged_corrLambdaC_TotalGeneric_2DFi
 t_onlyArgus.png Graphic file (type png)
 
@@ -2387,7 +2387,7 @@ C_TotalGeneric_2DFit_onlyArgus.png used on input line 83.
 (pdftex.def)             Requested size: 318.66946pt x 140.97601pt.
 
 <04-SimultaneousFit/figs/stream12345_charged_anticorrLambdaC_TotalGeneric_2DFit
-_only_argus.png, id=618, 1193.45876pt x 527.9725pt>
+_only_argus.png, id=628, 1193.45876pt x 527.9725pt>
 File: 04-SimultaneousFit/figs/stream12345_charged_anticorrLambdaC_TotalGeneric_
 2DFit_only_argus.png Graphic file (type png)
 
@@ -2398,7 +2398,7 @@ mbdaC_TotalGeneric_2DFit_only_argus.png used on input line 91.
 (pdftex.def)             Requested size: 318.66946pt x 140.97546pt.
 
 <04-SimultaneousFit/figs/stream01245_neutral_corrLambdaC_TotalGeneric_2DFit.png
-, id=619, 1188.44pt x 527.9725pt>
+, id=629, 1188.44pt x 527.9725pt>
 File: 04-SimultaneousFit/figs/stream01245_neutral_corrLambdaC_TotalGeneric_2DFi
 t.png Graphic file (type png)
 
@@ -2409,7 +2409,7 @@ C_TotalGeneric_2DFit.png used on input line 98.
 (pdftex.def)             Requested size: 318.66946pt x 141.57162pt.
 
 <04-SimultaneousFit/figs/stream01235_neutral_anticorrLambdaC_Generic_2DFit.png,
- id=620, 1202.4925pt x 573.14125pt>
+ id=630, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/stream01235_neutral_anticorrLambdaC_Generic_2DFit
 .png Graphic file (type png)
 
@@ -2425,7 +2425,7 @@ mbdaC_TotalGeneric_2DFit_onlyArgus.png> <./04-SimultaneousFit/figs/stream12345_
 charged_anticorrLambdaC_TotalGeneric_2DFit_only_argus.png> <./04-SimultaneousFi
 t/figs/stream01245_neutral_corrLambdaC_TotalGeneric_2DFit.png>] [25 <./04-Simul
 taneousFit/figs/stream01235_neutral_anticorrLambdaC_Generic_2DFit.png>]
-<04-SimultaneousFit/figs/chargedBcorr_CrossfeedLambdaCpeak.png, id=644, 722.7pt
+<04-SimultaneousFit/figs/chargedBcorr_CrossfeedLambdaCpeak.png, id=654, 722.7pt
  x 289.08pt>
 File: 04-SimultaneousFit/figs/chargedBcorr_CrossfeedLambdaCpeak.png Graphic fil
 e (type png)
@@ -2436,7 +2436,7 @@ eak.png used on input line 132.
 (pdftex.def)             Requested size: 364.19664pt x 145.67767pt.
 
 <04-SimultaneousFit/figs/streams01245_CrossfeedPeak_charged_corrLambdaC_2Dfit.p
-ng, id=645, 1202.4925pt x 573.14125pt>
+ng, id=655, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/streams01245_CrossfeedPeak_charged_corrLambdaC_2D
 fit.png Graphic file (type png)
 
@@ -2447,7 +2447,7 @@ rged_corrLambdaC_2Dfit.png used on input line 140.
 (pdftex.def)             Requested size: 318.66946pt x 151.8817pt.
 
 <04-SimultaneousFit/figs/streams01234_CrossfeedPeak_charged_anticorr_LambdaC_2D
-fit.png, id=646, 1202.4925pt x 573.14125pt>
+fit.png, id=656, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/streams01234_CrossfeedPeak_charged_anticorr_Lambd
 aC_2Dfit.png Graphic file (type png)
 
@@ -2458,7 +2458,7 @@ rged_anticorr_LambdaC_2Dfit.png used on input line 148.
 (pdftex.def)             Requested size: 318.66946pt x 151.8817pt.
 
 <04-SimultaneousFit/figs/streams01234_CrossfeedPeak_neutral_corrLambdaC_2Dfit.p
-ng, id=647, 1202.4925pt x 573.14125pt>
+ng, id=657, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/streams01234_CrossfeedPeak_neutral_corrLambdaC_2D
 fit.png Graphic file (type png)
 
@@ -2469,7 +2469,7 @@ tral_corrLambdaC_2Dfit.png used on input line 155.
 (pdftex.def)             Requested size: 318.66946pt x 151.8817pt.
 
 <04-SimultaneousFit/figs/stream12345_Crossfeed_neutral_anticorrLambdaC_2Dfit.pn
-g, id=648, 1202.4925pt x 573.14125pt>
+g, id=658, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/stream12345_Crossfeed_neutral_anticorrLambdaC_2Df
 it.png Graphic file (type png)
 
@@ -2484,7 +2484,7 @@ multaneousFit/figs/streams01245_CrossfeedPeak_charged_corrLambdaC_2Dfit.png> <.
 fit.png>] [27 <./04-SimultaneousFit/figs/streams01234_CrossfeedPeak_neutral_cor
 rLambdaC_2Dfit.png> <./04-SimultaneousFit/figs/stream12345_Crossfeed_neutral_an
 ticorrLambdaC_2Dfit.png>]
-<04-SimultaneousFit/figs/MbcInvM_MC_on_off-resonance_comparison.png, id=666, 72
+<04-SimultaneousFit/figs/MbcInvM_MC_on_off-resonance_comparison.png, id=676, 72
 2.7pt x 289.08pt>
 File: 04-SimultaneousFit/figs/MbcInvM_MC_on_off-resonance_comparison.png Graphi
 c file (type png)
@@ -2499,7 +2499,7 @@ Overfull \hbox (22.76358pt too wide) in paragraph at lines 195--196
  []
 
 
-<04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData.png, id=672, 467.7475pt
+<04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData.png, id=682, 467.7475pt
  x 314.17375pt>
 File: 04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData.png Graphic file (
 type png)
@@ -2509,7 +2509,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData
 .png used on input line 214.
 (pdftex.def)             Requested size: 204.85844pt x 137.59927pt.
 
-<04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData_woCScuts.png, id=673, 6
+<04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData_woCScuts.png, id=683, 6
 88.5725pt x 420.57124pt>
 File: 04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData_woCScuts.png Graph
 ic file (type png)
@@ -2519,7 +2519,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/chargedCorrLambdaC_off-resData
 _woCScuts.png used on input line 216.
 (pdftex.def)             Requested size: 218.51521pt x 133.4625pt.
 
-<04-SimultaneousFit/figs/stream01234_Mbc_continuumRescaling.png, id=674, 800.99
+<04-SimultaneousFit/figs/stream01234_Mbc_continuumRescaling.png, id=684, 800.99
 25pt x 773.89125pt>
 File: 04-SimultaneousFit/figs/stream01234_Mbc_continuumRescaling.png Graphic fi
 le (type png)
@@ -2533,7 +2533,7 @@ ling.png used on input line 223.
 eousFit/figs/chargedCorrLambdaC_off-resData_woCScuts.png> <./04-SimultaneousFit
 /figs/stream01234_Mbc_continuumRescaling.png>]
 <04-SimultaneousFit/figs/stream01235_charged_corrLambdaC_woCScuts_Mbc_scaling.p
-ng, id=694, 800.9925pt x 744.7825pt>
+ng, id=704, 800.9925pt x 744.7825pt>
 File: 04-SimultaneousFit/figs/stream01235_charged_corrLambdaC_woCScuts_Mbc_scal
 ing.png Graphic file (type png)
 
@@ -2544,7 +2544,7 @@ C_woCScuts_Mbc_scaling.png used on input line 238.
 (pdftex.def)             Requested size: 209.41533pt x 194.7185pt.
 
 <04-SimultaneousFit/figs/MC_on_off_resonance_stream4_continuum_2D_Mbc_corrected
-.png, id=695, 800.9925pt x 773.89125pt>
+.png, id=705, 800.9925pt x 773.89125pt>
 File: 04-SimultaneousFit/figs/MC_on_off_resonance_stream4_continuum_2D_Mbc_corr
 ected.png Graphic file (type png)
 
@@ -2555,7 +2555,7 @@ ntinuum_2D_Mbc_corrected.png used on input line 240.
 (pdftex.def)             Requested size: 200.3085pt x 193.53137pt.
 
 <04-SimultaneousFit/figs/corrLambdaC_OffResonance_w_wo_CS_comparison_5streams.p
-ng, id=699, 1077.02374pt x 766.865pt>
+ng, id=709, 1077.02374pt x 766.865pt>
 File: 04-SimultaneousFit/figs/corrLambdaC_OffResonance_w_wo_CS_comparison_5stre
 ams.png Graphic file (type png)
 
@@ -2566,7 +2566,7 @@ CS_comparison_5streams.png used on input line 260.
 (pdftex.def)             Requested size: 295.90587pt x 210.69545pt.
 
 <04-SimultaneousFit/figs/corrLambdaC_OffResonance_w_wo_CS_comparison_Data.png, 
-id=700, 1077.02374pt x 764.8575pt>
+id=710, 1077.02374pt x 764.8575pt>
 File: 04-SimultaneousFit/figs/corrLambdaC_OffResonance_w_wo_CS_comparison_Data.
 png Graphic file (type png)
 
@@ -2580,7 +2580,7 @@ aling.png> <./04-SimultaneousFit/figs/MC_on_off_resonance_stream4_continuum_2D_
 Mbc_corrected.png>] [31 <./04-SimultaneousFit/figs/corrLambdaC_OffResonance_w_w
 o_CS_comparison_5streams.png> <./04-SimultaneousFit/figs/corrLambdaC_OffResonan
 ce_w_wo_CS_comparison_Data.png>]
-<04-SimultaneousFit/figs/R2_MC-Data_off_resonance_distributions.png, id=716, 10
+<04-SimultaneousFit/figs/R2_MC-Data_off_resonance_distributions.png, id=726, 10
 77.02374pt x 854.19125pt>
 File: 04-SimultaneousFit/figs/R2_MC-Data_off_resonance_distributions.png Graphi
 c file (type png)
@@ -2590,7 +2590,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/R2_MC-Data_off_resonance_distr
 ibutions.png used on input line 276.
 (pdftex.def)             Requested size: 227.62204pt x 180.51941pt.
 
-<04-SimultaneousFit/figs/stream5_rescaledMbc_40binsHist.png, id=718, 583.17876p
+<04-SimultaneousFit/figs/stream5_rescaledMbc_40binsHist.png, id=728, 583.17876p
 t x 533.995pt>
 File: 04-SimultaneousFit/figs/stream5_rescaledMbc_40binsHist.png Graphic file (
 type png)
@@ -2600,7 +2600,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/stream5_rescaledMbc_40binsHist
 .png used on input line 285.
 (pdftex.def)             Requested size: 195.75162pt x 179.24184pt.
 
-<04-SimultaneousFit/figs/onRes_InvM_corrLambdaC.png, id=722, 440.64626pt x 413.
+<04-SimultaneousFit/figs/onRes_InvM_corrLambdaC.png, id=732, 440.64626pt x 413.
 545pt>
 File: 04-SimultaneousFit/figs/onRes_InvM_corrLambdaC.png Graphic file (type png
 )
@@ -2610,7 +2610,7 @@ d on input line 299.
 (pdftex.def)             Requested size: 204.85844pt x 192.25856pt.
 
 <04-SimultaneousFit/figs/5streams_Off_resonanceRescaledContinuum_charged_corrLa
-mbdaC_oneGaussianInvMfit.png, id=723, 600.2425pt x 573.14125pt>
+mbdaC_oneGaussianInvMfit.png, id=733, 600.2425pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/5streams_Off_resonanceRescaledContinuum_charged_c
 orrLambdaC_oneGaussianInvMfit.png Graphic file (type png)
 
@@ -2623,7 +2623,7 @@ Continuum_charged_corrLambdaC_oneGaussianInvMfit.png used on input line 301.
 3 <./04-SimultaneousFit/figs/stream5_rescaledMbc_40binsHist.png> <./04-Simultan
 eousFit/figs/onRes_InvM_corrLambdaC.png> <./04-SimultaneousFit/figs/5streams_Of
 f_resonanceRescaledContinuum_charged_corrLambdaC_oneGaussianInvMfit.png>]
-<04-SimultaneousFit/figs/stream3corrLambddaC_total_continuum_2DFit.png, id=751,
+<04-SimultaneousFit/figs/stream3corrLambddaC_total_continuum_2DFit.png, id=761,
  1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/stream3corrLambddaC_total_continuum_2DFit.png Gra
 phic file (type png)
@@ -2634,7 +2634,7 @@ inuum_2DFit.png used on input line 324.
 (pdftex.def)             Requested size: 386.96024pt x 184.43216pt.
 
 <04-SimultaneousFit/figs/stream0_anticorrLambddaC_total_continuum_2DFit_Novosib
-irsk.png, id=752, 1202.4925pt x 573.14125pt>
+irsk.png, id=762, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/stream0_anticorrLambddaC_total_continuum_2DFit_No
 vosibirsk.png Graphic file (type png)
 
@@ -2644,7 +2644,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/stream0_anticorrLambddaC_total
 _continuum_2DFit_Novosibirsk.png used on input line 332.
 (pdftex.def)             Requested size: 386.96024pt x 184.43216pt.
 
-<04-SimultaneousFit/figs/stream0corrLambddaC_total_continuum_2DFit.png, id=753,
+<04-SimultaneousFit/figs/stream0corrLambddaC_total_continuum_2DFit.png, id=763,
  1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/stream0corrLambddaC_total_continuum_2DFit.png Gra
 phic file (type png)
@@ -2655,7 +2655,7 @@ inuum_2DFit.png used on input line 339.
 (pdftex.def)             Requested size: 386.96024pt x 184.43216pt.
 
 <04-SimultaneousFit/figs/stream0_anticorrLambddaC_total_continuum_2DFit_Argus.p
-ng, id=754, 1202.4925pt x 573.14125pt>
+ng, id=764, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/stream0_anticorrLambddaC_total_continuum_2DFit_Ar
 gus.png Graphic file (type png)
 
@@ -2670,7 +2670,7 @@ ibirsk.png>] [35 <./04-SimultaneousFit/figs/stream0corrLambddaC_total_continuum
 _2DFit.png> <./04-SimultaneousFit/figs/stream0_anticorrLambddaC_total_continuum
 _2DFit_Argus.png>]
 <04-SimultaneousFit/figs/stream0_TotalSignal_charged_corrLambdaC_2Dfit.png, id=
-771, 1184.425pt x 529.98pt>
+781, 1184.425pt x 529.98pt>
 File: 04-SimultaneousFit/figs/stream0_TotalSignal_charged_corrLambdaC_2Dfit.png
  Graphic file (type png)
 
@@ -2710,7 +2710,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <04-SimultaneousFit/figs/charged_corrSample_simultaneous2DFit_stream0.png, id=7
-83, 1202.4925pt x 573.14125pt>
+93, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/charged_corrSample_simultaneous2DFit_stream0.png 
 Graphic file (type png)
 
@@ -2720,7 +2720,7 @@ s2DFit_stream0.png used on input line 403.
 (pdftex.def)             Requested size: 409.71689pt x 195.28522pt.
 
 <04-SimultaneousFit/figs/charged_corrSignal_window_Total_2DFit_stream0.png, id=
-784, 1202.4925pt x 573.14125pt>
+794, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/charged_corrSignal_window_Total_2DFit_stream0.png
  Graphic file (type png)
 
@@ -2731,7 +2731,7 @@ l_2DFit_stream0.png used on input line 411.
 [37 <./04-SimultaneousFit/figs/charged_corrSample_simultaneous2DFit_stream0.png
 > <./04-SimultaneousFit/figs/charged_corrSignal_window_Total_2DFit_stream0.png>
 ]
-<04-SimultaneousFit/figs/6streamResults_chargedCorrelated_correct.png, id=791, 
+<04-SimultaneousFit/figs/6streamResults_chargedCorrelated_correct.png, id=801, 
 734.745pt x 500.87125pt>
 File: 04-SimultaneousFit/figs/6streamResults_chargedCorrelated_correct.png Grap
 hic file (type png)
@@ -2771,7 +2771,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 462.
 
 
-<04-SimultaneousFit/figs/6streamsResults_chargedAnticorrelated.png, id=798, 785
+<04-SimultaneousFit/figs/6streamsResults_chargedAnticorrelated.png, id=808, 785
 .93625pt x 547.04375pt>
 File: 04-SimultaneousFit/figs/6streamsResults_chargedAnticorrelated.png Graphic
  file (type png)
@@ -2781,8 +2781,8 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/6streamsResults_chargedAnticor
 related.png used on input line 500.
 (pdftex.def)             Requested size: 318.66946pt x 221.81026pt.
 
-<04-SimultaneousFit/figs/charged_antiSample_simultaneous2DFit_stream0.png, id=7
-99, 1202.4925pt x 542.025pt>
+<04-SimultaneousFit/figs/charged_antiSample_simultaneous2DFit_stream0.png, id=8
+09, 1202.4925pt x 542.025pt>
 File: 04-SimultaneousFit/figs/charged_antiSample_simultaneous2DFit_stream0.png 
 Graphic file (type png)
 
@@ -2793,7 +2793,7 @@ s2DFit_stream0.png used on input line 507.
 
 [39 <./04-SimultaneousFit/figs/6streamsResults_chargedAnticorrelated.png>]
 <04-SimultaneousFit/figs/charged_antiSignal_window_Total_2DFit_stream0.png, id=
-806, 1202.4925pt x 573.14125pt>
+817, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/charged_antiSignal_window_Total_2DFit_stream0.png
  Graphic file (type png)
 
@@ -2833,7 +2833,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 520.
 
 
-<04-SimultaneousFit/figs/RecoSignal_streams_fit_neutralCorrLambdaC.png, id=815,
+<04-SimultaneousFit/figs/RecoSignal_streams_fit_neutralCorrLambdaC.png, id=825,
  722.7pt x 505.89pt>
 File: 04-SimultaneousFit/figs/RecoSignal_streams_fit_neutralCorrLambdaC.png Gra
 phic file (type png)
@@ -2844,7 +2844,7 @@ CorrLambdaC.png used on input line 559.
 (pdftex.def)             Requested size: 318.66946pt x 223.07088pt.
 
 <04-SimultaneousFit/figs/neutral_corrSample_simultaneous2DFit_stream0.png, id=8
-16, 1202.4925pt x 540.0175pt>
+26, 1202.4925pt x 540.0175pt>
 File: 04-SimultaneousFit/figs/neutral_corrSample_simultaneous2DFit_stream0.png 
 Graphic file (type png)
 
@@ -2855,7 +2855,7 @@ s2DFit_stream0.png used on input line 567.
 
 [41 <./04-SimultaneousFit/figs/RecoSignal_streams_fit_neutralCorrLambdaC.png>]
 <04-SimultaneousFit/figs/neutral_corrSignal_window_Total_2DFit_stream0.png, id=
-822, 1202.4925pt x 573.14125pt>
+832, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/neutral_corrSignal_window_Total_2DFit_stream0.png
  Graphic file (type png)
 
@@ -2903,7 +2903,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <04-SimultaneousFit/figs/neutral_anticorrSample_simultaneous2DFit_stream0.png, 
-id=829, 1202.4925pt x 540.0175pt>
+id=839, 1202.4925pt x 540.0175pt>
 File: 04-SimultaneousFit/figs/neutral_anticorrSample_simultaneous2DFit_stream0.
 png Graphic file (type png)
 
@@ -2914,7 +2914,7 @@ neous2DFit_stream0.png used on input line 624.
 (pdftex.def)             Requested size: 377.85341pt x 169.68617pt.
 
 <04-SimultaneousFit/figs/neutral_antiSignal_window_Total_2DFit_stream0.png, id=
-830, 1202.4925pt x 573.14125pt>
+840, 1202.4925pt x 573.14125pt>
 File: 04-SimultaneousFit/figs/neutral_antiSignal_window_Total_2DFit_stream0.png
  Graphic file (type png)
 
@@ -2923,7 +2923,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/neutral_antiSignal_window_Tota
 l_2DFit_stream0.png used on input line 631.
 (pdftex.def)             Requested size: 409.71689pt x 195.28522pt.
 [43]
-<04-SimultaneousFit/figs/2DsimFitresiduals.png, id=838, 1033.8625pt x 834.11626
+<04-SimultaneousFit/figs/2DsimFitresiduals.png, id=848, 1033.8625pt x 834.11626
 pt>
 File: 04-SimultaneousFit/figs/2DsimFitresiduals.png Graphic file (type png)
  <use 04-SimultaneousFit/figs/2DsimFitresiduals.png>
@@ -2945,7 +2945,7 @@ Overfull \vbox (27.2755pt too high) has occurred while \output is active []
 
 
 [45 <./04-SimultaneousFit/figs/2DsimFitresiduals.png>]
-<04-SimultaneousFit/figs/chargedCorrNrecSigPull.png, id=852, 1804.7425pt x 573.
+<04-SimultaneousFit/figs/chargedCorrNrecSigPull.png, id=862, 1804.7425pt x 573.
 14125pt>
 File: 04-SimultaneousFit/figs/chargedCorrNrecSigPull.png Graphic file (type png
 )
@@ -2954,7 +2954,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/chargedCorrNrecSigPull.png use
 d on input line 684.
 (pdftex.def)             Requested size: 386.96024pt x 122.88188pt.
 
-<04-SimultaneousFit/figs/chargedAntiNrecSigPull.png, id=853, 1804.7425pt x 573.
+<04-SimultaneousFit/figs/chargedAntiNrecSigPull.png, id=863, 1804.7425pt x 573.
 14125pt>
 File: 04-SimultaneousFit/figs/chargedAntiNrecSigPull.png Graphic file (type png
 )
@@ -2963,7 +2963,7 @@ Package pdftex.def Info: 04-SimultaneousFit/figs/chargedAntiNrecSigPull.png use
 d on input line 693.
 (pdftex.def)             Requested size: 386.96024pt x 122.88188pt.
 
-<04-SimultaneousFit/figs/neutralCorrNrecSigPull.png, id=854, 1804.7425pt x 573.
+<04-SimultaneousFit/figs/neutralCorrNrecSigPull.png, id=864, 1804.7425pt x 573.
 14125pt>
 File: 04-SimultaneousFit/figs/neutralCorrNrecSigPull.png Graphic file (type png
 )
@@ -2973,7 +2973,7 @@ d on input line 701.
 (pdftex.def)             Requested size: 386.96024pt x 122.88188pt.
  [46 <./04-SimultaneousFit/figs/chargedCorrNrecSigPull.png> <./04-SimultaneousF
 it/figs/chargedAntiNrecSigPull.png>]
-<04-SimultaneousFit/figs/neutralAntiNrecSigPull.png, id=861, 1804.7425pt x 573.
+<04-SimultaneousFit/figs/neutralAntiNrecSigPull.png, id=871, 1804.7425pt x 573.
 14125pt>
 File: 04-SimultaneousFit/figs/neutralAntiNrecSigPull.png Graphic file (type png
 )
@@ -3012,7 +3012,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 12.
 
 
-<05-BtagFit/figs/chargedBtag_corrLambdaC_TotalSignalBtag_fit.png, id=873, 600.2
+<05-BtagFit/figs/chargedBtag_corrLambdaC_TotalSignalBtag_fit.png, id=883, 600.2
 425pt x 573.14125pt>
 File: 05-BtagFit/figs/chargedBtag_corrLambdaC_TotalSignalBtag_fit.png Graphic f
 ile (type png)
@@ -3026,7 +3026,7 @@ g_fit.png used on input line 34.
 
 
 ]
-<05-BtagFit/figs/stream1_anticorr_chargedBtag_Total_Signal_fit.png, id=881, 600
+<05-BtagFit/figs/stream1_anticorr_chargedBtag_Total_Signal_fit.png, id=891, 600
 .2425pt x 573.14125pt>
 File: 05-BtagFit/figs/stream1_anticorr_chargedBtag_Total_Signal_fit.png Graphic
  file (type png)
@@ -3037,7 +3037,7 @@ nal_fit.png used on input line 41.
 (pdftex.def)             Requested size: 182.09485pt x 173.86769pt.
 
 <05-BtagFit/figs/stream0_neutralBtag_corrLambdaC_TotalSignal_addedGaussian.png,
- id=882, 600.2425pt x 573.14125pt>
+ id=892, 600.2425pt x 573.14125pt>
 File: 05-BtagFit/figs/stream0_neutralBtag_corrLambdaC_TotalSignal_addedGaussian
 .png Graphic file (type png)
 
@@ -3049,7 +3049,7 @@ ignal_addedGaussian.png used on input line 48.
  [49 <./05-BtagFit/figs/chargedBtag_corrLambdaC_TotalSignalBtag_fit.png> <./05-
 BtagFit/figs/stream1_anticorr_chargedBtag_Total_Signal_fit.png>]
 <05-BtagFit/figs/stream0_neutralBtag_anticorrLambdaC_TotalSignal_addedGaussian.
-png, id=888, 600.2425pt x 573.14125pt>
+png, id=898, 600.2425pt x 573.14125pt>
 File: 05-BtagFit/figs/stream0_neutralBtag_anticorrLambdaC_TotalSignal_addedGaus
 sian.png Graphic file (type png)
 
@@ -3059,7 +3059,7 @@ Package pdftex.def Info: 05-BtagFit/figs/stream0_neutralBtag_anticorrLambdaC_To
 talSignal_addedGaussian.png used on input line 55.
 (pdftex.def)             Requested size: 182.09485pt x 173.86769pt.
 
-<05-BtagFit/figs/NeutralCrossfeed_stream0_corrLambdaC_chargedBtagFit.png, id=88
+<05-BtagFit/figs/NeutralCrossfeed_stream0_corrLambdaC_chargedBtagFit.png, id=89
 9, 600.2425pt x 573.14125pt>
 File: 05-BtagFit/figs/NeutralCrossfeed_stream0_corrLambdaC_chargedBtagFit.png G
 raphic file (type png)
@@ -3074,7 +3074,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 <05-BtagFit/figs/NeutralCrossfeed_stream0_anticorrLambdaC_chargedBtag_MbcFit.pn
-g, id=890, 600.2425pt x 573.14125pt>
+g, id=900, 600.2425pt x 573.14125pt>
 File: 05-BtagFit/figs/NeutralCrossfeed_stream0_anticorrLambdaC_chargedBtag_MbcF
 it.png Graphic file (type png)
 
@@ -3091,7 +3091,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 n.png> <./05-BtagFit/figs/stream0_neutralBtag_anticorrLambdaC_TotalSignal_added
 Gaussian.png>]
 <05-BtagFit/figs/ChargedCrossfeed_stream0_corrLambdaC_neutalBtag_MbcFit.png, id
-=896, 600.2425pt x 573.14125pt>
+=906, 600.2425pt x 573.14125pt>
 File: 05-BtagFit/figs/ChargedCrossfeed_stream0_corrLambdaC_neutalBtag_MbcFit.pn
 g Graphic file (type png)
 
@@ -3109,7 +3109,7 @@ Overfull \vbox (4.2631pt too high) has occurred while \output is active []
 .png> <./05-BtagFit/figs/ChargedCrossfeed_stream0_corrLambdaC_neutalBtag_MbcFit
 .png>]
 <05-BtagFit/figs/ChargedCrossfeed_stream0_anticorrLambdaC_neutralBtag_MbcFit.pn
-g, id=905, 600.2425pt x 573.14125pt>
+g, id=915, 600.2425pt x 573.14125pt>
 File: 05-BtagFit/figs/ChargedCrossfeed_stream0_anticorrLambdaC_neutralBtag_MbcF
 it.png Graphic file (type png)
 
@@ -3120,7 +3120,7 @@ aC_neutralBtag_MbcFit.png used on input line 90.
 (pdftex.def)             Requested size: 182.09485pt x 173.86769pt.
  [52 <./05-BtagFit/figs/ChargedCrossfeed_stream0_anticorrLambdaC_neutralBtag_Mb
 cFit.png>]
-<05-BtagFit/figs/stream0_chargedBtag_off-on_resonance_correct.png, id=913, 834.
+<05-BtagFit/figs/stream0_chargedBtag_off-on_resonance_correct.png, id=923, 834.
 11626pt x 787.94376pt>
 File: 05-BtagFit/figs/stream0_chargedBtag_off-on_resonance_correct.png Graphic 
 file (type png)
@@ -3131,7 +3131,7 @@ orrect.png used on input line 111.
 (pdftex.def)             Requested size: 204.85844pt x 193.51079pt.
 
 <05-BtagFit/figs/bin_corrected_stream1_off-resonance_on_stream0_on-resonance.pd
-f, id=914, 569.12625pt x 550.055pt>
+f, id=924, 569.12625pt x 550.055pt>
 File: 05-BtagFit/figs/bin_corrected_stream1_off-resonance_on_stream0_on-resonan
 ce.pdf Graphic file (type pdf)
 
@@ -3185,7 +3185,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <05-BtagFit/figs/NEW_stream5_chargedBtag_Total_fit_sigmaCB_misReco_Tail_free_37
-0bins.png, id=963, 598.235pt x 574.145pt>
+0bins.png, id=974, 598.235pt x 574.145pt>
 File: 05-BtagFit/figs/NEW_stream5_chargedBtag_Total_fit_sigmaCB_misReco_Tail_fr
 ee_370bins.png Graphic file (type png)
 
@@ -3196,7 +3196,7 @@ aCB_misReco_Tail_free_370bins.png used on input line 134.
 (pdftex.def)             Requested size: 227.62204pt x 218.4577pt.
  [54 <./05-BtagFit/figs/NEW_stream5_chargedBtag_Total_fit_sigmaCB_misReco_Tail_
 free_370bins.png>]
-<05-BtagFit/figs/NrecSigBtag_mcstudy.png, id=971, 1202.4925pt x 372.39125pt>
+<05-BtagFit/figs/NrecSigBtag_mcstudy.png, id=981, 1202.4925pt x 372.39125pt>
 File: 05-BtagFit/figs/NrecSigBtag_mcstudy.png Graphic file (type png)
 
 <use 05-BtagFit/figs/NrecSigBtag_mcstudy.png>
@@ -3242,7 +3242,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <05-BtagFit/figs/NEW_chargedBtag_anticorrLambdaC_Total_fit_sigmaCB_misRecoSlope
-_free_370bins.png, id=972, 600.2425pt x 578.16pt>
+_free_370bins.png, id=982, 600.2425pt x 578.16pt>
 File: 05-BtagFit/figs/NEW_chargedBtag_anticorrLambdaC_Total_fit_sigmaCB_misReco
 Slope_free_370bins.png Graphic file (type png)
 
@@ -3253,7 +3253,7 @@ fit_sigmaCB_misRecoSlope_free_370bins.png used on input line 182.
 (pdftex.def)             Requested size: 227.62204pt x 219.24434pt.
  [55 <./05-BtagFit/figs/NrecSigBtag_mcstudy.png> <./05-BtagFit/figs/NEW_charged
 Btag_anticorrLambdaC_Total_fit_sigmaCB_misRecoSlope_free_370bins.png>]
-<05-BtagFit/figs/NrecSig_chargedAntiBtag_mcstudy.png, id=982, 1200.485pt x 373.
+<05-BtagFit/figs/NrecSig_chargedAntiBtag_mcstudy.png, id=992, 1200.485pt x 373.
 395pt>
 File: 05-BtagFit/figs/NrecSig_chargedAntiBtag_mcstudy.png Graphic file (type pn
 g)
@@ -3291,7 +3291,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 223.
 
 
-<05-BtagFit/figs/neutralCorrLambdaC_BtagFit.png, id=983, 600.2425pt x 573.14125
+<05-BtagFit/figs/neutralCorrLambdaC_BtagFit.png, id=993, 600.2425pt x 573.14125
 pt>
 File: 05-BtagFit/figs/neutralCorrLambdaC_BtagFit.png Graphic file (type png)
  <use 05-BtagFit/figs/neutralCorrLambdaC_BtagFit.png>
@@ -3300,8 +3300,8 @@ Package pdftex.def Info: 05-BtagFit/figs/neutralCorrLambdaC_BtagFit.png used on
 (pdftex.def)             Requested size: 227.62204pt x 217.34117pt.
  [56 <./05-BtagFit/figs/NrecSig_chargedAntiBtag_mcstudy.png> <./05-BtagFit/figs
 /neutralCorrLambdaC_BtagFit.png>]
-<05-BtagFit/figs/NrecSig_neutralCorrBtag_mcstudy.png, id=991, 1200.485pt x 373.
-395pt>
+<05-BtagFit/figs/NrecSig_neutralCorrBtag_mcstudy.png, id=1001, 1200.485pt x 373
+.395pt>
 File: 05-BtagFit/figs/NrecSig_neutralCorrBtag_mcstudy.png Graphic file (type pn
 g)
  <use 05-BtagFit/figs/NrecSig_neutralCorrBtag_mcstudy.png>
@@ -3339,7 +3339,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <05-BtagFit/figs/stream1_neutralBtag_Total_fit_sigmaCB_misReco_slope_free_370bi
-ns.png, id=992, 600.2425pt x 573.14125pt>
+ns.png, id=1002, 600.2425pt x 573.14125pt>
 File: 05-BtagFit/figs/stream1_neutralBtag_Total_fit_sigmaCB_misReco_slope_free_
 370bins.png Graphic file (type png)
 
@@ -3350,7 +3350,7 @@ misReco_slope_free_370bins.png used on input line 266.
 (pdftex.def)             Requested size: 227.62204pt x 217.34117pt.
  [57 <./05-BtagFit/figs/NrecSig_neutralCorrBtag_mcstudy.png> <./05-BtagFit/figs
 /stream1_neutralBtag_Total_fit_sigmaCB_misReco_slope_free_370bins.png>]
-<05-BtagFit/figs/NrecSigneutralAntiBtag_mcstudy.png, id=1000, 1202.4925pt x 372
+<05-BtagFit/figs/NrecSigneutralAntiBtag_mcstudy.png, id=1010, 1202.4925pt x 372
 .39125pt>
 File: 05-BtagFit/figs/NrecSigneutralAntiBtag_mcstudy.png Graphic file (type png
 )
@@ -3385,7 +3385,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--27
 
 ]
 <06-Efficiencies/figs/stream5_chargedBtag_TotalSignal_addedGaussian_Normalisati
-ons.png, id=1018, 600.2425pt x 573.14125pt>
+ons.png, id=1028, 600.2425pt x 573.14125pt>
 File: 06-Efficiencies/figs/stream5_chargedBtag_TotalSignal_addedGaussian_Normal
 isations.png Graphic file (type png)
 
@@ -3396,7 +3396,7 @@ ddedGaussian_Normalisations.png used on input line 31.
 (pdftex.def)             Requested size: 182.09485pt x 173.86769pt.
 
 <06-Efficiencies/figs/10streams_chargedBtag_corrLambdaC_TotalSignalBtag_fit.png
-, id=1020, 600.2425pt x 573.14125pt>
+, id=1030, 600.2425pt x 573.14125pt>
 File: 06-Efficiencies/figs/10streams_chargedBtag_corrLambdaC_TotalSignalBtag_fi
 t.png Graphic file (type png)
 
@@ -3509,194 +3509,214 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 78.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 87.
+(hyperref)                removing `math shift' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 87.
+(hyperref)                removing `superscript' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Lambda' on input line 87.
+(hyperref)                removing `\rightarrow' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 87.
+(hyperref)                removing `\Lambda' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 87.
+(hyperref)                removing `subscript' on input line 88.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `superscript' on input line 88.
 
-) [61]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 88.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
+
+ []
+
+[61]) [62]
 \openout2 = `07-LamBR/LamBR.aux'.
 
  (./07-LamBR/LamBR.tex
 Chapter 6.
-[62
+[63
 
 
 
 ]
-<07-LamBR/figs/stream5_chargedBtag_Total_fit.png, id=1039, 598.235pt x 574.145p
+Underfull \hbox (badness 10000) in paragraph at lines 84--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
+
+ []
+
+[64] [65]
+<07-LamBR/figs/stream5_chargedBtag_Total_fit.png, id=1067, 598.235pt x 574.145p
 t>
 File: 07-LamBR/figs/stream5_chargedBtag_Total_fit.png Graphic file (type png)
  <use 07-LamBR/figs/stream5_chargedBtag_Total_fit.png>
 Package pdftex.def Info: 07-LamBR/figs/stream5_chargedBtag_Total_fit.png used o
-n input line 102.
+n input line 188.
 (pdftex.def)             Requested size: 295.90587pt x 283.99678pt.
 
 <07-LamBR/figs/NEW_stream5_chargedBtag_Total_fit_sigmaCB_misReco_Tail_free_usin
-gTrueContinuumPDF_370bins.png, id=1040, 600.2425pt x 573.14125pt>
+gTrueContinuumPDF_370bins.png, id=1068, 600.2425pt x 573.14125pt>
 File: 07-LamBR/figs/NEW_stream5_chargedBtag_Total_fit_sigmaCB_misReco_Tail_free
 _usingTrueContinuumPDF_370bins.png Graphic file (type png)
 
 <use 07-LamBR/figs/NEW_stream5_chargedBtag_Total_fit_sigmaCB_misReco_Tail_free_
 usingTrueContinuumPDF_370bins.png>
 Package pdftex.def Info: 07-LamBR/figs/NEW_stream5_chargedBtag_Total_fit_sigmaC
-B_misReco_Tail_free_usingTrueContinuumPDF_370bins.png used on input line 104.
+B_misReco_Tail_free_usingTrueContinuumPDF_370bins.png used on input line 190.
 (pdftex.def)             Requested size: 295.90587pt x 282.55577pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--107
+Underfull \hbox (badness 10000) in paragraph at lines 180--193
 
  []
 
-[63]
+[66]
 Overfull \vbox (44.9126pt too high) has occurred while \output is active []
 
 
-[64 <./07-LamBR/figs/stream5_chargedBtag_Total_fit.png (PNG copy)> <./07-LamBR/
+[67 <./07-LamBR/figs/stream5_chargedBtag_Total_fit.png (PNG copy)> <./07-LamBR/
 figs/NEW_stream5_chargedBtag_Total_fit_sigmaCB_misReco_Tail_free_usingTrueConti
 nuumPDF_370bins.png>]
-<07-LamBR/figs/stream5_chargedBtag_continuumHistPdf.png, id=1060, 600.2425pt x 
+<07-LamBR/figs/stream5_chargedBtag_continuumHistPdf.png, id=1087, 600.2425pt x 
 573.14125pt>
 File: 07-LamBR/figs/stream5_chargedBtag_continuumHistPdf.png Graphic file (type
  png)
  <use 07-LamBR/figs/stream5_chargedBtag_continuumHistPdf.png>
 Package pdftex.def Info: 07-LamBR/figs/stream5_chargedBtag_continuumHistPdf.png
- used on input line 135.
+ used on input line 221.
 (pdftex.def)             Requested size: 227.62204pt x 217.34117pt.
 
-[65 <./07-LamBR/figs/stream5_chargedBtag_continuumHistPdf.png>]
+[68 <./07-LamBR/figs/stream5_chargedBtag_continuumHistPdf.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 163.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 163.
+(hyperref)                removing `math shift' on input line 249.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 163.
-
-[66]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 185.
+(hyperref)                removing `subscript' on input line 249.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 185.
+(hyperref)                removing `math shift' on input line 249.
+
+[69]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 271.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 185.
+(hyperref)                removing `subscript' on input line 271.
 
 
-LaTeX Warning: Reference `sec:MC2D_Fit' on page 1 undefined on input line 186.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 271.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--206
+LaTeX Warning: Reference `sec:MC2D_Fit' on page 1 undefined on input line 272.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[67]
+[70]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 218.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 218.
+(hyperref)                removing `math shift' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 218.
+(hyperref)                removing `superscript' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Lambda' on input line 218.
+(hyperref)                removing `\rightarrow' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 218.
+(hyperref)                removing `\Lambda' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 218.
+(hyperref)                removing `subscript' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 218.
-
-
-LaTeX Warning: Reference `continuumSysBtoLambdaC' on page 68 undefined on input
- line 220.
-
-[68]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 292.
+(hyperref)                removing `superscript' on input line 304.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 292.
+(hyperref)                removing `math shift' on input line 304.
+
+
+LaTeX Warning: Reference `continuumSysBtoLambdaC' on page 71 undefined on input
+ line 306.
+
+[71]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightarrow' on input line 292.
+(hyperref)                removing `superscript' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Lambda' on input line 292.
+(hyperref)                removing `\rightarrow' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 292.
+(hyperref)                removing `\Lambda' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 292.
+(hyperref)                removing `subscript' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 292.
+(hyperref)                removing `superscript' on input line 378.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 378.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 294--245
+Underfull \hbox (badness 10000) in paragraph at lines 380--245
 
  []
 
-[69] (./main.bbl) [70
+[72] (./main.bbl) [73
 
 
 
@@ -3710,7 +3730,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7982C5607A8A23E36DC0D84E6EACDB1E;3925.
+(rerunfilecheck)             Checksum: 471D3391B762F62C04559D9FA4DA0B10;4113.
 
 
 LaTeX Warning: There were undefined references.
@@ -3720,10 +3740,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 48730 strings out of 493029
- 1157935 string characters out of 6136234
- 1314950 words of memory out of 5000000
- 50851 multiletter control sequences out of 15000+600000
+ 48741 strings out of 493029
+ 1158076 string characters out of 6136234
+ 1315954 words of memory out of 5000000
+ 50853 multiletter control sequences out of 15000+600000
  149353 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,15n,98p,10364b,1105s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3755,10 +3775,10 @@ sr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (76 pages, 4483751 bytes).
+Output written on main.pdf (79 pages, 4488849 bytes).
 PDF statistics:
- 1272 PDF objects out of 1440 (max. 8388607)
- 983 compressed objects within 10 object streams
- 252 named destinations out of 1000 (max. 500000)
- 45568 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1303 PDF objects out of 1440 (max. 8388607)
+ 1010 compressed objects within 11 object streams
+ 261 named destinations out of 1000 (max. 500000)
+ 45584 words of extra memory for PDF output out of 51595 (max. 10000000)
 
