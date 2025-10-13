@@ -79,6 +79,8 @@ the following quantities need to be known:
     \caption{charged anticorr}
     %\caption{Measured branching fraction values obtained using the results listed in \cref{tab:SixStreams_chargedCorrLam2Dfits} for the six different streams (only statistical uncertainties are displayed) and its average.}
     \end{table}
+    
+\newpage
 
 \section{extraction of neutral decays branching fractions}
 Due to the mixing phenomenon of neutral $B$ mesons the measurement requires an intermediate step in order to correct the production 
@@ -106,10 +108,43 @@ mixing-corrected branching ratios $\mathcal{B}_c$ (correlated decays) and $\bar{
         \bar{\mathcal{B}}_c = \dfrac{(\bar{B}^0_{tag}, \Lambda_c^-) - \chi_d (\bar{B}^0_{tag}, \Lambda_c^-) +  \mathcal{B}(B^0_{tag}, \Lambda_c^-))}{1 - 2\chi_d}
     \end{cases}  
 \end{equation}
-\\
-First a check of the decays that didn't experience mixing is performed.
-\subsection{unmixed neutral decays branching ratios}
 
+First a check of the decays that didn't experience mixing is performed. For this check one stream samples of signal events that didn't experience mixing
+were used to obtain  signal yields (see Figures below).
+
+\begin{figure}
+    \centering
+    {\includegraphics[width=0.7\textwidth]{07-LamBR/figs/stream4_TotalSignal_neutral_corrLambdaC_2Dfit.png}}
+    \caption{Unmixed neutral correlated total signal events in $M_{bc}$  and $M(p K \pi)$ }
+    \label{fig:stream4_TotalSignal_neutral_corrLambdaC_2Dfit}
+    \end{figure}
+
+    \begin{figure}
+        \centering
+        {\includegraphics[width=0.7\textwidth]{07-LamBR/figs/stream3_TotalSignal_neutral_anticorrLambdaC_2Dfit.png}}
+        \caption{Unmixed neutral anticorrelated total signal events in $M_{bc}$  and $M(p K \pi)$ }
+        \label{fig:stream3_TotalSignal_neutral_anticorrLambdaC_2Dfit}
+        \end{figure}
+
+\begin{figure}[H]
+    \centering
+    {\includegraphics[width=0.40\textwidth]{07-LamBR/figs/stream1_neutralBtag_unmixedTotal_Signal_fit_normalisations.png}}
+    \caption{Unmixed neutral $B$ mesons in the correlated decay sample. }
+    \label{fig:anticorr_chargedBtag_Total_Signal_fit}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        {\includegraphics[width=0.40\textwidth]{07-LamBR/figs/stream1_unmixedTotalSignal_BtagFit_anticorrLambdaC_New_signalPDF.png}}
+        \caption{Unmixed neutral $B$ mesons in the anticorrelated decay sample. }
+        \label{fig:anticorr_chargedBtag_Total_Signal_fit}
+        \end{figure}
+
+
+\subsection{unmixed neutral decays branching ratios}
+The following two tables report the values of branching fractions for the neutral decays' events that didn't experience mixing 
+(i.e.: $\mathcal{B}_c $ and $\bar{\mathcal{B}}_c$), 
+obtained with the fits shown in 
 \begin{table}[H]
     \centering
     \resizebox{0.65\textwidth}{!}{%
@@ -165,6 +200,10 @@ First a check of the decays that didn't experience mixing is performed.
         }
         \caption{Measured branching fraction values obtained using only unmixed events for the six different streams (only statistical uncertainties are displayed) and its average.}
         \end{table}    
+
+The good agreement within statistical errors of the obtained branching fractions excluding mixing events guarantees that 
+the procedure to obtain the branching fractions is correct and any possible discrepancy observed when mixing is included does not
+depend on it.
 
 \section{Systematics}
 
