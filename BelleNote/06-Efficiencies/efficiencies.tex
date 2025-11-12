@@ -38,8 +38,9 @@ fixed and only the the normalisations of \textbf{reconstructed}  and \textbf{mis
 
  The FEI tag-side efficiency for signal events is calculated upon 10 streams of on-resonance Monte Carlo streams of simulated data 
  in order to minimize statistical uncertainties.
- As an example \cref{fig:10streams_chargedBtag_corrLambdaC_TotalSignalBtag_fit} shows the fit performed on the tagged $B$ mesons having in the ROE a companion decaying $B^- \rightarrow \Lambda_c^+$ (charged correlated decays). 
- Dividing the yields obtained by the fit by the total number of $B^- \rightarrow \Lambda_c^+ events$ present in the 10 streams it is possible to determine the FEI tag-side efficiency for signal events.
+ As an example \cref{fig:10streams_chargedBtag_corrLambdaC_TotalSignalBtag_fit} shows the fit performed on the tagged $B$ mesons having in the ROE a companion decaying $B^- \rightarrow \Lambda_c^+$ or  
+ $B^+ \rightarrow \Lambda_c^-$ (charged correlated decays). 
+ Dividing the yields obtained by the fit by the total number of charged correlated decays events present in the 10 Monte Carlo streams it is possible to determine the FEI tag-side efficiency for signal events.
  \begin{figure}[H]
     \centering
     {\includegraphics[width=0.40\textwidth]{06-Efficiencies/figs/10streams_chargedBtag_corrLambdaC_TotalSignalBtag_fit.png}}
@@ -47,8 +48,8 @@ fixed and only the the normalisations of \textbf{reconstructed}  and \textbf{mis
     \label{fig:10streams_chargedBtag_corrLambdaC_TotalSignalBtag_fit}
     \end{figure}
 \section{$\Lambda_c$ efficiency}
-The efficiency of reconstructing the ${\Lambda_c}$ baryon after correctly tagging the charged $B$ meson, can be estimated from Monte Carlo simulated data.
-All available 10 streams of on-resonance Monte Carlo streams of simulated data were used to minimize statistical uncertainties.
+The efficiency of reconstructing the ${\Lambda_c}$ baryon after correctly tagging the  $B$ meson, can be estimated from Monte Carlo simulated data.
+One can again exploit the  10 streams of on-resonance Monte Carlo simulated data for to estimate the $\Lambda_c$ reconstruction efficiency.
 The efficiency is evaluated as follows from the fraction:  
 \begin{equation}
     \frac{N_{recSig}(B_{tag}, \Lambda_c)}{N_{recSig}(B_{tag}^{sig})}
@@ -56,12 +57,12 @@ The efficiency is evaluated as follows from the fraction:
 
 \vspace{0.5cm}
 
-\noindent where $N_{recSig}(B_{tag}, \Lambda_c))$ are the yields of reconstructed signal from a two dimensional fit of corresponding inclusive decay.
+\noindent where $N_{recSig}(B_{tag}, \Lambda_c))$ are the yields of reconstructed signal from a two dimensional fit of the corresponding inclusive decay
  and  $N_{recSig}(B_{tag}^{sig})$ are the yields of correctly reconstructed signal from the same fit of tagged $B$ mesons used to calculate the Signalside-dependent FEI efficiency. 
 
 \subsection{$B^- \rightarrow \Lambda_c^+$ decays}
 $\epsilon^+_{FEI,sig} = 0.636 \pm 0.003\%$ (calculated with 10 streams)\\
-$\epsilon^+_{FEI} = 0.6379 \pm 0.0004\%$
+$\epsilon^+_{FEI} = 0.6379 \pm 0.0004\%$\\
 $\frac{\epsilon^+_{FEI,sig}}{\epsilon^+_{FEI}}$ = 0.997 $\pm $ 0.005% 𝜖𝐹𝐸𝐼,𝑠𝑖𝑔= 0.636 ± 0.003% , 𝜖𝐹𝐸𝐼 = 0.638 ± 0.0004%
 
 $\epsilon_{\Lambda_c}$ = 37.78 $\pm $ 0.45 $\%$ %correction factor: 0.969*0.853*0.983 = 0.813 ± 0.013
@@ -76,22 +77,33 @@ $\epsilon_{\Lambda_c}$ = 42.39 $\pm $ 0.66 $\%$ %overall correction factor 0.794
 
 
 \subsection{$\bar{B^0} \rightarrow \Lambda_c^+$  decays}
-$\epsilon^0_{FEI,sig} = 0.247 \pm 0.002\%$ (calculated with  10 streams unmixed)\\
-$\epsilon^0_{FEI} = 0.234 \pm 0.0002\%$ (1 unmixed stream)\\
+UNMIXED:
+$\epsilon^0_{FEI,sig} = 0.247 \pm 0.002\%$ (calculated with  10 streams)\\
+$\epsilon^0_{FEI} = 0.234 \pm 0.0002\%$ \\
 
 using only unmixed:\\
 $\frac{\epsilon^0_{FEI,sig}}{\epsilon^0_{FEI}}$ = 1.056 $\pm$ 0.009% 𝜖𝐹𝐸𝐼=  0.234 ± 0.001% , 𝜖𝐹𝐸𝐼,𝑠𝑖𝑔= 0.247 ± 0.002%
 
-$\epsilon_{\Lambda_c}$ = 39.59 $\pm $ 0.49 $\%$ %overall correction factor 0.794 $\pm$ 0.010
- (using unmixed events)
+Including mixed events:
+$\epsilon^0_{FEI,sig} = 0.253 \pm 0.002\%$ (calculated with  10 streams)\\
+$\epsilon^0_{FEI} = 0.239 \pm 0.0002\%$ \\
+$\frac{\epsilon^0_{FEI,sig}}{\epsilon^0_{FEI}}$ = 1.059 $\pm$ 0.006
 
+$\epsilon_{\Lambda_c}$ = 39.59 $\pm $ 0.49 $\%$ %overall correction factor 0.794 $\pm$ 0.010
+ (using unmixed events and calculated with  10 streams)
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{$\bar{B^0} \rightarrow \Lambda_c^-$  decays}
-$\epsilon^0_{FEI,sig} = 0.210 \pm 0.003\%$ (calculated with  10 streams unmixed)\\
-$\epsilon^0_{FEI} = 0.206 \pm 0.0002\%$ (1 unmixed stream)\\
+UNMIXED:
+$\epsilon^0_{FEI,sig} = 0.210 \pm 0.003\%$ (calculated with  6 streams unmixed)\\
+$\epsilon^0_{FEI} = 0.207 \pm 0.0002\%$ \\
 using only unmixed:\\
 $\frac{\epsilon^0_{FEI,sig}}{\epsilon^0_{FEI}}$ = 1.017 $\pm$ 0.015\\
 
+Including mixed events:
+$\epsilon^0_{FEI,sig} = 0.207 \pm 0.003\%$ (calculated with 6 streams)\\
+$\epsilon^0_{FEI} = 0.208 \pm 0.0002\%$ \\
+$\frac{\epsilon^+_{FEI,sig}}{\epsilon^+_{FEI}}$ = 0.995 $\pm$ 0.014\\% 𝜖𝐹𝐸𝐼= 0.206 ± 0.001% , 𝜖𝐹𝐸𝐼,𝑠𝑖𝑔= 0.207 ± 0.003%
 
-$\frac{\epsilon^+_{FEI,sig}}{\epsilon^+_{FEI}}$ = 1.005 $\pm$ 0.014% 𝜖𝐹𝐸𝐼= 0.206 ± 0.001% , 𝜖𝐹𝐸𝐼,𝑠𝑖𝑔= 0.207 ± 0.003%
-
-$\epsilon_{\Lambda_c}$ = 41.49  $\pm $ 1.13 $\%$ %overall correction factor 0.790 $\pm$ 0.011
+$\epsilon_{\Lambda_c}$ = 41.49  $\pm $ 1.13 $\%$\\ %overall correction factor 0.790 $\pm$ 0.011
+(using unmixed events and calculated with  6 streams, unfortunately didn't run on all streams within 2023)
