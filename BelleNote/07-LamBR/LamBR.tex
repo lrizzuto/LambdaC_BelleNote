@@ -21,7 +21,10 @@ the following quantities need to be known:
 \end{itemize}
 \vspace{0.2 cm}
 
+\section{charged decays branching ratios}
 
+Once all the factors of \cref{eq:chargedB_BRformula} are obtained from the MOnte Carlo, the corresponding branching ratios can be calculated in each stream (6 streams in total, since there are only 6 available for the off-resonance). 
+\vspace{0.75 cm}
 \begin{table}[H]
     \centering
     \resizebox{0.95\textwidth}{!}{%
@@ -47,7 +50,7 @@ the following quantities need to be known:
     \end{tabular}%
     }
     \label{tab:SixStreams_chargedCorrLamBR}
-    \caption{charged corr}
+    \caption{Monte Carlo measured branching fraction values of charged correlated decays}
     %\caption{Measured branching fraction values obtained using the results listed in \cref{tab:SixStreams_chargedCorrLam2Dfits} for the six different streams (only statistical uncertainties are displayed) and its average.}
     \end{table}
 
@@ -76,7 +79,7 @@ the following quantities need to be known:
         \end{tabular}%
         }
     \label{tab:SixStreams_chargedAntiCorrLamBR}
-    \caption{charged anticorr}
+    \caption{Monte Carlo measured branching fraction values of charged anticorrelated decays}
     %\caption{Measured branching fraction values obtained using the results listed in \cref{tab:SixStreams_chargedCorrLam2Dfits} for the six different streams (only statistical uncertainties are displayed) and its average.}
     \end{table}
     
@@ -84,8 +87,8 @@ the following quantities need to be known:
 
 \section{extraction of neutral decays branching fractions}
 Due to the mixing phenomenon of neutral $B$ mesons the measurement requires an intermediate step in order to correct the production 
-obtained rates of $\Lambda_c$ baryons in the reocoil of the reconstructed neutral $B$ mesons for the $B^0\bar{B^0}$ mixing. \\
-Being $\chi_d$ the mixing parameters, on average, if one looks at the recoil of a correctly reconstructed $B^0$ ($\bar{B^0}$) meson $1 - \chi_d$ of the time the reconstructed $\Lambda_c$ baryon
+ rates of $\Lambda_c$ baryons obtained in the rescoil of the reconstructed neutral $B$ mesons for the $B^0\bar{B^0}$ mixing. \\
+Being $\chi_d$ the mixing parameters, on average, if one looks at the recoil of a correctly reconstructed $B^0$ ($\bar{B^0}$) meson, $1 - \chi_d$ of the time the reconstructed $\Lambda_c$ baryon
 will have decayed from a $\bar{B^0}$ ($B^0$) and $\chi_d$ of the time from $B^0$ ($\bar{B^0}$), due to mixing.\\
 
 i.e.:   
@@ -109,10 +112,10 @@ mixing-corrected branching ratios $\mathcal{B}_c$ (correlated decays) and $\bar{
     \end{cases}  
 \end{equation}
 
-First a check of the decays that didn't experience mixing is performed. For this check one stream samples of signal events that didn't experience mixing
+First a check of the decays that didn't experience mixing is performed. For this check, samples of signal events that didn't experience mixing
 were used to obtain  signal yields (see Figures below).
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     {\includegraphics[width=0.7\textwidth]{07-LamBR/figs/stream4_TotalSignal_neutral_corrLambdaC_2Dfit.png}}
     \caption{Unmixed neutral correlated total signal events in $M_{bc}$  and $M(p K \pi)$ }
@@ -403,6 +406,14 @@ As discussed in \cref{sec:MC2D_Fit} the shapes of the PDFs describing the generi
  \vspace{0.2 cm}
  \noindent  The kaon identification efficiency was studied in detail in Belle Note 779 \cite{KIDeff} (\url{http://belle.kek.jp/secured/belle_note/gn779/bn779.ps.gz}). The decay $D^{*+} \rightarrow D^0 \pi^+$ followed by $D^0 \rightarrow K^- \pi^+$, was used to examine it. As for the proton identification efficiency it considers the dependence on Kaon charge, momentum and polar angle and same ID cut values\footnote{Here, Kaon ID cut value $X$ means $  \mathcal{L}_{K/\pi} > X$, so for values below $X$ the tracks are identified as pions} 
 
+ \subsection{Tracking efficiency}
+ The tracking efficiency correction for tracks with $p > $ 0.2 GeV is studied in \cite{TrackingEff}  . The track finding efficiency is measured by comparing the number of partially and fully reconstructed
+ $D*$ decays. Based on this analysis, the measured difference in the tracking efficiency in data and MC is $R = $($- 0.13 \pm 0.30  \pm 0.10$)$\%$ per track.  Since the ratio is much smaller
+ than the statistical uncertainty, this ratio is not applied as a correction, instead, as done in \cite{BN1584}, a systematic uncertainty of 0.35$\%$ per track is applied. The total systematic uncertainty is the sum over the 
+ three charged tracks used to reconstruct the $\Lambda_c$ baryon: 1.05$\%$.
+
+ %$This source of systematics arises from the fact that there’s (still) a significant uncertainty on B0 decays \%$
+
 \subsection{$B^- \rightarrow \Lambda_c^+$ decays}
 Regarding the systematic uncertainties deriving from the continuum modeling in the two-dimensional fit are estimated as 
 already described in \ref{continuumSysBtoLambdaC} one obtains an absolute value of $0.04\%$ on the branching fraction.\\
@@ -449,6 +460,24 @@ background PDFs within their uncertainties in the $B_{tag}$ fit and mean
 deviations reported in the last column. }
 \end{table}
 
+The ratio between the two FEI efficiencies is: 
+ $\frac{\epsilon^{+}_{FEI,  sig}}{\epsilon^{+}_{FEI}} = 0.965 \pm 0.009 $ \\
+\vspace{0.4 cm} 
+ The uncertainity on this value originates a systematic uncertainty of 0.01$\%$ on the Br value.
+The $\Lambda_c$ reconstruction efficiency is determined to be $\epsilon_{\Lambda_c}$ = 37.78 $\pm 0.45 \%$. 
+The systematic uncertainty originated by its uncertainty is 0.04$\%$ on the Br value.\\
+
+\noindent For Kaons and Pions the average ID correction is estimated to be  \hspace{0.2 cm}  $R_K = 0.853 \pm 0.010$ 
+ and \hspace{0.25 cm} $R_{\pi} = 0.983 \pm 0.008$  \hspace{0.25 cm} respectivley.
+%\vspace{0.2cm} \hspace{1 cm}  $ R_K = \epsilon^{data}/\epsilon^{MC}$ \\
+
+%\vspace{0.5cm}
+%The average proton ID correction is estimated to .
+overall correction factor: $0.813 \pm 0.013$
+\noindent The final PID efficiency systematic error is determined to be  0.05$\%$ on the branching fraction value. \\
+The systematic uncertainty of 0.35$\%$ per track for the tracking efficiency instead results in 0.01$\%$ uncertainty on the branching fraction value. 
+
+
 \begin{table}[h]
     \centering
     \resizebox{0.8\textwidth}{!}{%
@@ -480,4 +509,100 @@ deviations reported in the last column. }
     \subsection{$B^+ \rightarrow \Lambda_c^+$ decays}
 
     Regarding the systematic uncertainties deriving from the continuum modeling in the two-dimensional fit are estimated 
-    one obtains an absolute value of $0.02\%$ on the branching fraction.\\
+    one obtains an absolute value of $0.01\%$ on the branching fraction.\\
+    Instead the imperfect modeling of the continuum in the $B_{tag}  $ fit is responsible for a 0.02 $\%$ on the branching fraction in absolute value.\\
+    Continuum modeling uncertainties account for 0.02$\%$ total uncertainties on the branching fraction in absolute value.\\  
+    
+    Regarding the crossfeed/misreconstructed signal ratio in the $B_{tag}  $ fit, the produced offsets are displayed here below.
+    \vspace{0.25 cm}
+    \begin{table}[H]
+    \begin{tabular}{ |p{2.5cm}||p{2cm}| p{2cm}|  p{2cm}|}
+    \hline
+           &  $- \sigma$ &  $+ \sigma$ & $ \pm \bar{\sigma}$\\
+     \hline
+     offset    &  38890 &  21220 & 30055 \\
+     \hline
+    \end{tabular}
+    \caption{Offsets on the $N_{recSig}$  signal yields obtained varying of $\pm$20$\%$ the 
+     ratio of crossfeed/misreconstructed events in the $B_{tag}$ fit and mean deviations reported in the last column.}
+    \end{table}
+
+    The offsets that a potential $\pm$20$\%$ different crossfeed/misreconstructed signal ratio produce results in 0.01$\%$ systematic
+    uncertainity on the branching fraction, as in the charged correlated decays.\\
+    
+    The systematic uncertainties deriving from the crossfeed background modeling in the $B_{tag}$ fit is    about 0.02$\%$.
+    In the table below the signal yields' offsets are listed changing
+    the parameters within their uncertainties, and the mean offsets value used to calculate the
+    expected uncertainty on the BR value.
+    \vspace{0.25 cm}
+    \begin{table}[H]
+    \begin{tabular}{ |p{2.5cm}||p{2cm}| p{2cm}|  p{2cm}|}
+    \hline
+           &  $- \sigma$ &  $+ \sigma$ & $ \pm \bar{\sigma}$\\
+     \hline
+     offset    &  17960 &  68700 & 43330 \\
+     \hline
+    \end{tabular}
+    \caption{Offsets on the $N_{recSig}$  signal yields  obtained varying the parameters of crossfeed
+    background PDFs within their uncertainties in the $B_{tag}$ fit and mean
+    deviations reported in the last column. }
+    \end{table}
+
+    \vspace{1 cm}
+    \begin{table}[h]
+        \centering
+        \resizebox{0.8\textwidth}{!}{%
+        \begin{tabular}{c c c}
+        \hline
+        source              & relative ($\%$) & absolute ($\%$)  \\
+        \hline
+        Continuum modeling   &  1.61   &  0.02 \\
+        $B_{tag}$ fit Crossfeed fraction   &  0.12 &  0.01 \\
+        $B_{tag}$ fit Crossfeed PDF shape & 1.93 &  0.02  \\
+        2DFit crossfeed normalization & 3.23 & 0.04 \\
+        $M_{bc}$ peaking PDF shape & 0.80 &  0.01  \\
+        $M_{bc}$ flat PDF shape & - &  - \\
+        
+        $\epsilon^{+}_{FEI,  sig}/\epsilon^{+}_{FEI}$ & 0.81 & 0.01 \\
+        $\epsilon_{\Lambda_c}$ & 1.61 & 0.02 \\
+        PID            & 1.26    & 0.01\\
+        Tracking efficiency & 0.92  & 0.01 \\
+        \hline
+        Total                         &   4.80    &  0.06  \\
+        \hline
+        \end{tabular}%
+        }%
+        \caption{Systematic uncertainties in the determination of the  $B^+ \rightarrow \bar{\Lambda}_c^+ X$ branching fraction.}
+        \label{tab:systematics:ChargedAnti}
+        \end{table}
+        
+
+
+%\subsection{$B^+ \rightarrow \Lambda_c^+$ decays}
+%neutral corr
+%\begin{table}[h]
+ %   \centering
+ %   \resizebox{0.8\textwidth}{!}{%
+ %   \begin{tabular}{c c c}
+ %   \hline
+ %   source              & relative ($\%$) & absolute ($\%$)  \\
+ %   \hline
+ %   Continuum modeling   &  1.61   &  0.02 \\
+ %   $B_{tag}$ fit Crossfeed fraction   &  0.26 &  0.01 \\
+ %   $B_{tag}$ fit Crossfeed PDF shape & 0.45 &  0.01  \\
+ %   2DFit crossfeed normalization & 3.23 & 0.04 \\
+ %   $M_{bc}$ peaking PDF shape & 0.80 &  0.01  \\
+ %   $M_{bc}$ flat PDF shape & / &  / \\
+    
+ %   $\epsilon^{+}_{FEI,  sig}/\epsilon^{+}_{FEI}$ & 0.81 & 0.01 \\
+ %   $\epsilon_{\Lambda_c}$ & 1.61 & 0.02 \\
+ %   PID            & 1.26    & 0.01 \\
+ %   Tracking efficiency & 0.92  & 0.01 \\
+ %   \hline
+ %   Total                         &   3.18     &  0.09  \\
+ %   \hline
+ %   \end{tabular}%
+ %   }%
+ %   \caption{Systematic uncertainties in the determination of the  $\bar{B^0} \rightarrow \bar{\Lambda}_c^+ X$ branching fraction in \si{\percent}.}
+ %   \label{tab:systematics:ChargedCorr}
+ %   \end{table}

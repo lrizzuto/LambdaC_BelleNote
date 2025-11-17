@@ -1,0 +1,293 @@
+\chapter{Control channel}
+
+\section{...}
+The procedure used to discriminate correctly reconstructed signal events from mis-reconstructed ones and described in \ref{sec:wronglyBtag} 
+was validated on flavor correlated $B \rightarrow D^0 $ channels.\\
+More precisely ...\\
+\begin{center}
+    $B^+ \rightarrow D^0 X$, $D^0 \rightarrow K^+ \pi^-$ 
+   \end{center}
+   %\vspace{0.1 cm}
+   about 30 times more frequent than the corresponding decay into the $\Lambda_c$ baryon. 
+   Due to the much larger statistics and its current relatively precise measured value (see PDG), it is a suitable decay channel to make sure that the method applied doesn't create any bias.
+
+
+\subsection{Dataset used}
+
+   For this analysis the amount of data and Monte Carlo simulated data used was restricted to the SVD2 period: 
+   experiments ranging from 31 to 65. This choice was made to save processing time, anyway most of the $B\bar{B}$ meson pairs were produced in this range of experiments (620 $\times 10^6$ out of almost 800 $\times 10^6$ ).
+   
+   \subsection{Event selection and reconstruction}
+   
+   The approach used for the inclusive decays reconstruction is the same as for the $B \rightarrow \Lambda_c$ analysis. The same FEI training was used, though excluding the signal decay $D^0 \rightarrow K^+ \pi^-$ from the decay chains used by the FEI to reconstruct the $B_{tag}$.
+   Same preliminary selection criteria were applied to the tag-side $B$ meson candidates as well. \\
+   \noindent In the \textit{rest of event} (ROE) of the reconstructed $B_{tag}$ meson, to select $D^0 \rightarrow K^+ \pi^-$ signal candidates, the following event selection criteria are applied:
+   \begin{itemize}
+   \item $dr <$ 2 cm and $|dz| <$ 4 cm
+   \item $\frac{\mathcal{L}_{K}}{\mathcal{L_{K}}+\mathcal{L_{\pi}}} > 0.6$
+   \end{itemize}
+   For the $D^0 $ candidates a vertex fit is performed with \texttt{TreeFitter}, requiring it to converge.  If there are more than one $D^0$ combination, then the best candidate based on the $\chi^2$ probability is chosen. The $D^0$ signal region is defined to be $|M_{D^0}  - m_{D^0}| < $   30  MeV/$c^2$ 
+   \newline \noindent ($\sim$ 3$\sigma$), where $m_{D^0 }$ is the nominal mass of $D^0$.\\
+
+   \subsection{Signal selection optimization}\label{Sec:SigSelectionOpt}
+
+   Following the same procedure as for the $B \rightarrow \Lambda_c$ analysis, the optimized selection cuts obtained for the event based ratio
+   of the 2-nd to the 0-th order Fox-Wolfram moments, the $B_{tag}$ signal probability and the momentum of the $D^0$ candidates in the center of mass system are\footnote{illustrative plots can be found in Appendix}
+   \begin{itemize}
+    \item $foxWolframR2 <$ 0.3
+    \item SignalProbability $>$ 0.004
+    \item $p^{D^0 }_{CMS} > 1$ GeV/c$^2$
+    \end{itemize}
+    
+     \noindent Figure \ref{fig:chargedControlD0_Mbc_InvM_opt_SignalRegion} shows the distributions of $M_{bc}$ and invariant mass in the signal region\footnote{signal region: $M_{bc}  > $ 5.27 GeV/c$^2$ and $|M_{D^0}  - m_{D^0}| < $   30  MeV/$c^2$}  for the $B^- \rightarrow D^0 X$ reconstructed events after the selection cuts were applied.
+
+
+    \begin{figure}[H]
+    \centering
+    {\includegraphics[width=1.2\textwidth]{08-ControlDecay/figs/rel5_chargedBtoD0bar_Mbc_InvM_opt_SigRegion.png}}
+    %\caption{Distribution of $M_{bc}$ (left) and invariant mass of charged correlated  $D^0 $ candidates (right), 
+     %in the signal region after the above mentioned selection cuts.}
+    \label{fig:chargedControlD0_Mbc_InvM_opt_SignalRegion}
+    \end{figure}
+     
+     \vspace{1 cm}
+     
+     \subsection{Probability Density Functions (PDFs) for two dimensional fit}
+     
+     As already said the main goal of the control sample analysis is to ensure that the method used to extract the signal yields discriminating the correctly reconstructed from the misreconstructed signal events by fitting is valid.
+     The reconstructed events in $M_{bc}$ are fitted with a Crystal Ball, the misreconstructed signal with a Novosibirsk function. As in the $B \rightarrow \Lambda_c$ analysis both components have a correspondent peak in the $D^0$ mass which 
+     is fitted with a sum of three gaussians with a common mean.
+     The fitted distribution of $M_{bc}$ and $M(\pi K)$ are shown in Fig. \ref{fig:chargedTotalSignal2Dfit} with signal MC sample. 
+     
+     \begin{figure}[H]
+     %\centering
+     {\includegraphics[width=0.90\textwidth]{08-ControlDecay/figs/TotalSignal2Dfit_Mbc_free_Novosibirsk_and_CB_w_sig_frac.png}}
+     \caption{Two dimensional fit of total signal events in $M_{bc}$  and $M(p K \pi)$ (in magenta reconstructed signal PDF, misreconstructed signal PDF in red)}
+     \label{fig:chargedTotalSignal2Dfit}
+     \end{figure}
+     
+     As already seen in the $B \rightarrow \Lambda_c$ analysis  besides the misreconstructed signal the other background components are:
+     
+     \begin{itemize}
+         \item \textbf{generic} (charged $B$) background
+         \item \textbf{crossfeed} (neutral $B$) background 
+         \item \textbf{continuum} background 
+     \end{itemize}
+     \vspace{0.2 cm}
+     \noindent \textbf{Generic background}
+     
+     \noindent The generic background deriving from other $B^+B^-$ events presents a similar shape in $M_{bc}$: it is fitted again with a sum of Crystal Ball and Novosibirsk function. Instead the distribution in  the $D^0$ mass  is fitted with a sum of first order Polynomial function and a small gaussian peak, which is due to the small 
+     amount of flavor anti-correlated $B^+ \rightarrow D^0$ reconstructed events (see Fig. \ref{fig:chargedControlD0_Generic_2DFit}). The total two-dimensional PDF is a product of the one-dimensional PDFs in $M_{bc}$ and $D^0$ mass:
+     
+     \begin{equation}
+     P^{GenBkg}_{B,D^0}(M_{bc}, M(K \pi)) = [\Gamma_{CB}(M_{bc}) + \Gamma_{Nov}(M_{bc})] \times [\rho_{pol1}(M(K \pi)+ \rho_{G}(M(K \pi))
+      \end{equation}
+
+
+      \begin{figure}[H]
+        %\centering
+        {\includegraphics[width=0.90\textwidth]{08-ControlDecay/figs/chargedControlD0_Generic_2DFit.png}}
+        \caption{Two dimensional fit of generic ($B^+B^-$) background events in $M_{bc}$  and $M(K \pi)$.}
+        \label{fig:chargedControlD0_Generic_2DFit}
+        \end{figure}
+        
+        \noindent \textbf{Crossfeed background}
+        \noindent The crossfeed background deriving from $B^0\bar{B^0}$ events is shown in Fig. \ref{fig:chargedControlD0_NeutralCrossfeed_2DFit} 
+        The $M_{bc}$  distribution is fitted with a sum of Novosibirsk and Argus functions.
+        The distribution in the $D^0$ mass is fitted with a first order Chebyshev polynomial and the $D^0$ mass peak is fitted with the same sum of three gaussians used to describe the signal peak (same parametrization used already in $\BtoLambda$ analysis).
+        
+        \begin{figure}[h!]
+        {\includegraphics[width=0.90\textwidth]{08-ControlDecay/figs/NEW_chargedControlD0_NeutralCrossfeed_2DFit_.png}}
+        \caption{Two dimensional fit of crossfeed ($B^0\bar{B^0}$) events in $M_{bc}$  and $M(K \pi)$.}
+        \label{fig:chargedControlD0_NeutralCrossfeed_2DFit}
+        \end{figure}
+        
+        \noindent \textbf{Continuum background}
+        \newline
+        \noindent The procedure adopted to model the continuum background is the same used for the $B \rightarrow \Lambda_c$ decays, but in this case
+        the available statistics is enough to perform the scaling with all the selection cuts also in the case of the two-dimensional fit (not removing the continuum suppression).
+
+
+  
+        \begin{figure}[H]
+            \centering
+           \subcaptionbox{\label{fig:chargedControlD0_2Dcontinuum_on-offMbc}}
+           {\includegraphics[width=.45\textwidth]{08-ControlDecay/figs/on_off_res_chargedControlD0_Mbc.png}}
+           \subcaptionbox{\label{fig:chargedControlD0_corrected_2DcontinuumMbc}}
+           {\includegraphics[width=.45\textwidth]{08-ControlDecay/figs/chargedControlD0_corrected_2DcontinuumMbc.png}}
+           \caption{In \cref{fig:chargedControlD0_2Dcontinuum_on-offMbc} $M_{bc}$ distributions of the MC (scaled) off-resonance sample (in red) and on-resonance (in blue).  In \cref{fig:chargedControlD0_corrected_2DcontinuumMbc} $M_{bc}$ distributions of the corrected scaled off-resonance and on-resonance MC continuum.}
+           \end{figure}
+           
+           \noindent For each bin a correction factor is calculated, in order to have a reasonable match with the expected continuum background. Fig. \ref{fig:chargedControlD0_corrected_2DcontinuumMbc} shows the applied correction on an independent MC sample.
+           As in the case of $B \rightarrow \Lambda_c$ analysis, then the resulting $M_{bc}$ distribution is fitted with a Novosibirsk function , whereas the $D^0$ mass distribution is fitted with a sum of first order Chebyshev polynomial and the sum of three gaussians used to describe the signal peak (as shown in \cref{fig:InvMchargedControlD0_off-resonanceMC_rescaled_2Dfit_w_peak_frac}). The fraction of events in the peak is the same in on- and off-resonance MC. This method is applied also to scale the off-resonance data.
+           
+           \begin{figure}[H]
+           \centering
+           {\includegraphics[width=0.40\textwidth]{08-ControlDecay/figs/InvMchargedControlD0_off-resonanceMC_rescaled_2Dfit_w_peak_frac.png}}
+           \caption{$D^0$ mass fit of scaled off-resonance  Monte Carlo}
+           \label{fig:InvMchargedControlD0_off-resonanceMC_rescaled_2Dfit_w_peak_frac}
+           \end{figure}
+           
+           \subsection{2D Fit on Monte Carlo simulated data}\label{sec:2Dfit_chargedControlD0_onMC}
+           
+           As in the $\BtoLambda$ study, five streams of Monte Carlo simulated data have been used to get values for the shaping parameters for the individidual components described in the previous section and the fit model is tested on 
+           an independent stream.
+           %In all six fits all the shaping parameters are kept fixed, except:
+           %\begin{itemize}
+           %    \item $\sigma_{G1}$: the width of the wider of the three Gaussian functions in $\rho_G(M(p K \pi))$
+           %    \item $\sigma_{CB}$ parameter for the Crystal Ball describing the signal
+           %\end{itemize}
+            
+           For the six fits, the same conditions were applied to the widths:
+           \begin{itemize}
+                 \item $\sigma_{G1}$: the width of the wider of the three Gaussian functions in $\rho_G(M(K \pi))$
+                 \item $\sigma_{CB}$ parameter for the Crystal Ball describing the signal
+                 \item the $\sigma_{CB}$ parameter for the Crystal Ball describing the generic background is expressed as function of the signal $\sigma_{CB}$  with a ratio fixed from the MC. 
+           \end{itemize}
+           
+           For the fits on Monte Carlo simulated data the crossfeed normalization is expressed as ratio of its contribution  and the misreconstructed signal as found in MC and kept fixed (to see how the parametrized form impacts a fit on data is then performed).
+           Exemplary, the distributions of stream 0 overlaid by the fitted PDF are depicted in \cref{fig:stream0_chargedControlD0_Total_2DFit} (see Appendix \ref{chargedBtoD0App} for the projections of signal regions and sidebands). 
+           %(floated parameters and fixed width ratios) were applied as to the two dimensional fit in the case of the \BtoLambda study.
+           %Those conditions are the same used ofr the  
+            %Figures \ref{fig:stream0_chargedControlD0_Total_2DFit} - \ref{fig:stream4_chargedControlD0_Total_2DFit} show the fits of the 5 streams used to obtain the shaping parameters of the PDFs.
+           
+           %\newpage 
+           In Table \ref{tab:5streams_chargedSignalYields} the yields for reconstructed and misreconstructed signal are listed for each stream.\\
+           %\vspace{0.1 cm}
+           \begin{table}[H]
+           \centering
+           %\resizebox{0.8\textwidth}{!}{%
+           \begin{tabular}{ |p{1.5cm}||p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}|  }
+            \hline
+             stream   &  0  & 1 & 2 & 3 & 4 & 5 \\
+            \hline
+            NrecSig  &  56986 $\pm$ 400  & 57766 $\pm$ 437  & 55607 $\pm$ 426 & 57068 $\pm$ 372 & 58385 $\pm$ 369 & 57501 $\pm$ 437 \\
+            NmisSig &  31453 $\pm$ 321 & 30513 $\pm$ 350 & 32580  $\pm$ 350 & 33340 $\pm$  399 & 29966  $\pm$ 390 & 32012 $\pm$ 355\\
+            %Generic & 36191 $\pm$ 436 &  33432 $\pm$ 439 & 37223 $\pm$ 446 &  37015  $\pm$ 388 & 34079  $\pm$ 382\\
+            \hline
+            \end{tabular}%
+           %}%
+            \caption{reconstructed and misreconstructed signal yields obtained fitting 6 independent streams}\label{tab:5streams_chargedSignalYields}
+           \end{table}
+           %\vspace{0.5 cm}
+           
+           To be sure that the PDFs enables us to extract the signal yield in an unbiased way, the sum of reconstructed and misreconstructed signal yields, i.e. total signal, from the fits are compared to the true values of each stream (\cref{tab:5streams_chargedTotalSignalYields}).
+           There are quite some differences between the fitted signal yield and the true values in individual streams. However,  all these deviations are within statistical expectations. \\
+           
+           \vspace{0.5 cm}
+           %Total Signal:
+           \begin{table}[H]
+           \centering
+           \begin{tabular}{c c c c c}% |p{2cm}||p{2.5cm}| p{2.5cm}| p{2.5cm}| p{2.5cm}|   p{4cm}| }
+            \hline
+             streams   &  fit  & MC truth  &\multicolumn{2}{c}{fit - MC truth}  \\
+            \hline
+            stream 0 &  88439  $\pm$ 340  & 88144  & + 295 & (+0.33$\%$)  \\
+            stream 1 &  88279 $\pm$ 361 & 88551 & $ - 272$ & (- 0.31$\%$)\\
+            stream 2  & 88187 $\pm$ 360 &  88487 & -300 & (- 0.34$\%$)  \\
+             stream 3  & 90408 $\pm$ 372 &  90149  &   + 259 & (+ 0.29$\%$) \\
+              stream 4  & 88351 $\pm$ 383 &  87981  &  + 370 & (+ 0.42$\%$) \\
+           stream 5  & 89513 $\pm$ 366 &  89710  &  -197 & (- 0.22$\%$) \\
+               \hline
+                sum  & 533177  &  533022  & +155 & (+0.03$\%$)  \\  
+            \hline 
+           \end{tabular}
+           \caption{Comparison of fitted and truth-matched total signal events in each stream.}\label{tab:5streams_chargedTotalSignalYields}
+           \end{table}
+           
+
+           \begin{figure}[H]
+            \centering
+            {\includegraphics[width=0.85\textwidth]{08-ControlDecay/figs/stream0_chargedControlD0_Total_2DFit.png}}
+            \caption{Two dimensional fit on stream 0 Monte Carlo simulated data.}
+            \label{fig:stream0_chargedControlD0_Total_2DFit}
+            \end{figure}
+            
+            \subsection{2D Fit on data}\label{sec:chargedBtoD0_2Dfit_onData}
+             After obtaining the model for the continuum background scaling and correcting the $M_{bc}$ distribution of the off-resonance data, the model tested on Monte Carlo simulated data is applied on data with same free parameters and yields. \cref{fig:chargedControlD0_Total_2DFit_onData_free_sigmaCB1_InvMsigma} shows the projections of the two dimensional fit (see Appendix \ref{chargedBtoD0App} for the projections of signal regions and sidebands).
+            \begin{figure}[h!]
+            %\centering
+            {\includegraphics[width=0.80\textwidth]{08-ControlDecay/figs/chargedControlD0_Total_2DFit_onData_free_sigmaCB1_InvMsigma.png}}
+            \caption{Two dimensional fit on Data (same conditions applied as in \cref{fig:stream0_chargedControlD0_Total_2DFit})}
+            \label{fig:chargedControlD0_Total_2DFit_onData_free_sigmaCB1_InvMsigma}
+            \end{figure}
+            
+            \noindent Yields for the reconstructed and misreconstructed signal and for generic background are obtained from the fit: \\
+             .
+             \newline  \hspace{3.5 cm}
+            \begin{tabular}{ |p{3cm}||p{3cm}|  }
+            
+             \hline
+             NrecSig  &  35629 $\pm$ 368\\
+             NmisSig &  24425 $\pm$ 311 \\
+             Generic & 24596 $\pm$ 407\\
+             \hline
+            \end{tabular}
+            \newline
+            \vspace{1.5 cm}
+            
+            \noindent  The total normalization from the fit is 174230 $\pm$  407 (to be compared with the total data events: 173964).\\
+            \vspace{0.5 cm}
+             \begin{table}
+            \begin{tabular}{ |p{3cm}||p{3cm}| p{3cm}|  }
+            
+             \hline
+             ratio        &          MC      &    DATA   \\
+             \hline
+             \hline
+            NmisSig/NrecSig  &  0.56 $\pm$ 0.01  & 0.68 $\pm$ 0.01\\
+            NmisSig/Generic  &  0.90 $\pm$ 0.02 &  0.99 $\pm$ 0.02  \\
+            Generic/NrecSig & 0.62 $\pm$ 0.01 & 0.69 $\pm$ 0.02\\
+             \hline
+            
+            \end{tabular}
+             \caption{Comparison of ratios of yields from the two dimensional fits on Monte Carlo simulated data and on Data.} 
+             \end{table}
+            
+             \noindent Since in the case of the two dimensional fit for the measurement of $B^- \rightarrow \Lambda_c^+ X$ decays the crossfeed normalization was parametrized in the form described 
+             by \cref{eq:paramCrossfeedNorm}, the 2D fit shown above is repeated with the parametrized normalization for the crossfeed background. The signal reconstruction efficiency  that enters the formula to estimate the true number of 
+             signal events ( $ N_{sig}  =  N_{recSig} / \epsilon$ ) is now the signal reconstruction efficiency on data: $\epsilon_{data}$. It can be estimated scaling the one found on Monte Carlo by a correction factor that takes into account the different 
+             FEI efficiency on data and the signal-side reconstruction corrected for the different PID efficiency (see \cref{sec:ControlPIDeff}-\cref{sec:ControlRecoEff}), $\epsilon_{data} = \epsilon_{MC} \cdot c_{FEI} \cdot c_{D^0} = (0.216 \pm 0.016)\% $. \\
+            
+             where $c_{FEI} = 0.810_{-0.012}^{+0.013} \pm 0.054$ is the correction factor for the FEI efficiency determined in \cite{schwab_judith_2017_21422} \\
+             whereas the factor $c_{D^0}$ is the PID correction reported in \cref{sec:ControlPIDeff}.\\
+             \noindent \cref{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio} shows this second fit.
+             
+             \newpage
+             \noindent In the following table yields for the reconstructed and misreconstructed signal and for generic background obtained from this second fit are reported: \\
+            
+            \begin{tabular}{ |p{3cm}||p{3cm}|  }
+            
+             \hline
+             NrecSig  &  36553 $\pm$ 360\\
+             NmisSig &  24115 $\pm$ 283 \\
+             Generic & 25900 $\pm$ 409\\
+             \hline
+            \end{tabular}
+            
+             \begin{figure}[H]
+              %\centering
+              {\includegraphics[width=0.80\textwidth]{08-ControlDecay/figs/chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio.png}}
+              \caption{Two dimensional fit on Data with parametrized normalization of crossfeed background}
+              \label{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio}
+              \end{figure}
+             
+            
+              \vspace{0.5 cm}
+              \begin{table}
+             \begin{tabular}{ |p{3cm}||p{3cm}| p{3cm}|  }
+             
+              \hline
+              ratio        &          MC      &    DATA   \\
+              \hline
+              \hline
+             NmisSig/NrecSig  &  0.56 $\pm$ 0.01  & 0.66 $\pm$ 0.01\\
+             NmisSig/Generic  &  0.90 $\pm$ 0.02 &  0.93 $\pm$ 0.02  \\
+             Generic/NrecSig & 0.62 $\pm$ 0.01 & 0.71 $\pm$ 0.02\\
+              \hline
+             
+             \end{tabular}
+              \caption{Comparison of ratios of yields from the two dimensional fits on Monte Carlo simulated data and on Data (from the fit shown in \cref{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio}).} 
+              \end{table}
+            
+            
