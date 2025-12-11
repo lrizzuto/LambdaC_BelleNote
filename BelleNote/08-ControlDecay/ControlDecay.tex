@@ -119,7 +119,7 @@ More precisely ...\\
            \end{figure}
            
            \noindent For each bin a correction factor is calculated, in order to have a reasonable match with the expected continuum background. Fig. \ref{fig:chargedControlD0_corrected_2DcontinuumMbc} shows the applied correction on an independent MC sample.
-           As in the case of $B \rightarrow \Lambda_c$ analysis, then the resulting $M_{bc}$ distribution is fitted with a Novosibirsk function , whereas the $D^0$ mass distribution is fitted with a sum of first order Chebyshev polynomial and the sum of three gaussians used to describe the signal peak (as shown in \cref{fig:InvMchargedControlD0_off-resonanceMC_rescaled_2Dfit_w_peak_frac}). The fraction of events in the peak is the same in on- and off-resonance MC. This method is applied also to scale the off-resonance data.
+           As in the case of $B \rightarrow \Lambda_c$ analysis, the resulting $M_{bc}$ distribution is fitted with a Novosibirsk function , whereas the $D^0$ mass distribution is fitted with a sum of first order Chebyshev polynomial and the sum of three gaussians used to describe the signal peak (as shown in \cref{fig:InvMchargedControlD0_off-resonanceMC_rescaled_2Dfit_w_peak_frac}). The fraction of events in the peak is the same in on- and off-resonance MC. This method is applied also to scale the off-resonance data.
            
            \begin{figure}[H]
            \centering
@@ -295,4 +295,161 @@ More precisely ...\\
               \caption{Comparison of ratios of yields from the two dimensional fits on Monte Carlo simulated data and on Data (from the fit shown in \cref{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio}).} 
               \end{table}
             
-            
+
+\newpage 
+\subsection{Probability Density Functions (PDFs) for the $B_{tag}$}
+Like for the $B \rightarrow \Lambda_c$  the signal model describing the $M_{bc}$ distribution of the tagged charged $B$ mesons 
+comprises the sum of a Crystal Ball and Gaussian as for the reconstructed  signal component, 
+whereas the misreconstructed signal component is fitted with a Novosibirsk function (Fig. \ref{fig:stream3_chargedBtag_TotalSignal_addedGaussian_fit_370bins}).
+              
+\begin{figure}[H]
+\begin{minipage}{.5\textwidth}
+\centering
+\subcaptionbox{\label{fig:stream3_chargedBtag_TotalSignal_addedGaussian_fit_370bins}}
+    {\includegraphics[width=0.80\textwidth]{08-ControlDecay/figs/stream3_chargedBtag_TotalSignal_addedGaussian_fit_370bins.png}}
+    \end{minipage} 
+    \begin{minipage}{.5\textwidth}
+    \subcaptionbox{\label{fig:NEW_NeutralCrossfeed_stream3_controlD0_chargedBtag}}
+    {\includegraphics[width=0.80\textwidth]{08-ControlDecay/figs/NEW_NeutralCrossfeed_stream3_controlD0_chargedBtag.png}}
+    \end{minipage}
+    \caption{On the left: fitted distribution of tagged charged $B$ mesons, reconstructed signal events (magenta) are described by a Crystal Ball whereas the misreconstructed signal events (red) are described by a Novosibirsk function. On the right: Crossfeed distribution fitted with a sum of Novosibirsk (red) and asymmetric Gaussian PDF (magenta)}
+    \end{figure}            
+
+
+    \noindent The crossfeed background is fitted instead with a sum of a Novosibirsk and an asymmetric Gaussian PDF (Fig. \ref{fig:NeutralCrossfeed_stream0_ControlD0_chargedBtag_MbcFit}).\\
+    \vspace{0.05 cm}
+    
+    \noindent Regarding the continuum background component, same procedure used for the 2D fit was applied to the $M_{bc}$ distribution of the continuum background in this case (see Fig. \ref{fig:bin_corrected_stream1_off-resonance_on_stream3_on-resonance} for the result).
+    
+    \begin{figure}[H]
+    \begin{minipage}{.5\textwidth}
+      \centering
+      {\includegraphics[width=0.80\textwidth]{08-ControlDecay/figs/NEWstream0_chargedBtag_rescaled_off-on_resonance.png}}
+    %\caption{}
+    %\label{fig:NEWstream0_chargedBtag_rescaled_off-on_resonance}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+    %\centering
+    {\includegraphics[width=0.80\textwidth]{08-ControlDecay/figs/bin_corrected_stream1_off-resonance_on_stream3_on-resonance.png}}
+    %\caption{}
+    \label{fig:bin_corrected_stream1_off-resonance_on_stream3_on-resonance}
+    \end{minipage}
+    \caption{On the left: $M_{bc}$ distributions of the MC off-resonance sample and the MC continuum sample. On the right: $M_{bc}$ distributions of the corrected scaled MC off-resonance and on-resonance MC continuum.}
+    \end{figure}
+
+    \subsection{$B_{tag}$ Fit on Monte Carlo simulated data}
+
+    An independent Monte Carlo stream was used to test the total fit model on tagged $B$ mesons candidates. 
+    The usual condition is applied to the crossfeed background events: the ratio between its contribution and misreconstructed signal events is fixed from the other 
+    Monte Carlo stream.\\
+    In this fit the shaping parameters that are not kept fixed are the  width of the Gaussian and the tail of the Novosibirsk function describing the misreconstructed signal events.
+    As in the case of $B_{tag}$ fit in Sec. \ref{BtagFit_onMC} the range for the fit is restricted to values betweeen 5.250 and 5.287 GeV/$c^2$.   
+
+
+    \begin{figure}[H]
+        \begin{minipage}{.5\textwidth}
+          \centering
+          {\includegraphics[width=0.95\textwidth]{08-ControlDecay/figs/stream3_chargedBtag_Total_fit_free_sigmaGauss_mis-recoTail_370bins.png}}
+        %\caption{}
+        %\label{fig:NEWstream0_chargedBtag_rescaled_off-on_resonance}
+        \end{minipage}%
+        \begin{minipage}{.5\textwidth}
+        %\centering
+        {\includegraphics[width=0.55\textwidth]{08-ControlDecay/figs/legend.png}}
+        %\caption{}
+        %\label{fig:bin_corrected_stream1_off-resonance_on_stream3_on-resonance}
+        \end{minipage}
+        \caption{Total fit of tagged $B$ mesons}
+        \end{figure}
+        
+        
+        Yields for the reconstructed and misreconstructed signal are obtained from the fit:
+        \vspace{0.25 cm}
+
+\begin{tabular}{ |p{2.5cm}||p{4.2cm}| p{4.2cm}|  }
+ \hline
+          &    Fit results                 &  expected\\
+ \hline
+ NrecSig  & 3.78483 $\cdot$10$^6 \pm$ 6671 & 3.81162 $\cdot$10 $^6 \pm$ 3619 \\
+ NmisSig &  6.84655 $\cdot$10$^6 \pm$ 5552 & 6.82740 $\cdot$10 $^6 \pm$ 4606 \\
+ \hline
+\end{tabular}
+
+\vspace{0.5 cm}
+\noindent Here below the fitted and true values of Total Signal (NrecSig+NmisSig) and total number of events in this stream are reported \\
+ %The Total normalization from the fit is 38600851 $\pm$  6886 (to be compared with 38609945 from the Monte Carlo).
+
+
+\begin{tabular}{ |P{3cm}||P{4cm}|P{2cm}|  }
+
+\hline
+      & fit & MC value\\
+ \hline
+ Total Signal  & 10.6314$\cdot$10$^6$ $\pm$ 5046 & 10.6416$\cdot10^6$ \\
+ Total events &  38.5715$\cdot$10$^6$ $\pm$ 7154 & 38.5811$\cdot10^6$\\
+ \hline
+\end{tabular}
+\vspace{0.75 cm}
+\newline
+\noindent The discrepancy in the total signal events from the fit and the MC here is about 2$\sigma$, 
+but the relative error is at the \textperthousand level, therefore it's negligible compared to the systematic uncertainity
+corresponding to the determination of the signal yields.
+
+\newpage
+
+\subsection{$B_{tag}$ Fit on data}
+The fit model tested on Monte Carlo simulated data is then applied with the same method on data.
+\begin{figure}[H]
+  \centering
+  {\includegraphics[width=0.40\textwidth]{08-ControlDecay/figs/chargedBtag_Total_fit_onData_w_improvedCrossfeedModel_free_MisRecTail_sigmaGauss_370bins.png}}
+  \caption{Total fit of tagged $B^+$ mesons candidates on data}
+  \label{fig:chargedControlD0Btag_Total_fit_onData}
+  \end{figure}
+  
+  
+  Yields for the reconstructed and misreconstructed signal are obtained from the fit:
+
+
+\vspace{0.5 cm}
+\begin{tabular}{ |P{3cm}||P{4cm}|  }
+
+ \hline
+ NrecSig  & 2.4227 $\cdot$10 $^6 \pm$ 5649\\
+ NmisSig &  6.5023 $\cdot$10 $^6 \pm$ 4729 \\
+Total Signal &  8.9250 $\cdot$10 $^6 \pm$4272             \\
+ \hline
+\end{tabular}
+
+\vspace{0.5 cm}
+\noindent And the total number events from the fit ($29346745 \pm 6084$) agrees within $3\sigma$ statistical error with the total
+entries of data: 29361347.
+
+
+  \newpage
+\section{Measured $B^+ \rightarrow \bar{D}^0 X$ inclusive Branching Fraction}\label{sec:chargedControlBRvalues}
+  The inclusive branching fraction of $B^+  \rightarrow \bar{D}^0 X$ can be determined by: 
+  
+  \begin{equation}
+      Br(B^+ \rightarrow \bar{D}^0) = \frac{r}{Br(D^0 \rightarrow K^+ \pi^-) \epsilon_{D^0}}  \cdot  \frac{\epsilon^{+}_{FEI}}{ \epsilon^{+}_{FEI,  sig} }
+  \end{equation}
+  
+  Where 
+  \begin{itemize}
+  
+  \item $r = \frac{N_{tag, D^0}}{N_{tag}}$ is the ratio of reconstructed signal yield in the two dimensional fit and in the $M_{bc}$ fit of the tagged $B$ mesons.
+  \item $\epsilon_{D^0} $ is the $D^0$ reconstruction efficiency calculated as fraction of reconstructed signal events with correct tag of which then also a correctly reconstructed $D^0$ is reconstructed in the signal side.
+  \item $\frac{\epsilon^{+}_{FEI}}{ \epsilon^{+}_{FEI,  sig }}$ is the ratio of the FEI efficiencies: the hadronic tag-side efficiency for generic $B^+B^-$ events ($\epsilon^{+}_{FEI}$) and signal-side depedent one ($\epsilon^{+}_{FEI,  sig}$)  where one of the two $B$ mesons decays inclusively into the signal channel ($D^0 \rightarrow K^+ \pi^- $) 
+  \item  $Br(D^0 \rightarrow K^+ \pi^-) = 3.8\% $ in Belle DECAY.DEC table,
+  $Br(D^0 \rightarrow K^+ \pi^-) = 3.95\% $ in PDG.
+  \end{itemize}
+  
+  \vspace{0.2 cm}
+
+In Monte Carlo:  \hspace{0.05cm} $Br(B^+ \rightarrow \bar{D}^0) = 80.45 \pm 0.58^{(stat.)} \%$ \hspace{1cm}  (true MC value: $79.10\%$) \\ % \pm 0.5^{(stat.)} \%$) \\
+\vspace{0.25 cm} \newline
+\hspace{0.1cm}  $ $ As for the Data, the value obtained using a fixed ratio of crossfeed events with respect to misreconstructed signal events is:
+  \hspace{0.05cm} $Br(B^+ \rightarrow \bar{D}^0) = 78.98 \pm 0.84^{(stat.)} \%$ \\
+  \vspace{0.25 cm} \newline
+  The results show an excellent agreement with the value reported by the PDG:  ($79 \pm 4)\%$\\%
+  One can therefore conclude that the obtained results have proven the validity of  the method chosen for the measurements.
+  %\hspace{1cm}  
