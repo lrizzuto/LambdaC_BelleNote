@@ -19,7 +19,7 @@ The reconstructed events can be categorized as follows:
     \item and \textbf{continuum background}
 \end{itemize}
 
-\subsection{Total Signal fits}\label{sigBtagFit}
+\subsection{Total Signal fits}\label{subsec:sigBtagFit}
 
 As in the 2D fits the total signal is distinguished in \textbf{reconstructed}  and \textbf{misreconstructed signal} depending
 on wether it's peaking or not in  $M_{bc}$.\\
@@ -119,11 +119,14 @@ Being the statistics much larger than in the 2D sample, there's no need to remov
 \newpage
 \section{ $B_{tag}$ fit}\label{BtagFit_onMC}
 An independent Monte Carlo stream was used to test the total fit model on tagged $B$ meson candidates.
-As in the 2D fit, the parameter for the width, $\sigma_{CB}$, of the Crystal Ball is floated. 
+As in the 2D fit, the parameter for the width, $\sigma_{CB}$, of the Crystal Ball is usually floated. In the case of charged correlated 
+decays an exception was made (the reason is given in SubSec:\ref{subsec:chargedAntiBtagFit}): the parameter of the signal PDF which is floated 
+is the width of the gaussian.\\
 The ratio between expected crossfeed background events and  misreconstructed signal events is fixed from the MC. 
 The misreconstructed signal PDF is also not fully constrained: the parameter describing the tail is free. 
-To avoid introducing significant systematic uncertainties in the fit deriving from the $M_{bc}$ endpoint region, where one has a smearing effect due to variations of the
-beam energy at the MeV level, the range for the fit is restricted to values betweeen 5.250 and 5.287 GeV/c$^2$.
+To avoid introducing significant systematic uncertainties in the fit deriving from the $M_{bc}$ endpoint region, 
+where one has a smearing effect due to variations of the beam energy at the $MeV$ level, the range for the fit is restricted to
+  values betweeen 5.250 and 5.287 GeV/c$^2$ (as one could already notice in the signal sample fits in SubSec:\ref{subsec:sigBtagFit}).
 
 
 \subsection{Fit results for $B^- \rightarrow \Lambda_c^+$ decays}  
@@ -168,7 +171,7 @@ The study shows a possible small bias the reconstructed signal yields  (see \cre
 
 \begin{figure}[H]
     \centering
-    {\centering\includegraphics[width=14cm]{05-BtagFit/figs/NrecSig_mcstudy.png}}
+    {\centering\includegraphics[width=15cm]{05-BtagFit/figs/NrecSig_mcstudy.png}}
      \caption{Plots showing distributions of the fitted signal yields, errors and the pull distribution of
     all pseudo-fits. }%(see Appendix \ref{sec:chargedBtoLamApp} for the other free parameters' results)
       \label{fig:NrecSignalchargedCorrBtag_mcstudy}
@@ -176,13 +179,48 @@ The study shows a possible small bias the reconstructed signal yields  (see \cre
 
 
 
-\subsection{Fit results for $B^- \rightarrow \bar{\Lambda}_c^-$ decays}  
+\subsection{Fit results for $B^- \rightarrow \bar{\Lambda}_c^-$ decays}\label{subsec:chargedAntiBtagFit}  
+
+As already mentioned, in the case of this decay channel, the startegy for the $B_{tag}$ fit had to be slightly changed. The reason is
+easily explained. The fit performed with same floated parameter as in the previous decay channel, shown in Fig. \cref{fig:chargedAntiLambdaC_BtagFit-sigmaCB},
+converges and results are reasonable (see the table down here below); unfortunately in 60$\%$ of the fits performed in the toy MC study failed and the converged fits 
+show as well some not negligible bias in the signal yields (see \cref{fig:NrecSigchargedAntiBtag_mcstudy_sigmaCB_free}).\\
+Here below the reconstructed/misreconstructed signal yields from the fit having $\sigma_{CB}$ floated are reported and compared with the expected values.
+One can notice a very large uncertainty on the reconstructed signal, which is already an indication of troubles arising from the not good choice of floating parameters.
+
+
+\vspace{0.5 cm}
+
+\begin{tabular}{ |p{2.5cm}||p{4.2cm}| p{4.2cm}|  }
+    \hline
+             &    Fit results                 &  expected\\
+    \hline
+    NrecSig  & 2.58006$\cdot$10$^6 \pm$ 11796 &  2.58692 $\cdot$10$^6 \pm$ 1858 \\
+    NmisSig &  7.22503$\cdot$10$^5 \pm$ 7271 & 7.13865 $\cdot$10$^5 \pm$ 1274 \\
+    \hline
+   \end{tabular}
+
 \begin{figure}[H]
     \centering
     {\includegraphics[width=0.50\textwidth]{05-BtagFit/figs/NEW_chargedBtag_anticorrLambdaC_Total_fit_sigmaCB_misRecoSlope_free_370bins.png}}
     \caption{Total fit of tagged $B$ mesons on Monte Carlo simulated data.}
-    \label{fig:chargedAntiLambdaC_BtagFit}
+    \label{fig:chargedAntiLambdaC_BtagFit-sigmaCB}
     \end{figure}
+
+\begin{figure}[H]
+\centering
+{\includegraphics[width=15cm]{05-BtagFit/figs/NrecSigchargedAntiBtag_mcstudy_sigmaCB_free.png}}
+    \caption{Plots showing distributions of the fitted signal yields, errors and the pull distribution of toy Monte Carlo pseudo-fits 
+    where the width of the Crystal Ball is floated.}
+    \label{fig:NrecSigchargedAntiBtag_mcstudy_sigmaCB_free}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        {\includegraphics[width=0.50\textwidth]{05-BtagFit/figs/NEW_chargedBtag_anticorrLambdaC_Total_fit_sigmaGauss_misRecoSlope_free_370bins.png}}
+        \caption{Total fit of tagged $B$ mesons on Monte Carlo simulated data with sigmaGauss free.}
+        \label{fig:chargedAntiLambdaC_BtagFit-sigmaGauss}
+        \end{figure}
    % \vspace{1.5cm} 
 
 
@@ -195,20 +233,31 @@ The study shows a possible small bias the reconstructed signal yields  (see \cre
        
 
 %\vspace{0.25 cm}
+%with sigmaCB:
 
-\begin{tabular}{ |p{2.5cm}||p{4.2cm}| p{4.2cm}|  }
+
+   with sigma-Gauss:
+
+   \begin{tabular}{ |p{2.5cm}||p{4.2cm}| p{4.2cm}|  }
     \hline
              &    Fit results                 &  expected\\
     \hline
-    NrecSig  & 2.58006$\cdot$10$^6 \pm$ 11796 &  2.58692 $\cdot$10$^6 \pm$ 1858 \\
-    NmisSig &  7.22503$\cdot$10$^5 \pm$ 7271 & 7.13865 $\cdot$10$^5 \pm$ 1274 \\
+    NrecSig  & 2.60316$\cdot$10$^6 \pm$ 3681 &  2.58692 $\cdot$10$^6 \pm$ 1858 \\
+    NmisSig &  7.10860$\cdot$10$^5 \pm$ 2421 & 7.13865 $\cdot$10$^5 \pm$ 1274 \\
     \hline
-   \end{tabular}
-   
+   \end{tabular}   
 
        \vspace{0.5 cm}
        \noindent The Total Signal (the sum  NrecSig+NmisSig) calculated by the fit is 3302559 $\pm$ 4914, which is in excellent agreement with 
        the true Monte Carlo value: 3299629.
+
+\begin{figure}[H]
+\centering
+{\includegraphics[width=15cm]{05-BtagFit/figs/NrecSigchargedAntiBtag_mcstudy_sigmaGauss_free.png}}
+\caption{Plots showing distributions of the fitted signal yields, errors and the pull distribution of toy Monte Carlo pseudo-fits 
+where the width of the Gaussian is floated.}
+\label{fig:NrecSigchargedAntiBtag_mcstudy_sigmaCB_free}
+\end{figure}
        %In fact, a slight underestimation of the Total Signal is found also in the result of the toy Monte Carlo study: \cref{fig:Total_Signal_chargedBtagToyMCstudy} shows the results for the Total Signal events and one can notice a mean value for the pulls consistently below zero.
        
 %\begin{figure}[H]

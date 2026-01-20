@@ -1,26 +1,43 @@
 \chapter{Control channel}
 
-\section{...}
-The procedure used to discriminate correctly reconstructed signal events from mis-reconstructed ones and described in \ref{sec:wronglyBtag} 
-was validated on the flavor correlated $B \rightarrow D^0 $ channel.\\
-More precisely ...\\
-\begin{center}
-    $B^+ \rightarrow D^0 X$, $D^0 \rightarrow K^+ \pi^-$ 
-   \end{center}
+
+To demonstrate that the procedure used to discriminate correctly reconstructed signal events from mis-reconstructed ones and described in \ref{sec:wronglyBtag}, 
+and more generally that the adopted analysis strategy is well developed, a dedicated control sample,  i.e. a channel with similar properties to the signal,
+is employed.  The flavor correlated $B^+ \rightarrow D^0 X$ decay, due to the much larger statistics and its current relatively precise measured value ($79 \pm 4 \%$  PDG ref)
+ represents the closest and most suited reference mode. Any residual discrepancy between data and simulation in this channel would
+ suggest a potential over-tuning of the analysis procedure to the simulated sample, or the
+ presence of other methodological biases. Owing to its large event yield and well-established
+ branching fraction, this control channel provides a robust benchmark for validating the
+ analysis strategy and reinforcing confidence in the chosen methodology.\\
+%\begin{center}
+  %  $B^+ \rightarrow D^0 X$, $D^0 \rightarrow K^+ \pi^-$ 
+  % \end{center}
    %\vspace{0.1 cm}
-   about 30 times more frequent than the corresponding decay into the $\Lambda_c$ baryon. 
-   Due to the much larger statistics and its current relatively precise measured value (see PDG), it is a suitable decay channel to make sure that the method applied doesn't create any bias.
+   %about 30 times more frequent than the corresponding decay into the $\Lambda_c$ baryon. 
+   %Due to the much larger statistics and its current relatively precise measured value (see PDG), it is a suitable decay channel to make sure that the method applied doesn't create any bias.
 
-
+\section{Analysis setup} 
+Same BASF2 release and FEI versions were used as for the $B \rightarrow \Lambda_c$ analysis.
 \subsection{Dataset used}
 
    For this analysis the amount of data and Monte Carlo simulated data used was restricted to the SVD2 period: 
-   experiments ranging from 31 to 65. This choice was made to save processing time, anyway most of the $B\bar{B}$ meson pairs were produced in this range of experiments (620 $\times 10^6$ out of almost 800 $\times 10^6$ ).
+   experiments ranging from 31 to 65. This choice was made to save processing time, anyway most of the $B\bar{B}$ meson pairs were produced in this range of experiments 
+   (620 $\times 10^6$ out of almost 800 $\times 10^6$ ).
    
    \subsection{Event selection and reconstruction}
    
-   The approach used for the inclusive decays reconstruction is the same as for the $B \rightarrow \Lambda_c$ analysis. The same FEI training was used, though excluding the signal decay $D^0 \rightarrow K^+ \pi^-$ from the decay chains used by the FEI to reconstruct the $B_{tag}$.
-   Same preliminary selection criteria were applied to the tag-side $B$ meson candidates as well. \\
+   The approach used for the inclusive decays reconstruction of $B^+ \rightarrow D^0 X$ events is the same adopted for the $B \rightarrow \Lambda_c$ analysis:
+   \begin{itemize} 
+\item charged $B_{tag}$ candidates are reconstructed hadronically by FEI
+\item only candidates with highest $Signal Probability$ are retained
+\item "crossfeed-vetoeing" of $B^0\bar{B^0}$ events 
+\item in the \textit{rest of event} charged tracks are selected in order to reconstruct $D^0$ candidates in the  $D^0 \rightarrow K^+ \pi^-$ decay mode.
+   \end{itemize} 
+
+  % The same FEI training was used, 
+  Since among the decay chains used by the FEI to reconstruct  $B$ meson candidates the $B^+ \rightarrow D^0$ decay is also present,
+   the decay used in our analysis to reconstruct the signal ($D^0 \rightarrow K^+ \pi^-$) must be excluded from the FEI decay chains.\\
+   The preliminary selection criteria applied to the tag-side $B$ meson candidates are the same as the ones used in the $B \rightarrow \Lambda_c$ analysis \cref{sec:BtagReco}. \\
    \noindent In the \textit{rest of event} (ROE) of the reconstructed $B_{tag}$ meson, to select $D^0 \rightarrow K^+ \pi^-$ signal candidates, the following event selection criteria are applied:
    \begin{itemize}
    \item $dr <$ 2 cm and $|dz| <$ 4 cm
@@ -55,8 +72,8 @@ More precisely ...\\
      \subsection{Probability Density Functions (PDFs) for two dimensional fit}
      
      As already said the main goal of the control sample analysis is to ensure that the method used to extract the signal yields discriminating the correctly reconstructed from the misreconstructed signal events by fitting is valid.
-     The reconstructed events in $M_{bc}$ are fitted with a Crystal Ball, the misreconstructed signal with a Novosibirsk function. As in the $B \rightarrow \Lambda_c$ analysis both components have a correspondent peak in the $D^0$ mass which 
-     is fitted with a sum of three gaussians with a common mean.
+     The reconstructed events in $M_{bc}$ are fitted with a Crystal Ball, the misreconstructed signal with a Novosibirsk function. Both type of events peak in the $D^0$ invariant mass as one can see from the figure below
+  , and in both cases the invariant mass is fitted with a sum of three gaussians with a common mean.
      The fitted distribution of $M_{bc}$ and $M(\pi K)$ are shown in Fig. \ref{fig:chargedTotalSignal2Dfit} with signal MC sample. 
      
      \begin{figure}[H]
@@ -128,73 +145,112 @@ More precisely ...\\
            \label{fig:InvMchargedControlD0_off-resonanceMC_rescaled_2Dfit_w_peak_frac}
            \end{figure}
            
-           \subsection{2D Fit on Monte Carlo simulated data}\label{sec:2Dfit_chargedControlD0_onMC}
+\subsection{2D Fit on Monte Carlo simulated data}\label{sec:2Dfit_chargedControlD0_onMC}
            
-           As in the $\BtoLambda$ study, five streams of Monte Carlo simulated data have been used to get values for the shaping parameters for the individidual components described in the previous section and the fit model is tested on 
-           an independent stream.
-           %In all six fits all the shaping parameters are kept fixed, except:
-           %\begin{itemize}
-           %    \item $\sigma_{G1}$: the width of the wider of the three Gaussian functions in $\rho_G(M(p K \pi))$
-           %    \item $\sigma_{CB}$ parameter for the Crystal Ball describing the signal
-           %\end{itemize}
-            
-           For the six fits, the same conditions were applied to the widths:
-           \begin{itemize}
-                 \item $\sigma_{G1}$: the width of the wider of the three Gaussian functions in $\rho_G(M(K \pi))$
-                 \item $\sigma_{CB}$ parameter for the Crystal Ball describing the signal
-                 \item the $\sigma_{CB}$ parameter for the Crystal Ball describing the generic background is expressed as function of the signal $\sigma_{CB}$  with a ratio fixed from the MC. 
-           \end{itemize}
-           
-           For the fits on Monte Carlo simulated data the crossfeed normalization is expressed as ratio of its contribution  and the misreconstructed signal as found in MC and kept fixed (to see how the parametrized form impacts a fit on data is then performed).
-           Exemplary, the distributions of stream 0 overlaid by the fitted PDF are depicted in \cref{fig:stream0_chargedControlD0_Total_2DFit} %(see Appendix \ref{chargedBtoD0App} for the projections of signal regions and sidebands). 
+As in the $\BtoLambda$ study, five streams of Monte Carlo simulated data have been used to get values for the shaping parameters for the individidual components described in the previous section and the fit model is tested on 
+an independent stream.\\
+Unbinned maximum likelihood fit is performed on all six streams.
+In the fits on the two-dimensional total distributions all the shaping parameters are kept fixed, except:
+  \begin{itemize}
+    \item $\sigma_{G1}$: the width of the wider of the three Gaussian functions in $\rho_G(M(p K \pi))$
+    \item $\sigma_{CB}$: width of the Crystal Ball describing the signal
+  \end{itemize}
+
+The width $\sigma^{generic}_{CB}$ of the Crystal Ball describing the generic background is expressed as funvtion of the signal $\sigma_{CB}$
+as product $\sigma^{signal}_{CB} \cdot r_{\sigma}$, with $r_{\sigma}$ being the ratio of the two widths obtained from the five streams'sample fit.
+As for the normalizations:
+\begin{itemize}
+  \item reconstructed and misreconstructed are obviously floated
+  \item generic background is also floated
+  \item crossfeed background normalization is instead estimated in the same way as in the $B_{tag} $ fit: its value is estimated through
+  the ratio of between its contribution and misreconstructed signal events obtained from the five streams'sample fit ($N^{crossfeed} = N^{misreco} \cdot R^{(\frac{crossfeed}{misreco})}$)
+  \item continuum background is obtained from the off-resonance scaling procedure as usual
+\end{itemize}
+
+ %For the fits on Monte Carlo simulated data the crossfeed normalization is expressed as ratio of its contribution  and the misreconstructed signal as found in MC and kept fixed (to see how the parametrized form impacts a fit on data is then performed).
+Exemplary, the distributions of stream 0 overlaid by the fitted PDF are depicted in \cref{fig:stream0_chargedControlD0_Total_2DFit} %(see Appendix \ref{chargedBtoD0App} for the projections of signal regions and sidebands). 
            %(floated parameters and fixed width ratios) were applied as to the two dimensional fit in the case of the \BtoLambda study.
            %Those conditions are the same used ofr the  
             %Figures \ref{fig:stream0_chargedControlD0_Total_2DFit} - \ref{fig:stream4_chargedControlD0_Total_2DFit} show the fits of the 5 streams used to obtain the shaping parameters of the PDFs.
            
            %\newpage 
-           In Table \ref{tab:5streams_chargedSignalYields} the yields for reconstructed and misreconstructed signal are listed for each stream.\\
+           %In Table \ref{tab:SixStreams_D0_2Dfits} the yields for reconstructed and misreconstructed signal are listed for each stream.\\
            %\vspace{0.1 cm}
-           \begin{table}[H]
+          % \begin{table}[H]
            %\centering
            %\resizebox{0.8\textwidth}{!}{%
-           \begin{tabular}{ |p{1.5cm}||p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}|  }
-            \hline
-             stream   &  0  & 1 & 2 & 3 & 4 & 5 \\
-            \hline
-            NrecSig  &  56986 $\pm$ 400  & 57766 $\pm$ 437  & 55607 $\pm$ 426 & 57068 $\pm$ 372 & 58385 $\pm$ 369 & 57501 $\pm$ 437 \\
-            NmisSig &  31453 $\pm$ 321 & 30513 $\pm$ 350 & 32580  $\pm$ 350 & 33340 $\pm$  399 & 29966  $\pm$ 390 & 32012 $\pm$ 355\\
+           %\begin{tabular}{ |p{1.5cm}||p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}| p{2.2cm}|  }
+           % \hline
+           %  stream   &  0  & 1 & 2 & 3 & 4 & 5 \\
+           % \hline
+           % NrecSig  &  56986 $\pm$ 400  & 57766 $\pm$ 437  & 55607 $\pm$ 426 & 57068 $\pm$ 372 & 58385 $\pm$ 369 & 57501 $\pm$ 437 \\
+            %NmisSig &  31453 $\pm$ 321 & 30513 $\pm$ 350 & 32580  $\pm$ 350 & 33340 $\pm$  399 & 29966  $\pm$ 390 & 32012 $\pm$ 355\\
             %Generic & 36191 $\pm$ 436 &  33432 $\pm$ 439 & 37223 $\pm$ 446 &  37015  $\pm$ 388 & 34079  $\pm$ 382\\
-            \hline
-            \end{tabular}%
+            %\hline
+           % \end{tabular}%
            %}%
-            \caption{reconstructed and misreconstructed signal yields obtained fitting 6 independent streams}\label{tab:5streams_chargedSignalYields}
-           \end{table}
-           %\vspace{0.5 cm}
-           
-           To be sure that the PDFs enables us to extract the signal yield in an unbiased way, the sum of reconstructed and misreconstructed signal yields, i.e. total signal, from the fits are compared to the true values of each stream (\cref{tab:5streams_chargedTotalSignalYields}).
+          %  \caption{reconstructed and misreconstructed signal yields obtained fitting 6 independent streams}\label{tab:5streams_chargedSignalYields}
+           %\end{table}
+           %%\vspace{0.5 cm}
+           In Table \ref{tab:SixStreams_D0_2Dfits} the signal yields of the fits (\textbf{Reconstructed Signal}) to the two dimensional distributions for the six streams 
+           are listed and compared to the yields obtained from fits of signal distributions of each individual stream. 
+           To be sure that the PDFs enables us to extract the signal yield in an unbiased way, the sum of reconstructed and misreconstructed signal yields, 
+           i.e. total signal, from the fits are compared to the true values of each stream.
            There are quite some differences between the fitted signal yield and the true values in individual streams. However,  all these deviations are within statistical expectations. \\
            
-           \vspace{0.5 cm}
+           %\vspace{0.5 cm}
            %Total Signal:
-           \begin{table}[H]
-           \centering
-           \begin{tabular}{c c c c c}% |p{2cm}||p{2.5cm}| p{2.5cm}| p{2.5cm}| p{2.5cm}|   p{4cm}| }
-            \hline
-             streams   &  fit  & MC truth  &\multicolumn{2}{c}{fit - MC truth}  \\
-            \hline
-            stream 0 &  88439  $\pm$ 340  & 88144  & + 295 & (+0.33$\%$)  \\
-            stream 1 &  88279 $\pm$ 361 & 88551 & $ - 272$ & (- 0.31$\%$)\\
-            stream 2  & 88187 $\pm$ 360 &  88487 & -300 & (- 0.34$\%$)  \\
-             stream 3  & 90408 $\pm$ 372 &  90149  &   + 259 & (+ 0.29$\%$) \\
-              stream 4  & 88351 $\pm$ 383 &  87981  &  + 370 & (+ 0.42$\%$) \\
-           stream 5  & 89513 $\pm$ 366 &  89710  &  -197 & (- 0.22$\%$) \\
-               \hline
-                sum  & 533177  &  533022  & +155 & (+0.03$\%$)  \\  
-            \hline 
-           \end{tabular}
-           \caption{Comparison of fitted and truth-matched total signal events in each stream.}\label{tab:5streams_chargedTotalSignalYields}
-           \end{table}
-           
+           %\begin{table}[H]
+           %\centering
+           %\begin{tabular}{c c c c c}% |p{2cm}||p{2.5cm}| p{2.5cm}| p{2.5cm}| p{2.5cm}|   p{4cm}| }
+           % \hline
+           %  streams   &  fit  & MC truth  &\multicolumn{2}{c}{fit - MC truth}  \\
+           % \hline
+           % stream 0 &  88439  $\pm$ 340  & 88144  & + 295 & (+0.33$\%$)  \\
+           % stream 1 &  88279 $\pm$ 361 & 88551 & $ - 272$ & (- 0.31$\%$)\\
+           % stream 2  & 88187 $\pm$ 360 &  88487 & -300 & (- 0.34$\%$)  \\
+           %  stream 3  & 90408 $\pm$ 372 &  90149  &   + 259 & (+ 0.29$\%$) \\
+           %   stream 4  & 88351 $\pm$ 383 &  87981  &  + 370 & (+ 0.42$\%$) \\
+           %stream 5  & 89513 $\pm$ 366 &  89710  &  -197 & (- 0.22$\%$) \\
+           %    \hline
+           %     sum  & 533177  &  533022  & +155 & (+0.03$\%$)  \\  
+          %  \hline 
+           %\end{tabular}
+           %\caption{Comparison of fitted and truth-matched total signal events in each stream.}\label{tab:5streams_chargedTotalSignalYields}
+          % \end{table}
+          
+        
+          
+\begin{table}[H]
+  \centering
+  \resizebox{0.99\textwidth}{!}{%
+  \setlength{\tabcolsep}{8pt}
+  \begin{tabular}{c c c c c c c}
+  
+  \toprule
+   \hline
+     &	\multicolumn{2}{c}{Reconstructed Signal}  & \multicolumn{2}{c}{Total Signal} &  \\
+       &  fit \hspace{0.5 cm}  & expected  & fit   & MC truth &  \multicolumn{2}{c}{fit - MC truth} \\
+   \midrule
+   \hline
+  stream 0	&	56986 $\pm$ 400 &	58622  $\pm$ 301	&	88439 $\pm$ 340	&	88144	&  295	&	0.3$\%$	\\
+  stream 1	&	57766 $\pm$ 437	&	58329 $\pm$ 300	&	88279 $\pm$ 361	&	88551	&  -272	&	-0.3$\%$	\\
+  stream 2	&	55607 $\pm$ 426	&	58300 $\pm$ 300	&	88187 $\pm$ 360	&	88487	& -300	&	-0.3$\%$	\\
+  stream 3	&	57068 $\pm$ 372	&	59508 $\pm$ 305	&	90408 $\pm$ 387	&	90149	& 259  &  0.3$\%$	\\
+  stream 4	&	58385 $\pm$ 369	&	56981 $\pm$ 306	&	88351 $\pm$ 383	&	87981	& 370	&	0.4$\%$	\\
+  stream 5	&	57501 $\pm$ 437	&	58434 $\pm$ 302	&	89513 $\pm$ 366 &  89710  &  -197 & - 0.2$\%$	\\
+  \midrule
+  \hline
+  sum			&		343313	&	350174	&		532931		&	532234	&	155	& 0.03$\%$	 \\
+  \bottomrule
+  \hline
+  \end{tabular}%
+  }%
+  \caption{Comparison of fitted and expected signal yields, fitted and truth-matched total signal for six streams of Belle generic MC 
+  when fitting the two dimensional distributions of $M_{bc}$ and $M(K \pi)$.}
+  \label{tab:SixStreams_D0_2Dfits}
+  \end{table}
+  
 
            \begin{figure}[H]
             \centering
@@ -204,7 +260,7 @@ More precisely ...\\
             \end{figure}
             
             \subsection{2D Fit on data}\label{sec:chargedBtoD0_2Dfit_onData}
-             After obtaining the model for the continuum background scaling and correcting the $M_{bc}$ distribution of the off-resonance data, the model tested on Monte Carlo simulated data is applied on data with same free parameters and yields. 
+             After obtaining the model for the continuum background scaling and correcting the $M_{bc}$ distribution of the off-resonance data, the model tested on Monte Carlo simulated data is applied on data with same free parameters and normalizations. 
              \cref{fig:chargedControlD0_Total_2DFit_onData_free_sigmaCB1_InvMsigma} shows the projections of the two dimensional fit (see Appendix \ref{chargedBtoD0App} for the projections of signal regions and sidebands).
             \begin{figure}[h!]
             %\centering
@@ -213,7 +269,7 @@ More precisely ...\\
             \label{fig:chargedControlD0_Total_2DFit_onData_free_sigmaCB1_InvMsigma}
             \end{figure}
             
-            \noindent Yields for the reconstructed and misreconstructed signal and for generic background are obtained from the fit: \\
+\noindent Yields for the reconstructed and misreconstructed signal and for generic background are obtained from the fit: \\
              .
              \newline  \hspace{3.5 cm}
             \begin{tabular}{ |p{3cm}||p{3cm}|  }
@@ -226,74 +282,36 @@ More precisely ...\\
             \end{tabular}
             \newline
             \vspace{1.5 cm}
-            
-            \noindent  The total normalization from the fit is 174230 $\pm$  407 (to be compared with the total data events: 173964).\\
+\noindent  The total normalization from the fit is 174230 $\pm$  407 (to be compared with the total data events: 173964).\\
             \vspace{0.5 cm}
-             \begin{table}
-            \begin{tabular}{ |p{3cm}||p{3cm}| p{3cm}|  }
-            
-             \hline
-             ratio        &          MC      &    DATA   \\
-             \hline
-             \hline
-            NmisSig/NrecSig  &  0.56 $\pm$ 0.01  & 0.68 $\pm$ 0.01\\
-            NmisSig/Generic  &  0.90 $\pm$ 0.02 &  0.99 $\pm$ 0.02  \\
-            Generic/NrecSig & 0.62 $\pm$ 0.01 & 0.69 $\pm$ 0.02\\
-             \hline
-            
-            \end{tabular}
-             \caption{Comparison of ratios of yields from the two dimensional fits on Monte Carlo simulated data and on Data.} 
-             \end{table}
+\begin{table}
+\begin{tabular}{ |p{3cm}||p{3cm}| p{3cm}|  }
+\hline
+ratio        &          MC      &    DATA   \\
+\hline
+\hline
+NmisSig/NrecSig  &  0.56 $\pm$ 0.01  & 0.68 $\pm$ 0.01\\
+NmisSig/Generic  &  0.90 $\pm$ 0.02 &  0.99 $\pm$ 0.02  \\
+Generic/NrecSig & 0.62 $\pm$ 0.01 & 0.69 $\pm$ 0.02\\
+\hline
+\end{tabular}
+\caption{Comparison of ratios of yields from the two dimensional fits on Monte Carlo simulated data and on Data.} 
+\end{table}
             
              %Since in the case of the two dimensional fit for the measurement of $B^- \rightarrow \Lambda_c^+ X$ decays
-             \noindent  The crossfeed normalization was parametrized in the form described 
-             by \cref{eq:paramCrossfeedNorm} in the case of the 2D fit shown above.% is repeated with the parametrized normalization for the crossfeed background. 
-             The signal reconstruction efficiency  that enters the formula to estimate the true number of 
-             signal events ( $ N_{sig}  =  N_{recSig} / \epsilon$ ) is now the signal reconstruction efficiency on data: $\epsilon_{data}$. It can be estimated scaling the one found on Monte Carlo by a correction factor that takes into account the different 
-             FEI efficiency on data and the signal-side reconstruction corrected for the different PID efficiency (see \cref{sec:ControlPIDeff}-\cref{sec:ControlRecoEff}), $\epsilon_{data} = \epsilon_{MC} \cdot c_{FEI} \cdot c_{D^0} = (0.216 \pm 0.016)\% $. \\
+% \noindent  The crossfeed normalization was parametrized in the form described 
+ %             by \cref{eq:paramCrossfeedNorm} in the case of the 2D fit shown above.% is repeated with the parametrized normalization for the crossfeed background. 
+             % The signal reconstruction efficiency  that enters the formula to estimate the true number of 
+             % signal events ( $ N_{sig}  =  N_{recSig} / \epsilon$ ) is now the signal reconstruction efficiency on data: $\epsilon_{data}$. It can be estimated scaling the one found on Monte Carlo by a correction factor that takes into account the different 
+             % FEI efficiency on data and the signal-side reconstruction corrected for the different PID efficiency (see \cref{sec:ControlPIDeff}-\cref{sec:ControlRecoEff}), $\epsilon_{data} = \epsilon_{MC} \cdot c_{FEI} \cdot c_{D^0} = (0.216 \pm 0.016)\% $. \\
             
-             where $c_{FEI} = 0.810_{-0.012}^{+0.013} \pm 0.054$ is the correction factor for the FEI efficiency determined in \cite{schwab_judith_2017_21422} \\
-             whereas $c_{D^0}$ is  the correction factor that one needs to apply due to  the  average Kaon ID correction,
-             which is estimated to be $0.976 \pm 0.008$ on the base of  Belle Note 779 \cite{KIDeff} (\url{http://belle.kek.jp/secured/belle_note/gn779/bn779.ps.gz}). The decay $D^{*+} \rightarrow D^0 \pi^+$ followed by $D^0 \rightarrow K^- \pi^+$, was used to examine it. As for the proton identification efficiency it considers the dependence on Kaon charge, momentum and polar angle and same ID cut values\footnote{Here, Kaon ID cut value $X$ means $  \mathcal{L}_{K/\pi} > X$, so for values below $X$ the tracks are identified as pions} 
-             .\\
-             \noindent \cref{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio} shows this second fit.
+             % where $c_{FEI} = 0.810_{-0.012}^{+0.013} \pm 0.054$ is the correction factor for the FEI efficiency determined in \cite{schwab_judith_2017_21422} \\
+            %  whereas $c_{D^0}$ is  the correction factor that one needs to apply due to  the  average Kaon ID correction,
+            %  which is estimated to be $0.976 \pm 0.008$ on the base of  Belle Note 779 \cite{KIDeff} (\url{http://belle.kek.jp/secured/belle_note/gn779/bn779.ps.gz}). The decay $D^{*+} \rightarrow D^0 \pi^+$ followed by $D^0 \rightarrow K^- \pi^+$, was used to examine it. As for the proton identification efficiency it considers the dependence on Kaon charge, momentum and polar angle and same ID cut values\footnote{Here, Kaon ID cut value $X$ means $  \mathcal{L}_{K/\pi} > X$, so for values below $X$ the tracks are identified as pions} 
+             % .\\
+             % \noindent \cref{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio} shows this second fit.
              
-             \newpage
-             \noindent In the following table yields for the reconstructed and misreconstructed signal and for generic background obtained from this second fit are reported: \\
-            
-            \begin{tabular}{ |p{3cm}||p{3cm}|  }
-            
-             \hline
-             NrecSig  &  36553 $\pm$ 360\\
-             NmisSig &  24115 $\pm$ 283 \\
-             Generic & 25900 $\pm$ 409\\
-             \hline
-            \end{tabular}
-            
-             \begin{figure}[H]
-              %\centering
-              {\includegraphics[width=0.80\textwidth]{08-ControlDecay/figs/chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio.png}}
-              \caption{Two dimensional fit on Data with parametrized normalization of crossfeed background}
-              \label{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio}
-              \end{figure}
-             
-            
-              \vspace{0.5 cm}
-              \begin{table}
-             \begin{tabular}{ |p{3cm}||p{3cm}| p{3cm}|  }
-             
-              \hline
-              ratio        &          MC      &    DATA   \\
-              \hline
-              \hline
-             NmisSig/NrecSig  &  0.56 $\pm$ 0.01  & 0.66 $\pm$ 0.01\\
-             NmisSig/Generic  &  0.90 $\pm$ 0.02 &  0.93 $\pm$ 0.02  \\
-             Generic/NrecSig & 0.62 $\pm$ 0.01 & 0.71 $\pm$ 0.02\\
-              \hline
-             
-             \end{tabular}
-              \caption{Comparison of ratios of yields from the two dimensional fits on Monte Carlo simulated data and on Data (from the fit shown in \cref{fig:chargedControlD0_Total_2DFit_onData_paramCrossfeedRatio}).} 
-              \end{table}
+
             
 
 \newpage 
@@ -316,7 +334,7 @@ whereas the misreconstructed signal component is fitted with a Novosibirsk funct
     \end{figure}            
 
 
-    \noindent The crossfeed background is fitted instead with a sum of a Novosibirsk and an asymmetric Gaussian PDF (Fig. \ref{fig:NeutralCrossfeed_stream0_ControlD0_chargedBtag_MbcFit}).\\
+    \noindent The crossfeed background is fitted instead with a sum of a Novosibirsk and an asymmetric Gaussian PDF (Fig. \ref{fig:NEW_NeutralCrossfeed_stream3_controlD0_chargedBtag}).\\
     \vspace{0.05 cm}
     
     \noindent Regarding the continuum background component, same procedure used for the 2D fit was applied to the $M_{bc}$ distribution of the continuum background in this case (see Fig. \ref{fig:bin_corrected_stream1_off-resonance_on_stream3_on-resonance} for the result).
@@ -395,8 +413,6 @@ whereas the misreconstructed signal component is fitted with a Novosibirsk funct
 but the relative error is at the \textperthousand level, therefore it's negligible compared to the systematic uncertainity
 corresponding to the determination of the signal yields.
 
-\newpage
-
 \subsection{$B_{tag}$ Fit on data}
 The fit model tested on Monte Carlo simulated data is then applied with the same method on data.
 \begin{figure}[H]
@@ -425,31 +441,122 @@ Total Signal &  8.9250 $\cdot$10 $^6 \pm$4272             \\
 entries of data: 29361347.
 
 
+
+\section{}
+The control channel study is completed once the fitting strategy is applied to real data.\\
+Before moving to the unboxing 
+
+\subsection{$D^0$ and FEI efficiency}\label{sec:ControlRecoEff}
+
+Applying the same method as in the $B \rightarrow \Lambda_c$  analysis, the estimated efficiency in reconstructing the $D^0$ after correctly tagging the charged $B$ meson is
+determined to be:
+
+$\epsilon_{D^0} = \frac{NrecSig(2D) }{NrecSig((B_{tag}^{sig}} = 37.29 \pm 0.26$
+
+and the FEI efficiencies:
+
+$\epsilon^+_{FEI,sig} = 1.692 \pm 0.008\%$ \\
+$\epsilon^+_{FEI} = 1.307 \pm 0.0001\%$\\
+$\frac{\epsilon^+_{FEI,sig}}{\epsilon^+_{FEI}}$ = 1.295 $\pm $ 0.089\\
+%Yields for the reconstructed and misreconstructed signal :
+
+%\begin{tabular}{ |P{2cm}||P{4cm}|  }
+
+ %\hline
+ %NrecSig  & 1.46779$\cdot$10 $^5 \pm$ 767\\
+ %NmisSig &  6.16717$\cdot$10 $^5 \pm$ 1028 \\
+ %\hline
+%\end{tabular}
+%\vspace{0.5 cm}
+
+%$\epsilon_{D^0} = \frac{NrecSig(2D) }{NrecSig((B_{tag}^{sig}} = 39.1 \pm 0.4 \%\footnote{the error reflects the limited Monte Carlo statistics}$  \hspace{0.4cm} (KID efficiency corrected value for data: 38.2 $\%$)\\
+%\vspace{0.2 cm}
+\subsection{PID efficiency correction}\label{sec:ControlPIDeff}
+The PID selection is applied only to Kaons: $\frac{\mathcal{L}_{K}}{\mathcal{L_{K}}+\mathcal{L_{\pi}}} > 0.6$ 
+Using the values provided in the global tag \texttt{BellePID} (as done in the $\BtoLambda$ study), the average Kaon ID correction for this analysis is estimated to be 
+$R = 0.976 \pm 0.008$.
+\vspace{0.2 cm}
+The corrected $D^0$ reconstruction efficiency on data is therefore: $36.40 \pm 0.4 \%$
+\section{Results on Monte Carlo simulated data}
+The branching ratio is calculated with same ingredients as for the $B \rightarrow \Lambda_c$  analysis:
+\begin{itemize}
+  \item reconstructed signal yield in the two dimensional fit
+  \item reconstructed signal yield in the $M_{bc}$ fit of the tagged $B$ mesons, which provides the normalization
+  \item $\epsilon_{D^0}$: $D^0$ reconstruction efficiency 
+  \item $\frac{\epsilon^{+}_{FEI}}{ \epsilon^{+}_{FEI,  sig }}$, i.e. the ratio of the FEI efficiencies
+  \item the branching fraction for the decay mode used to rectonstruct the signal: $\mathcal{B}(D^0 \rightarrow K^+ \pi^-) = 3.8\% $ in Belle DECAY.DEC table
+\end{itemize}
+
+\vspace{0.2 cm}
+the inclusive branching fraction of $B^+  \rightarrow \bar{D}^0 X$ is determined by: 
+\begin{equation}
+  \mathcal{B}(B^+ \rightarrow \bar{D}^0) = \frac{ N_{tag, \Lambda_c}  \cdot  \epsilon^{+}_{FEI}}{N_{tag} \cdot \mathcal{B}(D^0 \rightarrow K^+ \pi^-) \epsilon_{D^0}  \epsilon^{+}_{FEI,  sig} }
+\end{equation}
+
+\vspace{0.75 cm}
+\begin{table}[H]
+    \centering
+    \resizebox{0.95\textwidth}{!}{%
+    \setlength{\tabcolsep}{8pt}
+    \begin{tabular}{c c c c c c c}
+    
+    \toprule
+     \hline
+         &  total fit \hspace{0.5 cm}  & signal fit  &  BELLE MC VALUE  \\
+     \midrule
+     \hline
+    stream 0	&	(82.04 $\pm$ 0.59)$\%$  &	(83.81 $\pm$ 0.44)$\%$	 &	(. $\pm$ 0.0)$\%$*\\
+    stream 1	&	(83.17 $\pm$ 0.65)$\%$	&	(83.39 $\pm$ 0.44)$\%$	 &	(. $\pm$ 0.0)$\%$	\\
+    stream 2	&	(80.06 $\pm$ 0.63)$\%$	&	(83.35 $\pm$ 0.44)$\%$	 &	(. $\pm$ 0.0)$\%$\\
+    stream 3	&	(82.17 $\pm$ 0.55)$\%$	&	(85.08 $\pm$ 0.44)$\%$	 &	(. $\pm$ 0.0)$\%$\\
+    stream 4	&	(84.06 $\pm$ 0.55)$\%$ &	    (84.06 $\pm$ 0.44)$\%$	 &	(. $\pm$ 0.0)$\%$\\
+    stream 5	&	(82.79 $\pm$ 0.65)$\%$	&	(83.54 $\pm$ 0.44)$\%$	 &	(. $\pm$ 0.0)$\%$\\
+    \midrule
+    \hline
+    average			&	(82.38 $\pm$	0.25)$\%$	&	(83.44 $\pm$	0.18)$\%$	& (. $\pm$ 0.0)$\%$\\
+    \bottomrule
+    \hline
+    \end{tabular}%
+    }
+    \label{tab:SixStreams_chargedCorrLamBR}
+    \caption{Monte Carlo measured branching fraction values of charged correlated decays}
+    %\caption{Measured branching fraction values obtained using the results listed in \cref{tab:SixStreams_chargedCorrLam2Dfits} for the six different streams (only statistical uncertainties are displayed) and its average.}
+    \end{table}
+    
+    *need a check ( I was finding at certain point that true MC value: $79.10\%$)
+
+    \newpage
+\section{Systematic uncertainties}
+Systematic uncertainties
+\subsection{Continuum background}
+\subsection{Crossfeed ratio}
+\subsection{Crossfeed PDFs}
+\subsection{FEI efficiency}
+  \subsection{PID}
+  \subsection{Tracking efficiency}
+  \subsection{$Br(D^0 \rightarrow K^+ \pi^-)$} 
+
   \newpage
 \section{Measured $B^+ \rightarrow \bar{D}^0 X$ inclusive Branching Fraction}\label{sec:chargedControlBRvalues}
-  The inclusive branching fraction of $B^+  \rightarrow \bar{D}^0 X$ can be determined by: 
+ % The inclusive branching fraction of $B^+  \rightarrow \bar{D}^0 X$ can be determined by: 
   
-  \begin{equation}
-      Br(B^+ \rightarrow \bar{D}^0) = \frac{r}{Br(D^0 \rightarrow K^+ \pi^-) \epsilon_{D^0}}  \cdot  \frac{\epsilon^{+}_{FEI}}{ \epsilon^{+}_{FEI,  sig} }
-  \end{equation}
+ % \begin{equation}
+  %    Br(B^+ \rightarrow \bar{D}^0) = \frac{r}{Br(D^0 \rightarrow K^+ \pi^-) \epsilon_{D^0}}  \cdot  \frac{\epsilon^{+}_{FEI}}{ \epsilon^{+}_{FEI,  sig} }
+  %\end{equation}
   
-  Where 
-  \begin{itemize}
-  
-  \item $r = \frac{N_{tag, D^0}}{N_{tag}}$ is the ratio of reconstructed signal yield in the two dimensional fit and in the $M_{bc}$ fit of the tagged $B$ mesons.
-  \item $\epsilon_{D^0} $ is the $D^0$ reconstruction efficiency calculated as fraction of reconstructed signal events with correct tag of which then also a correctly reconstructed $D^0$ is reconstructed in the signal side.
-  \item $\frac{\epsilon^{+}_{FEI}}{ \epsilon^{+}_{FEI,  sig }}$ is the ratio of the FEI efficiencies: the hadronic tag-side efficiency for generic $B^+B^-$ events ($\epsilon^{+}_{FEI}$) and signal-side depedent one ($\epsilon^{+}_{FEI,  sig}$)  where one of the two $B$ mesons decays inclusively into the signal channel ($D^0 \rightarrow K^+ \pi^- $) 
-  \item  $Br(D^0 \rightarrow K^+ \pi^-) = 3.8\% $ in Belle DECAY.DEC table,
-  $Br(D^0 \rightarrow K^+ \pi^-) = 3.95\% $ in PDG.
-  \end{itemize}
-  
-  \vspace{0.2 cm}
 
-In Monte Carlo:  \hspace{0.05cm} $Br(B^+ \rightarrow \bar{D}^0) = 80.45 \pm 0.58^{(stat.)} \%$ \hspace{1cm}  (true MC value: $79.10\%$) \\ % \pm 0.5^{(stat.)} \%$) \\
-\vspace{0.25 cm} \newline
-\hspace{0.1cm}  $ $ As for the Data, the value obtained using a fixed ratio of crossfeed events with respect to misreconstructed signal events is:
+  
+% $Br(D^0 \rightarrow K^+ \pi^-) = 3.8\% $ in Belle DECAY.DEC table,
+ % $Br(D^0 \rightarrow K^+ \pi^-) = 3.95\% $ in PDG.
+ % \end{itemize}
+  
+ % \vspace{0.2 cm}
+
+%In Monte Carlo:  \hspace{0.05cm} $Br(B^+ \rightarrow \bar{D}^0) = 80.45 \pm 0.58^{(stat.)} \%$ \hspace{1cm}  (true MC value: $79.10\%$) \\ % \pm 0.5^{(stat.)} \%$) \\
+%\vspace{0.25 cm} \newline
+\hspace{0.1cm}  $ $ As for the Data the value obtained is:
   \hspace{0.05cm} $Br(B^+ \rightarrow \bar{D}^0) = 78.98 \pm 0.84^{(stat.)} \%$ \\
   \vspace{0.25 cm} \newline
-  The results show an excellent agreement with the value reported by the PDG:  ($79 \pm 4)\%$\\%
+  This is in excellent agreement with the value reported by the PDG:  ($79 \pm 4)\%$\\%
   One can therefore conclude that the obtained results have proven the validity of  the method chosen for the measurements.
   %\hspace{1cm}  
