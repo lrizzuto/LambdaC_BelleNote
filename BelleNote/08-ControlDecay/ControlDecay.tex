@@ -529,8 +529,63 @@ the inclusive branching fraction of $B^+  \rightarrow \bar{D}^0 X$ is determined
 \section{Systematic uncertainties}
 Systematic uncertainties
 \subsection{Continuum background}
-\subsection{Crossfeed ratio}
+The procedure to estimate this source of systematic uncertainty is the same used for the inclusive $\Lambda_c$
+ analysis.
+ 
+
+ Shapes
+  Two-dimensional fits on data with the parameters varied by their uncertainties (a fit with +err and −err) were performed.
+  The absolute uncertainty on the braching fraction value derived from this is $\pm$1.86.\\
+
+\noindent  Since the continuum PDF for the $B_{tag}$ fit depends on the same off-resonance scaling procedure used to model 
+the continuum background in the  inclusive $\Lambda_c$ analysis one could estimate it in principle varying the scaled number of events
+from off-resonance data according to poissonian distribution.\\
+As already seen for the inclusive $\Lambda_c$ analysis, the derived uncertainty is negligible compared to the uncertainty calculated 
+on MC comparing the signal yields obtained with the scaled continuum PDF and the ones obtained with the "true PDF" (see Tab below).
+
+\begin{table}[H]
+  \begin{tabular}{ |p{2.5cm}||p{5cm}| p{4.5cm}| }
+  \hline
+      \    &  Fit with scaled continuum &  Fit with true continuum\\
+   \hline
+   $N_{recSig}$  yields     &  $3.78483  \cdot 10^6 \pm 6671 $   & $   \cdot 10^6 \pm  \cdot 10^3$\\
+ 
+   \hline
+  \end{tabular}
+  \caption{Signal yields obtained in $B_{tag}$ fits shown in \cref{fig:stream5_chargedBtag_Total_fit} and \cref{fig:stream5_chargedBtag_TotalFit_TrueContinuum}.}
+  \end{table}
+  \vspace{0.2 cm}
+
+
+
+
+ \subsection{Crossfeed ratio}
+
 \subsection{Crossfeed PDFs}
+
+Since also the shapes of the PDFs decribing the $B^0 \bar{B^0}$ background both in the two-dimensional fit and in the $B_{tag}$ fit
+ are fully fixed to the ones determined with the limited Monte Carlo statistics, also their statistical uncertainties
+need to be taken into account as possible source of systematics.\\
+In both cases the undertainty derived from this source is determined by performing fits on the data where the shaping parameters are varied 
+by their uncertainties.
+%To estimate this source of uncertainty fits with varied parameters' values by their uncertainties 
+%(a fit with $+$err and $-$err) were performed.
+
+\begin{table}[H]
+  \begin{tabular}{ |p{2.5cm}||p{2cm}| p{2cm}|  p{2cm}|  p{3cm}|}
+  \hline
+      Fit    &  $- \sigma$ &  $+ \sigma$ & $ \pm \bar{\sigma}$ & abs. sys. err \\
+   \hline
+   2D        &     18  & 15  & 17 & 0.04\\
+   $B_{tag}$ &  2900 &  3090 & 2995 & 0.01\\
+   \hline
+  \end{tabular}
+  \caption{Offsets on the signal yields obtained in the two dimensional and $B_{tag}$ fit, mean deviations 
+  and the corresponding absolute systematic uncertainties on the branching ratio reported in the last column.}
+  \end{table}
+  \vspace{0.2 cm}
+  \noindent The total estimated systematic uncertainty on Br value from them is  0.04$\%$.
+
 \subsection{FEI efficiency}
   \subsection{PID}
   \subsection{Tracking efficiency}
